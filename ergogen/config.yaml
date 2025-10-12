@@ -1,0 +1,156 @@
+meta:
+  engine: 4.1.0
+units:
+  p: 0
+  hU: .5U
+  hUp: hU + p
+points:
+  zones:
+    matrix:
+      anchor:
+        rotate: 5
+        shift: [100, -100]
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+        ring:
+          key:
+            splay: -5
+            origin: [-12, -19]
+            stagger: 12
+            column_net: Col1
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+      rows:
+        bottom:
+          row_net: RowA
+        home:
+          row_net: RowB
+        top:
+          row_net: RowC
+        number:
+          row_net: RowD
+    thumbfan:
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [-7, -19]
+      columns:
+        near:
+          key:
+            column_net: Col4
+        home:
+          key:
+            spread: 21.25
+            splay: -28
+            origin: [-11.75, -9]
+            column_net: Col5
+        far:
+          key:
+            spread: 21.25
+            splay: -28
+            origin: [-9.5, -9]
+            column_net: Col5
+      rows:
+        thumb:
+          row_net: RowE
+  rotate: -20
+  mirror:
+    ref: matrix_pinky_home
+    distance: 223.7529778
+outlines:
+  keys:
+    - what: rectangle
+      where: true
+      operation: stack
+      size: [U, U]
+  case:
+    - what: polygon
+      fillet: 2
+      points:
+        - ref: matrix_pinky_bottom
+          shift: [-hUp, -hUp]
+        - ref: matrix_pinky_number
+          shift: [-hUp, hUp]
+        - ref: matrix_pinky_number
+          shift: [hUp, hUp]
+        - ref: matrix_ring_number
+          shift: [-hUp, 0]
+        - ref: matrix_ring_number
+          shift: [-hUp, hUp]
+        - ref: matrix_ring_number
+          shift: [hU - p, hUp]
+        - ref: matrix_middle_number
+          shift: [-hUp, hUp]
+        - ref: matrix_middle_number
+          shift: [hUp, hUp]
+        - ref: matrix_index_number
+          shift: [-hU + p, hUp]
+        - ref: matrix_index_number
+          shift: [hUp, hUp]
+        - ref: matrix_inner_number
+          shift: [-hU + 1.2, hUp]
+        - ref: matrix_inner_number
+          shift: [hUp, hUp]
+        - ref: matrix_inner_bottom
+          shift: [hUp, -hU]
+        - ref: thumbfan_home_thumb
+          shift: [hUp, hUp]
+        - ref: thumbfan_far_thumb
+          shift: [-hUp, hUp]
+        - ref: thumbfan_far_thumb
+          shift: [hUp, hUp]
+        - ref: thumbfan_far_thumb
+          shift: [hUp, -hUp]
+        - ref: thumbfan_far_thumb
+          shift: [-hU, -hUp]
+        - ref: thumbfan_home_thumb
+          shift: [-hU, -hUp]
+        - ref: thumbfan_near_thumb
+          shift: [hU - p, -hUp]
+        - ref: thumbfan_near_thumb
+          shift: [-hUp, -hUp]
+        - ref: matrix_index_bottom
+          shift: [1.5, -hUp]
+        - ref: matrix_index_bottom
+          shift: [-hUp, -hUp]
+        - ref: matrix_middle_bottom
+          shift: [hU - p, -hUp]
+        - ref: matrix_middle_bottom
+          shift: [-hU + p, -hUp]
+        - ref: matrix_ring_bottom
+          shift: [hU + p, -hUp]
+        - ref: matrix_ring_bottom
+          shift: [-hU + .3, -hUp]
+        - ref: matrix_pinky_bottom
+          shift: [hUp, -hUp]
+  view:
+    - name: case
+    - operation: stack
+      name: keys
+pcbs:
+  left:
+    template: kicad8
+    outlines:
+      main:
+        outline: case
+    footprints:
+      choc_hotswap:
+        what: choc
+        where: true
+        params:
+          keycaps: true
+          reverse: false
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
