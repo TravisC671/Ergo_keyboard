@@ -1,3 +1,9 @@
+module.exports = {
+  params: {
+    designator: '_',
+  },
+  body: p => {
+    return `
 (footprint "gateron-ks27-hotswap-reversible"
 	(version 20241229)
 	(generator "pcbnew")
@@ -15,7 +21,7 @@
 			)
 		)
 	)
-	(property "Value" "gateron-ks27-hotswap-reversible"
+	(property "Value" "ks27"
 		(at 0 8.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -51,6 +57,13 @@
 			)
 		)
 	)
+
+  ${p.at /* parametric position */}
+
+  ${'' /* footprint reference */}
+  (fp_text reference "${p.ref}" (at 0 -3.2) ${p.ref_hide}
+      (effects (font (size 1 1) (thickness 0.15)))
+  )
 	(attr through_hole)
 	(fp_line
 		(start -7 -7)
@@ -215,29 +228,13 @@
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "a1511c05-e2a3-4068-8b44-a2b7f7ad4d11")
 	)
-	(pad "1" smd rect
-		(at -7.675 4.7)
-		(size 2.6 2.6)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "a29f8df0-3fae-4edf-8d9c-bd5a875b13e3")
-	)
-	(pad "1" smd rect
-		(at -5.875 5.75)
-		(size 2.6 2.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ab6912fc-e86a-4658-a0be-ebe6f39032e6")
-	)
-	(pad "2" smd rect
-		(at 5.875 5.75)
-		(size 2.6 2.6)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "6e435cd4-da2b-4602-a0aa-5dd988834dff")
-	)
-	(pad "2" smd rect
-		(at 7.675 4.7)
-		(size 2.6 2.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "bc008311-edc2-4fdd-abae-473b50c89a0a")
-	)
+  (pad "1" smd rect (at -7.675 4.7 ${p.rot}) (size 2.6 2.6) (layers "B.Cu" "B.Mask" "B.Paste"))
+  (pad "1" smd rect (at -5.875 5.75 ${p.rot}) (size 2.6 2.6) (layers "F.Cu" "F.Mask" "F.Paste"))
+  (pad "2" smd rect (at 5.875 5.75 ${p.rot}) (size 2.6 2.6) (layers "B.Cu" "B.Mask" "B.Paste"))
+  (pad "2" smd rect (at 7.675 4.7 ${p.rot}) (size 2.6 2.6) (layers "F.Cu" "F.Mask" "F.Paste"))
 	(embedded_fonts no)
 )
+
+`
+  }
+}

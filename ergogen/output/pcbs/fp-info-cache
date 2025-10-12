@@ -1,4 +1,4 @@
-26715377891544537
+26717138170362530
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106350,3 +106350,10 @@ gateron-ks27-hotswap-reversible
 0
 4
 2
+footprints
+nice_nano
+
+
+0
+27
+27
