@@ -85,23 +85,23 @@ outlines:
         - ref: matrix_ring_number
           shift: [-hUp, hUp]
         - ref: matrix_ring_number
-          shift: [hU - p, hUp]
+          shift: [hU - 5, hUp]
         - ref: matrix_middle_number
           shift: [-hUp, hUp]
         - ref: matrix_middle_number
           shift: [hUp, hUp]
         - ref: matrix_index_number
-          shift: [-hU + p, hUp]
+          shift: [-hU + 5, hUp]
         - ref: matrix_index_number
           shift: [hUp, hUp]
         - ref: matrix_inner_number
-          shift: [-hU + .06, hUp]
+          shift: [-hU + 1.5, hUp]
         - ref: matrix_inner_number
           shift: [hUp, hUp]
         - ref: matrix_inner_bottom
           shift: [hUp, -hUp]
         - ref: thumbfan_home_thumb
-          shift: [hUp, hUp]
+          shift: [hU - 2, hUp]
         - ref: thumbfan_far_thumb
           shift: [-hUp, hUp]
         - ref: thumbfan_far_thumb
@@ -117,17 +117,7 @@ outlines:
         - ref: thumbfan_near_thumb
           shift: [-hUp, -hUp]
         - ref: thumbfan_near_thumb
-          shift: [-hUp, hU + 2]
-        - ref: matrix_index_bottom
-          shift: [-hUp, -hUp]
-        - ref: matrix_middle_bottom
-          shift: [hU - p, -hUp]
-        - ref: matrix_middle_bottom
-          shift: [-hU + p, -hUp]
-        - ref: matrix_ring_bottom
-          shift: [hU + p, -hUp]
-        - ref: matrix_ring_bottom
-          shift: [-hU - .8, -hUp]
+          shift: [-hUp - 7, -hUp + 11.3]
         - ref: matrix_pinky_bottom
           shift: [hUp, -hUp]
 
@@ -145,8 +135,10 @@ pcbs:
       choc_hotswap:
         what: gateron_lp
         where: true
-      seeed_xiao:
-        what: seeed_xiao
+      seeed_xiao_front:
+        what: nice_nano
         where:
-          ref: matrix_pinky_number
-          shift: [2, 10]
+          ref: matrix_inner_bottom
+          shift: [20, 0]
+        adjust:
+          rotate: -90

@@ -1,4 +1,4 @@
-26718898619724666
+26718898622779962
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106344,8 +106344,8 @@ Varistor VF
 2
 2
 footprints
-Side Selector
-
+Side_Selector
+selects side of  board with 0804 0 ohm resistors
 
 0
 18
