@@ -43,8 +43,8 @@ points:
           row_net: RowD
     thumbfan:
       anchor:
-        ref: matrix_inner_bottom
-        shift: [-7, -19]
+        ref: matrix_index_bottom
+        shift: [0, -22]
       columns:
         near:
           key:
@@ -52,13 +52,13 @@ points:
         home:
           key:
             spread: 21.25
-            splay: -28
+            splay: -14
             origin: [-11.75, -9]
             column_net: Col5
         far:
           key:
             spread: 21.25
-            splay: -28
+            splay: -15
             origin: [-9.5, -9]
             column_net: Col5
       rows:
@@ -74,26 +74,14 @@ outlines:
       where: true
       operation: stack
       size: [U, U]
-      #Nice!Nano
-    - what: rectangle
-      size: [18, 33]
-      where: matrix_inner_bottom
-      adjust:
-        shift: [U, 0]
-        rotate: 0
-      operation: stack
-  case:
+  pcb_outline:
     - what: polygon
       fillet: 1
       points:
         - ref: matrix_pinky_bottom
           shift: [-hUp, -hUp]
         - ref: matrix_pinky_number
-          shift: [-hUp, hUp]
-        - ref: matrix_pinky_number
-          shift: [hUp, hUp]
-        - ref: matrix_ring_number
-          shift: [-hUp, 0]
+          shift: [-hUp, 21]
         - ref: matrix_ring_number
           shift: [-hUp, hUp]
         - ref: matrix_ring_number
@@ -110,12 +98,8 @@ outlines:
           shift: [-hU + .06, hUp]
         - ref: matrix_inner_number
           shift: [hUp, hUp]
-        - ref: matrix_inner_home
-          shift: [hUp, 0]
-        - ref: matrix_inner_home
-          shift: [15, -7.5]
-        - ref: matrix_inner_home
-          shift: [15, -32.5]
+        - ref: matrix_inner_bottom
+          shift: [hUp, -hUp]
         - ref: thumbfan_home_thumb
           shift: [hUp, hUp]
         - ref: thumbfan_far_thumb
@@ -148,7 +132,7 @@ outlines:
           shift: [hUp, -hUp]
 
   view:
-    - name: case
+    - name: pcb_outline
     - operation: stack
       name: keys
 pcbs:
@@ -156,7 +140,7 @@ pcbs:
     template: kicad8
     outlines:
       main:
-        outline: case
+        outline: pcb_outline
     footprints:
       choc_hotswap:
         what: gateron_lp
@@ -164,7 +148,5 @@ pcbs:
       seeed_xiao:
         what: seeed_xiao
         where:
-          ref: matrix_inner_number
-          shift: [-1, -2]
-        adjust:
-          rotate: -90
+          ref: matrix_pinky_number
+          shift: [2, 10]
