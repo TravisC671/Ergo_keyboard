@@ -81,7 +81,9 @@ outlines:
         - ref: matrix_pinky_bottom
           shift: [-hUp, -hUp]
         - ref: matrix_pinky_number
-          shift: [-hUp, 21]
+          shift: [-hUp, hUp]
+        - ref: matrix_pinky_number
+          shift: [3, hUp]
         - ref: matrix_ring_number
           shift: [-hUp, hUp]
         - ref: matrix_ring_number
@@ -98,12 +100,12 @@ outlines:
           shift: [-hU + 1.5, hUp]
         - ref: matrix_inner_number
           shift: [hUp, hUp]
-        - ref: matrix_inner_bottom
-          shift: [hUp, -hUp]
-        - ref: thumbfan_home_thumb
-          shift: [hU - 2, hUp]
+        - ref: matrix_inner_home
+          shift: [hUp, 30]
+        - ref: matrix_inner_home
+          shift: [30.6, 0]
         - ref: thumbfan_far_thumb
-          shift: [-hUp, hUp]
+          shift: [0, hUp]
         - ref: thumbfan_far_thumb
           shift: [hUp, hUp]
         - ref: thumbfan_far_thumb
@@ -132,13 +134,44 @@ pcbs:
       main:
         outline: pcb_outline
     footprints:
-      choc_hotswap:
+      gateron_hotswap:
         what: gateron_lp
         where: true
+        params:
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+      key_diodes:
+        what: rschenk/better_diode
+        where: true
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+          through_hole: false
+          front: true
+          back: false
+          via_from: false
+          via_to: false
+        adjust:
+          shift: [0, -9]
+      key_leds:
+        what: SK6812-E
+        where: true
+        adjust:
+          shift: [0, 5]
       seeed_xiao_front:
-        what: nice_nano
+        what: infused-kim/nice_nano_pretty
         where:
           ref: matrix_inner_bottom
-          shift: [20, 0]
+          shift: [20, 4]
         adjust:
-          rotate: -90
+          rotate: 0
+        params:
+          P21: Col0
+          P20: Col1
+          P19: Col2
+          P18: Col3
+          P15: Col4
+          P5: RowA
+          P6: RowB
+          P7: RowC
+          P8: RowD

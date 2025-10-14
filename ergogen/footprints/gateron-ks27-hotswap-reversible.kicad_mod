@@ -103,6 +103,17 @@
 		(layer "B.Fab")
 		(uuid "a205cc4e-c036-4cad-b185-dc8bc6e39b6d")
 	)
+	(fp_rect
+		(start -3.28 -6.305)
+		(end 1.7 -4.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "ea7394a0-c247-4d95-8cf5-2ccc6ba9a48f")
+	)
 	(fp_line
 		(start -7.5 -7.5)
 		(end -7.5 7.5)

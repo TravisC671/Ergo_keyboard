@@ -1,8 +1,10 @@
 module.exports = {
   params: {
-    designator: '_',
+    designator: "_",
+    from: undefined,
+    to: undefined,
   },
-  body: p => {
+  body: (p) => {
     return `
 (footprint "gateron-ks27-hotswap-reversible"
 	(version 20241229)
@@ -10,7 +12,7 @@ module.exports = {
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0.1 -8.5 0)
+		(at 0.1 -3.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4c9fdea7-ba0c-45cc-8f66-240980c37d5c")
@@ -21,8 +23,8 @@ module.exports = {
 			)
 		)
 	)
-	(property "Value" "ks27"
-		(at 0 8.5 0)
+	(property "Value" "k27"
+		(at 0 3.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "c58960d9-4cac-4036-ad2e-1aef26946dae")
@@ -57,10 +59,9 @@ module.exports = {
 			)
 		)
 	)
+	${p.at /* parametric position */}
 
-  ${p.at /* parametric position */}
-
-  ${'' /* footprint reference */}
+  ${"" /* footprint reference */}
   (fp_text reference "${p.ref}" (at 0 -3.2) ${p.ref_hide}
       (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -69,7 +70,7 @@ module.exports = {
 		(start -7 -7)
 		(end -7 7)
 		(stroke
-			(width 0.12)
+			(width 0.3)
 			(type solid)
 		)
 		(layer "Eco2.User")
@@ -79,7 +80,7 @@ module.exports = {
 		(start -7 7)
 		(end 7 7)
 		(stroke
-			(width 0.12)
+			(width 0.3)
 			(type solid)
 		)
 		(layer "Eco2.User")
@@ -89,7 +90,7 @@ module.exports = {
 		(start 7 -7)
 		(end -7 -7)
 		(stroke
-			(width 0.12)
+			(width 0.3)
 			(type solid)
 		)
 		(layer "Eco2.User")
@@ -99,7 +100,7 @@ module.exports = {
 		(start 7 7)
 		(end 7 -7)
 		(stroke
-			(width 0.12)
+			(width 0.3)
 			(type solid)
 		)
 		(layer "Eco2.User")
@@ -116,45 +117,67 @@ module.exports = {
 		(layer "B.Fab")
 		(uuid "a205cc4e-c036-4cad-b185-dc8bc6e39b6d")
 	)
+	(fp_rect
+		(start -3.28 -6.305)
+		(end 1.7 -4.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "ea7394a0-c247-4d95-8cf5-2ccc6ba9a48f")
+	)
 	(fp_line
 		(start -7.5 -7.5)
 		(end -7.5 7.5)
 		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "786b6072-5772-4bc1-8eeb-6c4e19f2a91b")
-	)
-	(fp_line
-		(start -7.5 7.5)
-		(end 7.5 7.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "c3c93de0-69b1-4a04-8e0b-d78caf487c63")
-	)
-	(fp_line
-		(start 7.5 -7.5)
-		(end -7.5 -7.5)
-		(stroke
-			(width 0.1)
+			(width 0.3)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "ef1b4b98-541b-4673-a04f-2043250fc40a")
 	)
 	(fp_line
-		(start 7.5 7.5)
-		(end 7.5 -7.5)
+		(start -7.5 7.5)
+		(end 7.5 7.5)
 		(stroke
-			(width 0.1)
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "786b6072-5772-4bc1-8eeb-6c4e19f2a91b")
+	)
+	(fp_line
+		(start 7.5 -7.5)
+		(end -7.5 -7.5)
+		(stroke
+			(width 0.3)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "0d35483a-0b12-46cc-b9f2-896fd6831779")
+	)
+	(fp_line
+		(start 7.5 7.5)
+		(end 7.5 -7.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3c93de0-69b1-4a04-8e0b-d78caf487c63")
+	)
+	(fp_rect
+		(start -9 -9)
+		(end 9 9.1)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7ee37f98-e3d2-4178-b4a3-c40fcd353e76")
 	)
 	(fp_rect
 		(start -3.28 -6.305)
@@ -228,13 +251,32 @@ module.exports = {
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "a1511c05-e2a3-4068-8b44-a2b7f7ad4d11")
 	)
-  (pad "1" smd rect (at -7.675 4.7 ${p.rot}) (size 2.6 2.6) (layers "B.Cu" "B.Mask" "B.Paste"))
-  (pad "1" smd rect (at -5.875 5.75 ${p.rot}) (size 2.6 2.6) (layers "F.Cu" "F.Mask" "F.Paste"))
-  (pad "2" smd rect (at 5.875 5.75 ${p.rot}) (size 2.6 2.6) (layers "B.Cu" "B.Mask" "B.Paste"))
-  (pad "2" smd rect (at 7.675 4.7 ${p.rot}) (size 2.6 2.6) (layers "F.Cu" "F.Mask" "F.Paste"))
+  (pad "1" smd rect (at -7.675 4.7 ${
+    p.rot
+  }) (size 2.6 2.6) (layers "B.Cu" "B.Mask" "B.Paste") ${p.from})
+  (pad "1" smd rect (at -5.875 5.75 ${
+    p.rot
+  }) (size 2.6 2.6) (layers "F.Cu" "F.Mask" "F.Paste") ${p.from})
+  (pad "2" smd rect (at 5.875 5.75 ${
+    p.rot
+  }) (size 2.6 2.6) (layers "B.Cu" "B.Mask" "B.Paste") ${p.to})
+  (pad "2" smd rect (at 7.675 4.7 ${
+    p.rot
+  }) (size 2.6 2.6) (layers "F.Cu" "F.Mask" "F.Paste") ${p.to})
 	(embedded_fonts no)
+	(model "C:/Users/travi/Documents/projects/ergo_keyboard/ergogen/footprints/KS33.stp"
+		(offset
+			(xyz -60 0 -3.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
 
-`
-  }
-}
+`;
+  },
+};
