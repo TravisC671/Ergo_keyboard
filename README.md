@@ -8,4 +8,5 @@
 and more that I'll figure out later
 
 [KiCanvas link](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FTravisC671%2FErgo_keyboard%2Fblob%2Fmaster%2Foutput%2Fpcbs%2Fleft.kicad_pcb)
-Please not the footprints are still a work in progress so nothing is final
+
+not the footprints are still a work in progress so nothing is final
