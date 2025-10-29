@@ -4,6 +4,7 @@ units:
   p: 0
   hU: .5U
   hUp: hU + p
+  mcuY: 5
 points:
   zones:
     matrix:
@@ -101,9 +102,13 @@ outlines:
         - ref: matrix_inner_number
           shift: [hUp, hUp]
         - ref: matrix_inner_home
-          shift: [hUp, 30]
+          shift: [hU, 2mcuY]
         - ref: matrix_inner_home
-          shift: [30.6, 0]
+          shift: [hU + 5, mcuY]
+        - ref: matrix_inner_home
+          shift: [25.6, mcuY]
+        - ref: matrix_inner_home
+          shift: [30.6, 5-mcuY]
         - ref: thumbfan_far_thumb
           shift: [0, hUp]
         - ref: thumbfan_far_thumb
