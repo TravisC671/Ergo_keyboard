@@ -1,4 +1,4 @@
-26720659123748608
+26718900206815342
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106348,15 +106348,8 @@ LED_SK6812-E
 
 
 0
+8
 4
-4
-footprints
-Side_Selector
-selects side of  board with 0804 0 ohm resistors
-
-0
-18
-18
 footprints
 gateron-ks27-hotswap-reversible
 

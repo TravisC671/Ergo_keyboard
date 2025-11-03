@@ -1,4 +1,4 @@
-26718898619724666
+26720663847469821
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106344,12 +106344,12 @@ Varistor VF
 2
 2
 footprints
-Side Selector
+LED_SK6812-E
 
 
 0
-18
-18
+12
+4
 footprints
 gateron-ks27-hotswap-reversible
 
@@ -106364,3 +106364,10 @@ nice_nano
 0
 27
 27
+seeed-nrf52840
+seeed-XIAO-nRF52840
+
+
+0
+88
+19
