@@ -691,6 +691,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4148W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LED:SK6812MINI"
 			(pin_names
 				(offset 0.254)
@@ -1147,347 +1314,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ScottoKeebs:Placeholder_Diode"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Diode"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Placeholder_Diode_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Placeholder_Diode_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ScottoKeebs:Placeholder_Keyswitch"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at 3.048 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Keyswitch"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Placeholder_Keyswitch_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.1684 1.1684)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.54) (xy 2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 2.032 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 0)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1985,6 +1811,180 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push_45deg"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push_45deg"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_45deg_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
 					(name "2"
 						(effects
 							(font
@@ -2567,12 +2567,6 @@
 		(uuid "05784aad-e185-460d-83d0-d6813ea21773")
 	)
 	(junction
-		(at 41.91 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05bc5e8f-d39b-4973-a2bb-96a307e3e9df")
-	)
-	(junction
 		(at 146.05 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2597,34 +2591,34 @@
 		(uuid "128a2590-0dcd-40fa-814d-f039abcffca0")
 	)
 	(junction
-		(at 59.69 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "128ee6cc-f2f4-453e-8465-85ca898e1b59")
-	)
-	(junction
 		(at 200.66 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "142b1f74-faa9-4b24-9b0b-f9d801982871")
 	)
 	(junction
-		(at 77.47 34.29)
+		(at 156.21 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1ce9fde2-b827-4a0a-975b-01c6afcde823")
-	)
-	(junction
-		(at 95.25 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e8947e7-dbae-400d-b9e1-ca98f2d396c2")
+		(uuid "1c8dee26-69b6-48bf-979f-f227c497a25d")
 	)
 	(junction
 		(at 82.55 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20616383-2205-4f14-8cc9-68e28107f6e3")
+	)
+	(junction
+		(at 59.69 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "250875da-6277-436b-b458-97145404c57a")
+	)
+	(junction
+		(at 95.25 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26ce17a3-07e8-4d71-bf08-b47266482682")
 	)
 	(junction
 		(at 200.66 114.3)
@@ -2657,28 +2651,22 @@
 		(uuid "2fe1880b-69b5-47bf-89df-a82ef9e32ae0")
 	)
 	(junction
+		(at 24.13 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30620f37-91d6-460d-b5ee-3fcfe545c2c7")
+	)
+	(junction
 		(at 173.99 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36b106cd-520b-4216-8dd0-f6dbc740dbaa")
 	)
 	(junction
-		(at 77.47 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b894a5f-64d5-4427-8178-69d218ecce83")
-	)
-	(junction
 		(at 227.33 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c915076-982b-4fb9-a3c4-68cb92b22868")
-	)
-	(junction
-		(at 59.69 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e1d3724-d51b-44eb-883a-ea483e191995")
 	)
 	(junction
 		(at 254 114.3)
@@ -2699,10 +2687,10 @@
 		(uuid "40f413a9-72c8-4e64-922a-13a1ab5a558f")
 	)
 	(junction
-		(at 77.47 72.39)
+		(at 41.91 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "44466496-955f-4985-813a-6a7a59e3a7e9")
+		(uuid "425cb5b6-7713-47aa-983d-d4bb69e05756")
 	)
 	(junction
 		(at 242.57 92.71)
@@ -2723,10 +2711,16 @@
 		(uuid "539906ad-dce0-409b-a2a1-32f7f0a68e04")
 	)
 	(junction
-		(at 95.25 34.29)
+		(at 95.25 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "576d99ab-ccf6-48e7-bde2-c9da717f6753")
+		(uuid "57c2b330-0750-4870-a4cf-f9e9b9075fe7")
+	)
+	(junction
+		(at 24.13 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e8d9ff8-169f-4978-875a-1a80ce2b9ad7")
 	)
 	(junction
 		(at 64.77 87.63)
@@ -2759,34 +2753,10 @@
 		(uuid "691747ea-c995-4134-b2db-5547ef13ac72")
 	)
 	(junction
-		(at 77.47 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d2c6bcd-91a7-4d92-984b-913447332e4e")
-	)
-	(junction
-		(at 156.21 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d4eebd5-8d00-4140-aacf-99144607f98e")
-	)
-	(junction
 		(at 146.05 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "716344b2-e054-4954-af72-82e07842a768")
-	)
-	(junction
-		(at 41.91 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76b75b24-adb7-4c42-a72b-e745de049398")
-	)
-	(junction
-		(at 59.69 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82ab7195-baba-4359-8c86-86dcb0d4e7c7")
 	)
 	(junction
 		(at 269.24 71.12)
@@ -2819,22 +2789,22 @@
 		(uuid "94a7d3b3-336d-45ab-8539-83cb3d8e154d")
 	)
 	(junction
-		(at 59.69 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "958613bb-6a23-4a4c-becf-21717b081389")
-	)
-	(junction
-		(at 95.25 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96ed6d92-28a9-4431-bb51-260267aef2f3")
-	)
-	(junction
 		(at 215.9 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99467306-ed25-49d0-a7b2-b4ca9a8ec94a")
+	)
+	(junction
+		(at 77.47 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99cadb47-d221-4de9-bfdd-4bc5268e93e6")
+	)
+	(junction
+		(at 95.25 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99f87743-f79c-4014-ac91-06d0cffa22de")
 	)
 	(junction
 		(at 215.9 114.3)
@@ -2843,16 +2813,16 @@
 		(uuid "9a3878fd-38db-42d2-a097-8e44a701071d")
 	)
 	(junction
-		(at 41.91 53.34)
+		(at 77.47 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9f65f78b-0025-4748-b7d6-a3887ac64e63")
+		(uuid "a009cd24-ecba-450b-85c7-327b257869da")
 	)
 	(junction
 		(at 24.13 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a06e1b96-5bec-4d2e-b6a1-f059bd9cde08")
+		(uuid "a1f18acf-27de-4e24-b41c-2cf98c516e24")
 	)
 	(junction
 		(at 100.33 68.58)
@@ -2867,6 +2837,18 @@
 		(uuid "a6f8cebc-4a09-4ce0-abd1-51c1412bf8d2")
 	)
 	(junction
+		(at 41.91 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7c94e17-5abb-474d-a5cd-494946d8c6df")
+	)
+	(junction
+		(at 59.69 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8371466-3cad-4ab9-be06-ec72e915ee81")
+	)
+	(junction
 		(at 189.23 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2879,10 +2861,22 @@
 		(uuid "aff7a3b5-05d5-4b48-a658-899aca84cf3f")
 	)
 	(junction
+		(at 59.69 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b37724b8-9e57-421f-b57c-762626d4cdb5")
+	)
+	(junction
 		(at 161.29 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b43cae94-2765-4a4a-bf66-e57090f432f0")
+	)
+	(junction
+		(at 24.13 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4a7febd-a4a5-4b94-8ca7-6974b2ce57fb")
 	)
 	(junction
 		(at 82.55 49.53)
@@ -2891,10 +2885,22 @@
 		(uuid "b5c4331c-1527-4932-8c3e-bf233efbd23f")
 	)
 	(junction
+		(at 95.25 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba69c3e8-e6b5-42a6-aaf9-ee26c832468d")
+	)
+	(junction
 		(at 200.66 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbd4a289-bdcc-41dc-aca2-bd929f2ab164")
+	)
+	(junction
+		(at 77.47 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5e8be1a-faa0-4474-93f3-61d05744ca13")
 	)
 	(junction
 		(at 227.33 92.71)
@@ -2915,12 +2921,6 @@
 		(uuid "ced47af3-a77b-43e5-8f40-568a64871d0c")
 	)
 	(junction
-		(at 24.13 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da3007c1-cc8c-47d9-84ea-775ef264c6e7")
-	)
-	(junction
 		(at 100.33 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2933,10 +2933,16 @@
 		(uuid "dcca4049-7607-4aca-a80d-1f932a89d9cb")
 	)
 	(junction
-		(at 95.25 72.39)
+		(at 59.69 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "deae6045-600c-402d-aed7-cd0764639756")
+		(uuid "de54cdaf-4d38-4604-acdb-e5ece26a3585")
+	)
+	(junction
+		(at 64.77 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e183af43-6223-4430-aab9-1e4eb9bc5189")
 	)
 	(junction
 		(at 269.24 49.53)
@@ -2961,12 +2967,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e43b7a7d-7bc1-4429-bb79-fd8c891ab58d")
-	)
-	(junction
-		(at 24.13 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6e011a0-c777-4497-b1ce-1e76b8f85d5f")
 	)
 	(junction
 		(at 146.05 92.71)
@@ -3011,6 +3011,12 @@
 		(uuid "f5d0483a-a4b6-44a7-8e74-67d24cac7d9c")
 	)
 	(junction
+		(at 41.91 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6b7d957-b7a7-43f9-abb0-879e2d99316b")
+	)
+	(junction
 		(at 161.29 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3028,8 +3034,14 @@
 		(color 0 0 0 0)
 		(uuid "f9c0078e-e1eb-4c87-bdc5-5f420314d05f")
 	)
+	(junction
+		(at 77.47 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdfa74c3-529b-4a10-8168-52a90318bb3e")
+	)
 	(no_connect
-		(at 171.45 158.75)
+		(at 168.91 158.75)
 		(uuid "194a148d-10de-4daf-85a1-3802653605ec")
 	)
 	(no_connect
@@ -3039,6 +3051,10 @@
 	(no_connect
 		(at 49.53 165.1)
 		(uuid "56a7deac-7647-4534-b742-aab1a20d5d85")
+	)
+	(no_connect
+		(at 261.62 143.51)
+		(uuid "c99be508-6742-4b82-9f03-54dc51f212a0")
 	)
 	(no_connect
 		(at 49.53 162.56)
@@ -3067,6 +3083,16 @@
 			(type default)
 		)
 		(uuid "02b5ecfa-e0d8-43d0-8c3e-9917d8199822")
+	)
+	(wire
+		(pts
+			(xy 77.47 72.39) (xy 77.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03281202-9333-4f95-bcff-d1a81a6bc904")
 	)
 	(wire
 		(pts
@@ -3110,7 +3136,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 34.29) (xy 24.13 53.34)
+			(xy 24.13 29.21) (xy 24.13 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3130,17 +3156,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 34.29) (xy 41.91 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bd5bd26-8ba7-44ef-ab65-9a770438aac6")
-	)
-	(wire
-		(pts
-			(xy 77.47 53.34) (xy 77.47 72.39)
+			(xy 77.47 29.21) (xy 77.47 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3180,6 +3196,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 72.39) (xy 41.91 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1315c6f3-0ad2-400f-bb56-18b87118f6ca")
+	)
+	(wire
+		(pts
 			(xy 27.94 165.1) (xy 27.94 179.07)
 		)
 		(stroke
@@ -3187,6 +3213,16 @@
 			(type default)
 		)
 		(uuid "14e26ff4-9919-47dd-bd6a-0dee9df916f2")
+	)
+	(wire
+		(pts
+			(xy 77.47 91.44) (xy 77.47 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1843d1d4-6194-4be4-b4c6-c2a63dbf7485")
 	)
 	(wire
 		(pts
@@ -3220,13 +3256,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 72.39) (xy 59.69 91.44)
+			(xy 77.47 34.29) (xy 77.47 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f159e01-dd1a-4e90-b1c8-5cd83328ac2d")
+		(uuid "1c634f14-44f8-41de-832e-ae7c191c78ad")
 	)
 	(wire
 		(pts
@@ -3260,7 +3296,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 157.48) (xy 129.54 157.48)
+			(xy 111.76 157.48) (xy 125.73 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3280,16 +3316,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 91.44) (xy 77.47 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23fe06d5-8d94-498e-9a74-753f5a7aea0f")
-	)
-	(wire
-		(pts
 			(xy 181.61 39.37) (xy 208.28 39.37)
 		)
 		(stroke
@@ -3300,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 149.86) (xy 119.38 149.86)
+			(xy 111.76 149.86) (xy 115.57 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3390,6 +3416,26 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 72.39) (xy 24.13 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3187f063-46c7-4de1-a28b-c4d8d66a1bce")
+	)
+	(wire
+		(pts
+			(xy 24.13 34.29) (xy 24.13 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3350229e-3589-448d-9b64-9c078bcdd504")
+	)
+	(wire
+		(pts
 			(xy 269.24 114.3) (xy 269.24 135.89)
 		)
 		(stroke
@@ -3420,7 +3466,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 91.44) (xy 95.25 110.49)
+			(xy 95.25 29.21) (xy 95.25 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3470,6 +3516,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 53.34) (xy 59.69 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a84df22-be1d-4909-b07e-7c12d5a7d1a5")
+	)
+	(wire
+		(pts
 			(xy 173.99 71.12) (xy 173.99 92.71)
 		)
 		(stroke
@@ -3487,6 +3543,16 @@
 			(type default)
 		)
 		(uuid "3c8c6974-563e-4278-938e-a98637cf3d3d")
+	)
+	(wire
+		(pts
+			(xy 41.91 34.29) (xy 41.91 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f4ffdb3-f8ef-4632-b52c-86667ef2ed90")
 	)
 	(wire
 		(pts
@@ -3540,16 +3606,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 72.39) (xy 95.25 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "466de06e-4011-4dc4-8670-5f86c06d7638")
-	)
-	(wire
-		(pts
 			(xy 46.99 104.14) (xy 46.99 106.68)
 		)
 		(stroke
@@ -3557,16 +3613,6 @@
 			(type default)
 		)
 		(uuid "466e5179-2a3d-4838-821a-3310eceaa304")
-	)
-	(wire
-		(pts
-			(xy 95.25 34.29) (xy 95.25 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46a2abcd-3b4d-49fe-a928-f46c1129e77e")
 	)
 	(wire
 		(pts
@@ -3630,16 +3676,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 29.21) (xy 59.69 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "495b6a13-dba9-4417-98df-b70d60544421")
-	)
-	(wire
-		(pts
 			(xy 46.99 87.63) (xy 64.77 87.63)
 		)
 		(stroke
@@ -3660,26 +3696,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 34.29) (xy 59.69 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d41eb76-1738-4321-b23b-16ae9584a0d9")
-	)
-	(wire
-		(pts
-			(xy 24.13 53.34) (xy 24.13 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d585ad9-0fcb-4ea2-9bca-2002a166eec3")
-	)
-	(wire
-		(pts
 			(xy 82.55 106.68) (xy 100.33 106.68)
 		)
 		(stroke
@@ -3690,13 +3706,23 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 140.97) (xy 161.29 140.97)
+			(xy 156.21 140.97) (xy 158.75 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4e25b275-4c70-45c4-bcba-7dce469e6802")
+	)
+	(wire
+		(pts
+			(xy 77.47 53.34) (xy 77.47 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5066a078-67e4-411f-b340-e1e52246e1c6")
 	)
 	(wire
 		(pts
@@ -3707,16 +3733,6 @@
 			(type default)
 		)
 		(uuid "5108c402-14d2-479d-93f8-2bd690614bb0")
-	)
-	(wire
-		(pts
-			(xy 24.13 72.39) (xy 24.13 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51614986-5902-4ed9-b5e9-509e056a7483")
 	)
 	(wire
 		(pts
@@ -3760,7 +3776,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 153.67) (xy 171.45 153.67)
+			(xy 171.45 153.67) (xy 168.91 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3800,13 +3816,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 29.21) (xy 41.91 34.29)
+			(xy 156.21 156.21) (xy 158.75 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "640b600b-54fa-42f9-9694-23b59686c888")
+		(uuid "6538ed66-ff84-4db5-a89b-41adecae95e7")
 	)
 	(wire
 		(pts
@@ -3820,7 +3836,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 153.67) (xy 181.61 153.67)
+			(xy 181.61 153.67) (xy 179.07 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3837,16 +3853,6 @@
 			(type default)
 		)
 		(uuid "6685f426-3ebd-4e94-b951-d0625868428e")
-	)
-	(wire
-		(pts
-			(xy 41.91 53.34) (xy 41.91 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66c5ad5d-fedf-4b4b-9f8f-55eb8a48a94e")
 	)
 	(wire
 		(pts
@@ -3900,7 +3906,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 153.67) (xy 121.92 153.67)
+			(xy 111.76 153.67) (xy 118.11 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3917,6 +3923,16 @@
 			(type default)
 		)
 		(uuid "71f53a9a-2e6a-47ce-9896-e3cb86452e5c")
+	)
+	(wire
+		(pts
+			(xy 95.25 72.39) (xy 95.25 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735f94ef-e622-4864-bd70-8f896d2bb247")
 	)
 	(wire
 		(pts
@@ -3967,16 +3983,6 @@
 			(type default)
 		)
 		(uuid "7977c966-4614-4519-930c-d7d5df4e84c1")
-	)
-	(wire
-		(pts
-			(xy 156.21 156.21) (xy 161.29 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f65a567-61b0-46a0-a008-be14efb988bf")
 	)
 	(wire
 		(pts
@@ -4060,13 +4066,13 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 29.21) (xy 24.13 34.29)
+			(xy 95.25 34.29) (xy 95.25 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8fe2e686-33ac-4245-a94e-16e2c3843ff3")
+		(uuid "8ee3a1ea-d162-4b82-a07a-62e1af67ce46")
 	)
 	(wire
 		(pts
@@ -4150,6 +4156,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 91.44) (xy 24.13 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fdf59f6-98d4-4dd5-91a1-ffe8c0872d6f")
+	)
+	(wire
+		(pts
 			(xy 82.55 49.53) (xy 100.33 49.53)
 		)
 		(stroke
@@ -4217,6 +4233,16 @@
 			(type default)
 		)
 		(uuid "a83746af-8f5f-429c-9b67-a95db0467f90")
+	)
+	(wire
+		(pts
+			(xy 29.21 125.73) (xy 64.77 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85b0d8a-5cd6-4532-b4ad-e26e1a59ab10")
 	)
 	(wire
 		(pts
@@ -4300,6 +4326,26 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 53.34) (xy 41.91 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f0a11b-0cea-4f7a-a710-711e2374c4dd")
+	)
+	(wire
+		(pts
+			(xy 59.69 91.44) (xy 59.69 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38c9918-7622-417a-b0aa-1efe9356d258")
+	)
+	(wire
+		(pts
 			(xy 82.55 85.09) (xy 82.55 87.63)
 		)
 		(stroke
@@ -4310,13 +4356,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 53.34) (xy 95.25 72.39)
+			(xy 59.69 34.29) (xy 59.69 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6e88c4a-1368-4919-8365-abf99ce79423")
+		(uuid "b60644b2-1099-4b61-92d1-1c98aa8d9129")
 	)
 	(wire
 		(pts
@@ -4370,16 +4416,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 72.39) (xy 77.47 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7e2d832-6f3b-4496-a9c1-eedf834a03fc")
-	)
-	(wire
-		(pts
 			(xy 242.57 49.53) (xy 242.57 71.12)
 		)
 		(stroke
@@ -4400,6 +4436,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 72.39) (xy 59.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0918ce1-db6f-45bb-8006-37f522a94bb9")
+	)
+	(wire
+		(pts
 			(xy 16.51 157.48) (xy 29.21 157.48)
 		)
 		(stroke
@@ -4407,16 +4453,6 @@
 			(type default)
 		)
 		(uuid "c1401889-6ae8-457a-83aa-abe5f5aa267a")
-	)
-	(wire
-		(pts
-			(xy 59.69 91.44) (xy 59.69 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c198d0c4-5c11-41ab-8db0-b8120c1cb124")
 	)
 	(wire
 		(pts
@@ -4447,16 +4483,6 @@
 			(type default)
 		)
 		(uuid "c65dfa5d-2140-4777-888b-071ea98881a8")
-	)
-	(wire
-		(pts
-			(xy 77.47 34.29) (xy 77.47 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c708ef70-fc1c-4f94-a63a-59c36b0937ba")
 	)
 	(wire
 		(pts
@@ -4570,16 +4596,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 29.21) (xy 95.25 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7a67b16-7803-40ad-9c99-54ae16e9e115")
-	)
-	(wire
-		(pts
 			(xy 64.77 66.04) (xy 64.77 68.58)
 		)
 		(stroke
@@ -4607,6 +4623,16 @@
 			(type default)
 		)
 		(uuid "df5f699f-d9cf-454d-ae0d-9de15821a13b")
+	)
+	(wire
+		(pts
+			(xy 29.21 123.19) (xy 29.21 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a35ca3-f45a-4118-96b6-2c757c1645cf")
 	)
 	(polyline
 		(pts
@@ -4640,7 +4666,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 53.34) (xy 59.69 72.39)
+			(xy 59.69 29.21) (xy 59.69 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4657,6 +4683,16 @@
 			(type default)
 		)
 		(uuid "e96dce4c-081a-4daf-a7ad-a584ff92f8b6")
+	)
+	(wire
+		(pts
+			(xy 24.13 53.34) (xy 24.13 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb49d804-c0dc-4b27-9118-00f0a6e928fc")
 	)
 	(wire
 		(pts
@@ -4720,6 +4756,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 91.44) (xy 95.25 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52e21c5-d669-4c5f-9022-6258628d40c6")
+	)
+	(wire
+		(pts
 			(xy 227.33 92.71) (xy 227.33 114.3)
 		)
 		(stroke
@@ -4770,17 +4816,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 29.21) (xy 77.47 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9b30967-5482-4570-b3ea-51bab79d2470")
-	)
-	(wire
-		(pts
-			(xy 41.91 72.39) (xy 41.91 91.44)
+			(xy 41.91 29.21) (xy 41.91 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4788,9 +4824,19 @@
 		)
 		(uuid "fcb31293-73f5-4fc6-b3f0-863de7f6ea08")
 	)
+	(wire
+		(pts
+			(xy 95.25 53.34) (xy 95.25 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde90630-6c7b-4e1d-9396-4117f622bee3")
+	)
 	(global_label "Row3"
 		(shape input)
-		(at 73.66 165.1 180)
+		(at 69.85 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4800,7 +4846,7 @@
 		)
 		(uuid "00c4a70f-f559-493a-bfb5-0db6b639a67a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.7158 165.1 0)
+			(at 61.9058 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,9 +4922,9 @@
 			)
 		)
 	)
-	(global_label "rst"
+	(global_label "Rst"
 		(shape input)
-		(at 171.45 140.97 0)
+		(at 168.91 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4888,7 +4934,7 @@
 		)
 		(uuid "261711af-fd93-4a1f-a790-38cbb4f6fdfc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.9752 140.97 0)
+			(at 174.919 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +4968,7 @@
 	)
 	(global_label "Row1"
 		(shape input)
-		(at 73.66 153.67 180)
+		(at 69.85 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4932,7 +4978,7 @@
 		)
 		(uuid "30bfd577-b68b-4c5f-ad7e-054a8942b2cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.7158 153.67 0)
+			(at 61.9058 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,7 +4990,7 @@
 	)
 	(global_label "Row0"
 		(shape input)
-		(at 73.66 149.86 180)
+		(at 69.85 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4954,7 +5000,7 @@
 		)
 		(uuid "38133598-fedc-463c-8d27-72bfd6e6d68f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.7158 149.86 0)
+			(at 61.9058 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +5034,7 @@
 	)
 	(global_label "Bat+"
 		(shape input)
-		(at 184.15 153.67 0)
+		(at 181.61 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4998,7 +5044,7 @@
 		)
 		(uuid "4108e9fa-1db1-41a5-82c1-62f3055c53a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.8523 153.67 0)
+			(at 189.3123 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,7 +5078,7 @@
 	)
 	(global_label "3v3 LED"
 		(shape input)
-		(at 73.66 168.91 180)
+		(at 69.85 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5042,7 +5088,7 @@
 		)
 		(uuid "4eecff88-f1ed-4546-903d-e8dd62531034")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.8735 168.91 0)
+			(at 59.0635 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5052,9 +5098,31 @@
 			)
 		)
 	)
+	(global_label "Rst"
+		(shape input)
+		(at 93.98 138.43 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5512e3b4-1824-4217-9ae2-8d2571a6e6d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 132.421 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SRCLK"
 		(shape input)
-		(at 115.57 168.91 0)
+		(at 111.76 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5064,7 +5132,7 @@
 		)
 		(uuid "63cccf3f-624f-4773-b48b-7e5da5deaafa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.6028 168.91 0)
+			(at 120.7928 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,7 +5188,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 115.57 165.1 0)
+		(at 111.76 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5130,7 +5198,7 @@
 		)
 		(uuid "81765dc9-5a6c-44d7-b8dc-686c3f8b4a72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.1514 165.1 0)
+			(at 119.3414 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5186,7 +5254,7 @@
 	)
 	(global_label "Row2"
 		(shape input)
-		(at 73.66 157.48 180)
+		(at 69.85 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5196,7 +5264,7 @@
 		)
 		(uuid "9ab3efe8-f4cc-450b-a120-15c89a0a4330")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.7158 157.48 0)
+			(at 61.9058 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,7 +5276,7 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 148.59 180.34 0)
+		(at 147.32 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5218,7 +5286,7 @@
 		)
 		(uuid "a62ec07e-44ec-478e-9a30-32bb78109e2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.0223 180.34 0)
+			(at 153.7523 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +5298,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 115.57 161.29 0)
+		(at 111.76 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5240,7 +5308,7 @@
 		)
 		(uuid "a65ef335-a375-4ab8-857f-af911aa7db39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.1514 161.29 0)
+			(at 119.3414 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,9 +5340,31 @@
 			)
 		)
 	)
+	(global_label "Bat+"
+		(shape input)
+		(at 97.79 138.43 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4b76734-b9b4-4438-b2d1-0c09e37ef377")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 130.7277 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3v3 LED"
 		(shape input)
-		(at 133.35 180.34 180)
+		(at 132.08 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5284,7 +5374,7 @@
 		)
 		(uuid "bef71189-987e-4ba2-8ba0-94ae15b39b81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.5635 180.34 0)
+			(at 121.2935 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +5386,7 @@
 	)
 	(global_label "Row3"
 		(shape input)
-		(at 73.66 161.29 180)
+		(at 69.85 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5306,7 +5396,7 @@
 		)
 		(uuid "c7607153-3f40-4227-aa8a-64d6c829c70f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.7158 161.29 0)
+			(at 61.9058 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,24 +5583,24 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 80.01 93.98 0)
+		(lib_id "Switch:SW_Push_45deg")
+		(at 80.01 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0332ee3e-1a55-4c44-8bcd-b368c67f3e2e")
-		(property "Reference" "S19"
-			(at 85.344 91.44 0)
+		(uuid "01bcf5fb-e921-4f0d-adc7-c4df01a3b8c9")
+		(property "Reference" "SW4"
+			(at 85.344 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 88.646 93.726 0)
+		(property "Value" "Key Switch"
+			(at 88.646 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +5608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 93.98 0)
+			(at 80.01 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,7 +5617,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 93.98 0)
+			(at 80.01 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,7 +5626,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 80.01 93.98 0)
+			(at 80.01 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,40 +5634,40 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "d0b9b7c2-c4a3-474d-bf43-cf1e03619a28")
-		)
 		(pin "1"
-			(uuid "a5eea9bd-2baf-489f-a0f2-535ea9772686")
+			(uuid "2281b908-5809-4a9d-b8a5-aeebdfdf8d3a")
+		)
+		(pin "2"
+			(uuid "8e13b82b-8c06-42cf-ad8a-93fad5ee622b")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S19")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 44.45 55.88 0)
+		(lib_id "Switch:SW_Push_45deg")
+		(at 80.01 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "09b966cf-07f9-4c29-a0f8-b2df50e0e144")
-		(property "Reference" "S7"
-			(at 49.784 53.34 0)
+		(uuid "05638a2b-3878-4f95-ab68-9d892c00f817")
+		(property "Reference" "SW9"
+			(at 85.344 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 53.086 55.626 0)
+		(property "Value" "Key Switch"
+			(at 88.646 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +5675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 55.88 0)
+			(at 80.01 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5684,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 55.88 0)
+			(at 80.01 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +5693,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 44.45 55.88 0)
+			(at 80.01 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,16 +5701,171 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "9aa36aca-63d4-4f56-a331-2f2313447c46")
-		)
 		(pin "1"
-			(uuid "a9b90aa1-e512-4cc0-bf41-969b6d56bdcf")
+			(uuid "8f36b78b-1bb4-496a-95a9-01a111dce4af")
+		)
+		(pin "2"
+			(uuid "867b94c8-8d94-4a75-98a4-00c3cc4dfcf2")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S7")
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 82.55 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "084d3ce8-37c3-486c-87d6-25259d66d4b9")
+		(property "Reference" "D4"
+			(at 85.09 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 85.09 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 86.995 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f5a4312-f9d9-4c63-a71c-7cc6a5dd4905")
+		)
+		(pin "2"
+			(uuid "d0d802b6-7e82-4c37-ba6b-9ce82651586b")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 62.23 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09ac07eb-33b9-47aa-a9ed-fff8799ecfc7")
+		(property "Reference" "SW13"
+			(at 67.818 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Key Switch"
+			(at 70.612 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e59e5eb-c64f-415f-b5e0-a95bea59cad3")
+		)
+		(pin "2"
+			(uuid "988f6148-ec56-415e-8f71-0c10d05c22bb")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -5757,249 +6002,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 64.77 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10c4098a-7808-4abd-b991-56ad23447ed5")
-		(property "Reference" "D13"
-			(at 67.31 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 67.31 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 64.77 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 64.77 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 64.77 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfd0bda1-d8a7-4c33-a103-a6708c72f073")
-		)
-		(pin "2"
-			(uuid "17904de1-7774-4830-b775-3decc504a1f1")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 82.55 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1181fb0d-8057-4ddb-be62-c38f7585cae4")
-		(property "Reference" "D14"
-			(at 85.09 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 85.09 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 82.55 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 82.55 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "396fc767-b606-458e-b536-04567b2b7aa7")
-		)
-		(pin "2"
-			(uuid "089fa31f-db3a-4949-ac7f-3386a0e5d682")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 62.23 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13abd2d4-2a31-4aac-b2b0-0a6f11f41c93")
-		(property "Reference" "S21"
-			(at 67.564 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Keyswitch"
-			(at 70.866 112.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 62.23 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "125088f6-0491-4c02-ad5c-f9af9272bc09")
-		)
-		(pin "1"
-			(uuid "131bc5c2-ec1e-4dd7-bad0-f1193fa14904")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:SK6812MINI")
 		(at 261.62 135.89 270)
 		(unit 1)
@@ -6007,10 +6009,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1693b60b-dfe6-4de6-a685-02be564de67f")
 		(property "Reference" "LED23"
-			(at 274.32 129.4698 90)
+			(at 275.59 132.334 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6018,7 +6019,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 274.32 132.0098 90)
+			(at 275.59 134.874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,16 +6077,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 82.55 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17a01d45-d196-463a-a229-27a3b0c85be7")
+		(property "Reference" "D22"
+			(at 85.09 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 85.09 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 86.995 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37e2edd8-da5a-43e1-b9ca-32a336f1e6ca")
+		)
+		(pin "2"
+			(uuid "f7ec0cc8-d2f7-4757-a737-d7980abd64ed")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 166.37 156.21 0)
+		(at 163.83 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1823b7c9-d962-49a2-93d4-5a19ca4e13f5")
-		(property "Reference" "SW2"
-			(at 165.1 149.86 0)
+		(property "Reference" "Sw26"
+			(at 162.56 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,7 +6182,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 165.1 152.4 0)
+			(at 162.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,7 +6190,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
-			(at 166.37 156.21 0)
+			(at 163.83 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6110,7 +6199,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 156.21 0)
+			(at 163.83 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6119,7 +6208,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 156.21 0)
+			(at 163.83 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,7 +6216,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C221841"
-			(at 166.37 156.21 0)
+			(at 163.83 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +6236,7 @@
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "SW2")
+					(reference "Sw26")
 					(unit 1)
 				)
 			)
@@ -6161,10 +6250,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1878f9f1-43e8-44e3-85ef-1a43af8807cb")
 		(property "Reference" "LED20"
-			(at 274.32 107.8798 90)
+			(at 272.796 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6172,7 +6260,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 274.32 110.4198 90)
+			(at 275.59 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,35 +6318,32 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 46.99 100.33 90)
+		(lib_id "Switch:SW_Push_45deg")
+		(at 26.67 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1deb0aa2-e3b6-48be-8927-6580477871b5")
-		(property "Reference" "D17"
-			(at 49.53 99.0599 90)
+		(uuid "188019a4-d908-4e2a-80f2-417dbf8b77f6")
+		(property "Reference" "SW6"
+			(at 31.75 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "Diode"
-			(at 49.53 101.5999 90)
+		(property "Value" "Key Switch"
+			(at 35.052 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 100.33 0)
+			(at 26.67 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6266,8 +6351,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 46.99 100.33 0)
+		(property "Datasheet" "~"
+			(at 26.67 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,26 +6360,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 46.99 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 46.99 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 100.33 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 26.67 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,15 +6370,413 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd43a197-1340-4e0a-826f-aaab77938f88")
+			(uuid "690d30c7-4d73-4a61-b23a-f6882d4377da")
 		)
 		(pin "2"
-			(uuid "71a16258-3610-49ec-8206-96820db5bf32")
+			(uuid "f3995c8e-9852-4fe8-93c6-9c1954b2b883")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D17")
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 100.33 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bb3b1c0-0367-4ef0-ae07-c7f50f6322c1")
+		(property "Reference" "D5"
+			(at 102.87 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 102.87 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 104.775 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee8d547e-a5e6-4a7a-9996-1dc3f57fa8cf")
+		)
+		(pin "2"
+			(uuid "2e3bafdf-065d-411a-9bb6-bf7cbf7144ec")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 97.79 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cb02ed9-2410-4268-8b35-a1c68c33d4eb")
+		(property "Reference" "SW23"
+			(at 103.378 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Key Switch"
+			(at 106.172 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc20ab98-362d-4032-ab04-b53717d46ad8")
+		)
+		(pin "2"
+			(uuid "e258c084-786d-4870-b6ab-e30aa8f8c6b5")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 64.77 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d47e6fa-5f75-4ea3-90f4-d42517f76755")
+		(property "Reference" "D3"
+			(at 67.31 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 67.31 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 69.215 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 64.77 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 64.77 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 64.77 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 64.77 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc550056-8e5d-46c0-95b6-863d683be0ec")
+		)
+		(pin "2"
+			(uuid "abae6433-cddd-415f-a3c6-2e65c0a1bf53")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 82.55 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d4f5392-d674-482d-87e2-33d3e5fff591")
+		(property "Reference" "D14"
+			(at 85.09 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 85.09 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 86.995 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 82.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 82.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 82.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 82.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e93e4ad-2545-4e0d-8bdc-cc89afc48d57")
+		)
+		(pin "2"
+			(uuid "5b65e213-5a42-4e8a-8916-7f7c0b641803")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 26.67 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dd38bf1-bfa5-428c-86ff-73a4b2954b05")
+		(property "Reference" "SW11"
+			(at 32.512 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Key Switch"
+			(at 35.052 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 26.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdc1ca8f-04e9-4d26-ae52-dee74613d3c0")
+		)
+		(pin "2"
+			(uuid "7cd0f16f-3854-49b2-bc0d-dc2a11cf6d88")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -6325,10 +6790,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "20b6fd49-15f1-43e5-901c-b98770d5ea7b")
 		(property "Reference" "LED5"
-			(at 274.32 43.1098 90)
+			(at 272.288 46.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6336,7 +6800,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 274.32 45.6498 90)
+			(at 275.59 48.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6394,24 +6858,24 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 97.79 74.93 0)
+		(lib_id "Switch:SW_Push_45deg")
+		(at 62.23 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2111b905-173b-413d-8ff4-9bc710894086")
-		(property "Reference" "S15"
-			(at 103.124 72.39 0)
+		(uuid "211d6802-4065-40b9-908b-897e067ec919")
+		(property "Reference" "SW18"
+			(at 67.818 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 106.426 74.676 0)
+		(property "Value" "Key Switch"
+			(at 70.612 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,7 +6883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 74.93 0)
+			(at 62.23 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6428,7 +6892,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 74.93 0)
+			(at 62.23 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6437,95 +6901,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 97.79 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9febb948-6a29-4fb5-8d72-98c7e1a222d6")
-		)
-		(pin "1"
-			(uuid "2c40d887-1a85-4456-9c9e-55a97ed46cf2")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 100.33 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2128f1b3-ec91-4862-aabb-f03859cdbd9b")
-		(property "Reference" "D5"
-			(at 102.87 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 102.87 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 100.33 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 100.33 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 100.33 43.18 0)
+			(at 62.23 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,15 +6910,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b964033c-e5d9-4a20-8eac-e1a92743fbf3")
+			(uuid "42bd0b16-054e-452d-be71-8e99d35c0717")
 		)
 		(pin "2"
-			(uuid "cb1fc02b-35ce-479a-997b-a1569f763d3f")
+			(uuid "cddbbaec-4563-4e02-b0c1-bc4d1dc3fd12")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D5")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -6556,10 +6932,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "224cc093-13cc-487f-905f-1dea060dfc9d")
 		(property "Reference" "LED22"
-			(at 247.65 130.4446 90)
+			(at 248.412 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,7 +6942,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 247.65 132.9846 90)
+			(at 248.412 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6625,41 +7000,35 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 62.23 93.98 0)
+		(lib_id "Diode:1N4148W")
+		(at 29.21 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "28e36421-aa01-4885-bbb3-05c0e5dc0211")
-		(property "Reference" "S18"
-			(at 67.564 91.44 0)
+		(fields_autoplaced yes)
+		(uuid "2db6bc42-312c-4157-9dbc-c0c66d9d4214")
+		(property "Reference" "D11"
+			(at 31.75 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 70.866 93.726 0)
+		(property "Value" "Diode"
+			(at 31.75 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 62.23 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 93.98 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 33.655 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6667,8 +7036,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 62.23 93.98 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 29.21 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6676,57 +7045,78 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "d8a049db-ea76-4243-b0c2-f6ad3d506385")
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "f37ddf02-946a-4cbe-8a8e-163854b6cb0a")
+			(uuid "337726de-08ad-4a28-9b15-138d39ccbaf9")
+		)
+		(pin "2"
+			(uuid "6606f072-8b26-4c49-9335-0732d7a6d168")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S18")
+					(reference "D11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 80.01 113.03 0)
+		(lib_id "Diode:1N4148W")
+		(at 64.77 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2e5b188f-8394-4658-92d6-3546c7a41b82")
-		(property "Reference" "S22"
-			(at 85.344 110.49 0)
+		(fields_autoplaced yes)
+		(uuid "329fd062-5f38-48c8-b840-2d47364f892d")
+		(property "Reference" "D21"
+			(at 67.31 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 88.646 112.776 0)
+		(property "Value" "Diode"
+			(at 67.31 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 80.01 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 113.03 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 69.215 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6734,8 +7124,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 80.01 113.03 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6743,150 +7133,43 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "8274aef9-df02-4133-a97d-0ac05a3b542c")
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "956a5110-553e-4862-a27b-98668d44ada9")
+			(uuid "d31ee13d-34b8-4de7-b4fe-6ac085b48219")
+		)
+		(pin "2"
+			(uuid "3be456b0-be56-4012-9e9d-da7429560e47")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 26.67 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "319f560b-04d8-4e01-94fb-5ff186b1b3d6")
-		(property "Reference" "S16"
-			(at 32.004 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Keyswitch"
-			(at 35.306 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 26.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aa0d74d4-d990-48d5-823c-2a1cb6a15584")
-		)
-		(pin "1"
-			(uuid "c5237ffb-542b-4ef3-b7b2-2c4a01d98387")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 44.45 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33f7b8d5-9804-424a-bcf5-85805d5429e4")
-		(property "Reference" "S17"
-			(at 49.784 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Keyswitch"
-			(at 53.086 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 44.45 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3693e08f-4856-4043-993b-59b1cdf7bbf4")
-		)
-		(pin "1"
-			(uuid "3f071d21-b10c-4696-b00a-9596ea3cbfa0")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S17")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -7030,10 +7313,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3dc0e699-c9b3-4f0f-b1fa-5c2ad8cbddbd")
 		(property "Reference" "LED9"
-			(at 247.65 65.6746 90)
+			(at 245.872 67.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7041,7 +7323,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 247.65 68.2146 90)
+			(at 248.412 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,112 +7381,24 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 100.33 100.33 90)
+		(lib_id "Switch:SW_Push_45deg")
+		(at 26.67 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47d3256c-b7c3-4c64-acfe-96b706002ba6")
-		(property "Reference" "D20"
-			(at 102.87 99.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 102.87 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 100.33 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 100.33 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 100.33 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d45d887-9497-4e6b-a825-ef07d755e860")
-		)
-		(pin "2"
-			(uuid "a04749c8-f385-46c3-b51a-2a0c47808c9f")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 26.67 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5005386e-8a3a-4c43-b4da-7835eedfccb5")
-		(property "Reference" "S1"
-			(at 32.004 34.29 0)
+		(uuid "3f50b4a3-cfaa-4037-ac2e-6fd68e448ba2")
+		(property "Reference" "SW24"
+			(at 32.512 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 35.306 36.576 0)
+		(property "Value" "Program Btn"
+			(at 36.068 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7212,7 +7406,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 36.83 0)
+			(at 26.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7221,7 +7415,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 36.83 0)
+			(at 26.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,7 +7424,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 26.67 36.83 0)
+			(at 26.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,16 +7432,83 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "c543eed6-5621-45ec-9adf-429bcb30154b")
-		)
 		(pin "1"
-			(uuid "f84c5936-0442-40b8-90d5-3d6eb124fd77")
+			(uuid "c62096c3-f4b4-4529-a2ba-7dff38cac100")
+		)
+		(pin "2"
+			(uuid "53578278-d006-4f69-b9a4-e4600fcfcb41")
 		)
 		(instances
-			(project ""
+			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S1")
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 97.79 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bf1d329-1306-4bc7-a97d-3c138de61379")
+		(property "Reference" "SW15"
+			(at 103.632 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Key Switch"
+			(at 106.426 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 97.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cab57fba-d643-46bd-a6f1-84302e4c2c89")
+		)
+		(pin "2"
+			(uuid "031a0567-ffb5-4fb8-86da-651bf4d87afb")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -7261,10 +7522,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "526aee51-3267-47df-bbbe-3bf0670f01fe")
 		(property "Reference" "LED7"
-			(at 194.31 65.6746 90)
+			(at 192.786 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,7 +7532,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 194.31 68.2146 90)
+			(at 195.326 69.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7331,7 +7591,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 187.96 0)
+		(at 139.7 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7340,7 +7600,7 @@
 		(fields_autoplaced yes)
 		(uuid "55579dc9-2a60-4c25-af87-2a033a3f8629")
 		(property "Reference" "#PWR014"
-			(at 140.97 194.31 0)
+			(at 139.7 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7349,7 +7609,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 193.04 0)
+			(at 139.7 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7357,7 +7617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 187.96 0)
+			(at 139.7 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,7 +7626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 187.96 0)
+			(at 139.7 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7375,7 +7635,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 187.96 0)
+			(at 139.7 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7657,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 153.67 0)
+		(at 118.11 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7405,7 +7665,7 @@
 		(dnp no)
 		(uuid "5632b1df-eaa9-41af-9929-5bb1d75fce8d")
 		(property "Reference" "#PWR06"
-			(at 121.92 160.02 0)
+			(at 118.11 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7414,7 +7674,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 157.48 0)
+			(at 118.11 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7422,7 +7682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 153.67 0)
+			(at 118.11 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7431,7 +7691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 153.67 0)
+			(at 118.11 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7440,7 +7700,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 153.67 0)
+			(at 118.11 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7468,10 +7728,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5b282046-02a6-4d24-8483-b26e5ab36304")
 		(property "Reference" "LED4"
-			(at 247.65 44.0846 90)
+			(at 245.872 46.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,7 +7738,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 247.65 46.6246 90)
+			(at 248.412 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,10 +7803,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c20f612-0fc8-4181-9c53-bec901e3b842")
 		(property "Reference" "LED10"
-			(at 274.32 64.6998 90)
+			(at 272.796 68.072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7555,7 +7813,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 274.32 67.2398 90)
+			(at 275.59 70.104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7613,24 +7871,24 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 97.79 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "603b0662-cd49-427f-a104-f5db44f0b738")
-		(property "Reference" "S10"
-			(at 103.124 53.34 0)
+		(uuid "5dcdbc65-6925-4327-be29-0fbaeb754754")
+		(property "Reference" "SW10"
+			(at 103.632 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 106.426 55.626 0)
+		(property "Value" "Key Switch"
+			(at 106.426 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7664,90 +7922,23 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "b5672278-9d54-4e2c-a136-5d1d6e797dc4")
-		)
 		(pin "1"
-			(uuid "67a9a0e7-6c19-4842-84bf-9b0c2a619bd2")
+			(uuid "8b6f0d4e-827c-40c0-95a9-e16d8ddb3351")
+		)
+		(pin "2"
+			(uuid "916c7d21-143d-454a-ba26-e6a7b8b1312a")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S10")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 80.01 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "640f0bf0-3463-423e-ac29-0a7c3d022ff6")
-		(property "Reference" "S4"
-			(at 85.344 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Keyswitch"
-			(at 88.646 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 80.01 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0ba36113-7a5b-4355-a168-5b1e238f9a0a")
-		)
-		(pin "1"
-			(uuid "32e66933-d26a-435e-ac65-933030bf97eb")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "Diode:1N4148W")
 		(at 46.99 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7755,7 +7946,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6849a2b3-39b3-4d17-9e7f-b8de79ccb583")
+		(uuid "5f36ca26-b661-4bb2-88d9-c491a9f7bc6a")
 		(property "Reference" "D7"
 			(at 49.53 60.9599 90)
 			(effects
@@ -7774,7 +7965,16 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 51.435 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
 			(at 46.99 62.23 0)
 			(effects
 				(font
@@ -7783,16 +7983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 46.99 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 46.99 62.23 0)
 			(effects
 				(font
@@ -7820,10 +8011,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e925e12a-2e02-42e5-992e-91a46af97f3d")
+			(uuid "845968d6-e17f-48ca-8b79-41af9e2f9c60")
 		)
 		(pin "2"
-			(uuid "3e58453f-c29c-49da-a764-25b61e7427ff")
+			(uuid "bf5d041c-41a0-4b04-9249-fa9987c71f0f")
 		)
 		(instances
 			(project "ergo_keyboard"
@@ -7835,17 +8026,17 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 64.77 119.38 90)
+		(lib_id "Diode:1N4148W")
+		(at 29.21 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "706e5f22-bb20-419f-ae70-1fbec38bd5cc")
-		(property "Reference" "D21"
-			(at 67.31 118.1099 90)
+		(uuid "68af633e-bcf8-4f3f-bfd6-d978e2157f76")
+		(property "Reference" "D16"
+			(at 31.75 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7854,7 +8045,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 67.31 120.6499 90)
+			(at 31.75 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,8 +8053,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 64.77 119.38 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 33.655 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,8 +8062,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 64.77 119.38 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 29.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7880,8 +8071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 64.77 119.38 0)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 29.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7890,7 +8081,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 64.77 119.38 0)
+			(at 29.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7899,7 +8090,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 64.77 119.38 0)
+			(at 29.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,32 +8099,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e49e2e2-8683-429d-bc2c-ca6254169c2c")
+			(uuid "89f008e7-c96a-42c1-bfc4-64d531253b8d")
 		)
 		(pin "2"
-			(uuid "78977d1d-9e80-4314-8dc7-d354089dcfcb")
+			(uuid "abe25011-79de-4434-9a1f-04ab59b21a0d")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D21")
+					(reference "D16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 64.77 43.18 90)
+		(lib_id "Diode:1N4148W")
+		(at 100.33 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "70ff2f47-f373-41d3-9766-3db86fb3c636")
-		(property "Reference" "D3"
-			(at 67.31 41.9099 90)
+		(uuid "699303b7-aeb1-47e7-88d6-eadac1c50a8e")
+		(property "Reference" "D10"
+			(at 102.87 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7942,7 +8133,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 67.31 44.4499 90)
+			(at 102.87 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,8 +8141,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 64.77 43.18 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 104.775 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,8 +8150,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 64.77 43.18 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 100.33 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,8 +8159,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 64.77 43.18 0)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 100.33 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +8169,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 64.77 43.18 0)
+			(at 100.33 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,7 +8178,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 64.77 43.18 0)
+			(at 100.33 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7996,103 +8187,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ddf7b0c8-6147-4e60-a422-48cd68078c03")
+			(uuid "311a8e60-9f2e-4ec3-9ad0-9e72bc90726d")
 		)
 		(pin "2"
-			(uuid "760b4da1-0b1b-4960-a7c8-735c534a5b62")
+			(uuid "4ae79aa5-5f37-4a8c-9281-c6aad6c231e1")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 82.55 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7236233b-8fe2-4055-96d1-02c3a8be469e")
-		(property "Reference" "D4"
-			(at 85.09 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 85.09 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10584d3f-5f07-4ab0-aba6-9ea018e50637")
-		)
-		(pin "2"
-			(uuid "1cdcf0c4-ff15-4555-b19d-431fc3cce205")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D4")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -8100,7 +8203,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 119.38 149.86 0)
+		(at 115.57 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8109,7 +8212,7 @@
 		(fields_autoplaced yes)
 		(uuid "7321953e-ca55-456c-8225-09dc1b1d95fb")
 		(property "Reference" "#PWR05"
-			(at 119.38 153.67 0)
+			(at 115.57 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8118,7 +8221,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 119.38 144.78 0)
+			(at 115.57 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8126,7 +8229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 149.86 0)
+			(at 115.57 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8135,7 +8238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 149.86 0)
+			(at 115.57 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8144,7 +8247,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 119.38 149.86 0)
+			(at 115.57 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8165,6 +8268,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 46.99 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74d03676-35d9-4957-adcf-9bb0163bcb6a")
+		(property "Reference" "D17"
+			(at 49.53 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 49.53 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 51.435 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 46.99 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 46.99 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 46.99 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 46.99 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce7884df-7ad6-463a-bdde-7f171e6c315b")
+		)
+		(pin "2"
+			(uuid "c8ec6100-0803-498c-9e20-c737320cc2db")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:SK6812MINI")
 		(at 234.95 114.3 90)
 		(unit 1)
@@ -8172,10 +8363,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7780647c-abcd-46af-aabf-ca707d663f20")
 		(property "Reference" "LED19"
-			(at 247.65 108.8546 90)
+			(at 245.872 110.998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8183,7 +8373,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 247.65 111.3946 90)
+			(at 248.412 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,7 +8432,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 129.54 157.48 0)
+		(at 125.73 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8250,7 +8440,7 @@
 		(dnp no)
 		(uuid "7844bb67-b7b3-4374-be88-cd34a8848d4e")
 		(property "Reference" "#PWR04"
-			(at 129.54 161.29 0)
+			(at 125.73 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8259,7 +8449,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 129.54 152.4 0)
+			(at 125.73 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8267,7 +8457,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 157.48 0)
+			(at 125.73 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8276,7 +8466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 157.48 0)
+			(at 125.73 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8285,7 +8475,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 129.54 157.48 0)
+			(at 125.73 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8306,6 +8496,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 44.45 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78982179-a09e-4f63-8e81-b401f8460b3c")
+		(property "Reference" "SW7"
+			(at 49.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Key Switch"
+			(at 52.832 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 44.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46f6eec5-e343-46e8-92a3-3f169a41a9f4")
+		)
+		(pin "2"
+			(uuid "e5743e71-8f39-4408-b32a-b03f7be028c6")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:SK6812MINI")
 		(at 181.61 92.71 90)
 		(unit 1)
@@ -8313,10 +8570,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d0541ec-9364-4a92-a81f-18a30b06a151")
 		(property "Reference" "LED12"
-			(at 194.31 87.2646 90)
+			(at 192.786 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8324,7 +8580,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 194.31 89.8046 90)
+			(at 195.326 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8382,17 +8638,17 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 82.55 100.33 90)
+		(lib_id "Diode:1N4148W")
+		(at 64.77 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "878f1c89-f361-4edc-bccc-f51dd9e2523b")
-		(property "Reference" "D19"
-			(at 85.09 99.0599 90)
+		(uuid "85a18c4a-1141-406e-a382-b2e952dfe0ef")
+		(property "Reference" "D13"
+			(at 67.31 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8401,7 +8657,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 85.09 101.5999 90)
+			(at 67.31 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,8 +8665,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 82.55 100.33 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 69.215 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8418,8 +8674,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 82.55 100.33 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 64.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8427,8 +8683,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 82.55 100.33 0)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 64.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +8693,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 82.55 100.33 0)
+			(at 64.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8446,7 +8702,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 100.33 0)
+			(at 64.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,50 +8711,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "daaceffc-8bb4-4180-972a-88889a7164df")
+			(uuid "d134da74-0d67-41ba-938f-5ae37f715236")
 		)
 		(pin "2"
-			(uuid "587be808-6d3a-4c2b-8a1c-6f20edcb56a9")
+			(uuid "8ea1164d-011c-4567-a3ec-ed3e2e7213df")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D19")
+					(reference "D13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 29.21 62.23 90)
+		(lib_id "Switch:SW_Push_45deg")
+		(at 44.45 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ac62dcc-7886-42dd-8e34-436c5248312c")
-		(property "Reference" "D6"
-			(at 31.75 60.9599 90)
+		(uuid "8a926ad7-74f8-49ef-b447-00de10f4f13e")
+		(property "Reference" "SW12"
+			(at 50.292 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "Diode"
-			(at 31.75 63.4999 90)
+		(property "Value" "Key Switch"
+			(at 52.832 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 62.23 0)
+			(at 44.45 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8506,8 +8759,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 29.21 62.23 0)
+		(property "Datasheet" "~"
+			(at 44.45 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8515,26 +8768,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 29.21 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 29.21 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 29.21 62.23 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 44.45 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8543,15 +8778,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea3b064f-e5a1-4d87-9e19-d4d02806a80f")
+			(uuid "612d069c-87f7-483b-a1fb-b17b54aed67f")
 		)
 		(pin "2"
-			(uuid "1c5dc4df-932d-426d-934a-15194367e4e0")
+			(uuid "d44d0d8e-852f-43cc-b733-55a2633f798f")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D6")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -8565,10 +8800,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c2b5e5b-ad20-4869-a2bc-02344fc731b9")
 		(property "Reference" "LED18"
-			(at 220.98 107.8798 90)
+			(at 219.202 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8576,7 +8810,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 220.98 110.4198 90)
+			(at 221.996 112.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8641,10 +8875,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8cbad34a-badf-4d66-8920-4959aa15aa80")
 		(property "Reference" "LED8"
-			(at 220.98 64.6998 90)
+			(at 218.694 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8652,7 +8885,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 220.98 67.2398 90)
+			(at 221.996 69.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8717,10 +8950,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8f0b5e24-95d6-420c-819c-14958a5607f0")
 		(property "Reference" "LED11"
-			(at 166.37 86.2898 90)
+			(at 164.846 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8728,7 +8960,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 166.37 88.8298 90)
+			(at 167.64 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8786,24 +9018,24 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 62.23 74.93 0)
+		(lib_id "Switch:SW_Push_45deg")
+		(at 80.01 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8f252458-4b09-406c-8408-12003692f9e7")
-		(property "Reference" "S13"
-			(at 67.564 72.39 0)
+		(uuid "909ed732-e936-4c97-8d88-4dedc91bf918")
+		(property "Reference" "SW14"
+			(at 85.852 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 70.866 74.676 0)
+		(property "Value" "Key Switch"
+			(at 88.646 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8811,7 +9043,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 74.93 0)
+			(at 80.01 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8820,7 +9052,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 74.93 0)
+			(at 80.01 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8829,7 +9061,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 62.23 74.93 0)
+			(at 80.01 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8837,16 +9069,104 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "948dfb41-397f-46f0-a5f8-9a21aa98e97a")
-		)
 		(pin "1"
-			(uuid "9f61cbd9-adca-418a-83d2-3c52dbfaf3c2")
+			(uuid "522b0df9-2ad7-43bf-9729-55aa16d1cfe5")
+		)
+		(pin "2"
+			(uuid "dbcb6660-c536-4e5d-99b7-2be899186ca7")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S13")
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 100.33 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "919d647a-5497-4ccc-ae63-8da84868214d")
+		(property "Reference" "D15"
+			(at 102.87 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 102.87 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 104.775 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 100.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 100.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 100.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "246d91f0-78b0-4c1c-832b-53b58b433356")
+		)
+		(pin "2"
+			(uuid "caa22fd7-e3eb-4da8-8b95-31a03e7630d8")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -8920,7 +9240,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 140.97 172.72 0)
+		(at 139.7 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8929,7 +9249,7 @@
 		(fields_autoplaced yes)
 		(uuid "95d615f8-57f2-441c-a32c-76e2bbed68ba")
 		(property "Reference" "#PWR015"
-			(at 140.97 176.53 0)
+			(at 139.7 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8938,7 +9258,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 140.97 167.64 0)
+			(at 139.7 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8946,7 +9266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 172.72 0)
+			(at 139.7 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8955,7 +9275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 172.72 0)
+			(at 139.7 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8964,7 +9284,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 140.97 172.72 0)
+			(at 139.7 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8992,10 +9312,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "97f09cb1-69e4-473e-8b3d-22eea9053af1")
 		(property "Reference" "LED16"
-			(at 166.37 107.8798 90)
+			(at 164.846 110.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9003,7 +9322,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 166.37 110.4198 90)
+			(at 167.64 112.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9061,17 +9380,17 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 100.33 81.28 90)
+		(lib_id "Diode:1N4148W")
+		(at 46.99 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "98455442-0c00-437b-95d8-d49eb9a36f52")
-		(property "Reference" "D15"
-			(at 102.87 80.0099 90)
+		(uuid "99ce03c3-fa7b-4acc-b880-ac8792e80932")
+		(property "Reference" "D2"
+			(at 49.53 41.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9080,7 +9399,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 102.87 82.5499 90)
+			(at 49.53 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9088,8 +9407,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.33 81.28 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 51.435 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9097,8 +9416,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 100.33 81.28 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 46.99 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9106,8 +9425,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 100.33 81.28 0)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 46.99 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9116,7 +9435,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 100.33 81.28 0)
+			(at 46.99 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,7 +9444,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 100.33 81.28 0)
+			(at 46.99 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9134,39 +9453,39 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3e8a677-3dd4-4538-a5f8-ae525a70d224")
+			(uuid "44013001-ce79-47ba-9b7a-806e9989fab3")
 		)
 		(pin "2"
-			(uuid "cfe69f25-05a5-44c5-9c6c-009df960d3f5")
+			(uuid "4a15341b-7a23-48b0-ac5e-76f30edd479d")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D15")
+					(reference "D2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 44.45 74.93 0)
+		(lib_id "Switch:SW_Push_45deg")
+		(at 62.23 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9872f470-6d11-4cf8-b521-197b11c9327a")
-		(property "Reference" "S12"
-			(at 49.784 72.39 0)
+		(uuid "9ad316fe-4cdb-4c04-9dd9-b07145e9d011")
+		(property "Reference" "SW8"
+			(at 67.31 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 53.086 74.676 0)
+		(property "Value" "Key Switch"
+			(at 70.612 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9174,7 +9493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 74.93 0)
+			(at 62.23 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9183,7 +9502,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 74.93 0)
+			(at 62.23 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9192,95 +9511,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 44.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "085c2b5c-f7ca-4da8-8a87-d9fbf2488222")
-		)
-		(pin "1"
-			(uuid "b6ad33fd-716a-4d85-9c27-898c2604e38d")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 46.99 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b03f90f-52a8-49b4-92e6-d61504402515")
-		(property "Reference" "D12"
-			(at 49.53 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 49.53 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 46.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 46.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 81.28 0)
+			(at 62.23 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,15 +9520,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b80838f-476c-4d55-90d6-02c3f7d357be")
+			(uuid "c7e79fab-fad0-4e5d-adbb-0e0241e23e87")
 		)
 		(pin "2"
-			(uuid "ce1b379e-8ae1-4536-8b34-89954b9c9ca3")
+			(uuid "ae461e97-302f-43c5-855b-152a702b4595")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D12")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -9370,35 +9601,32 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 29.21 43.18 90)
+		(lib_id "Switch:SW_Push_45deg")
+		(at 80.01 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a81ec966-d7ee-4496-ae8a-bb80129a595a")
-		(property "Reference" "D1"
-			(at 31.75 41.9099 90)
+		(uuid "a3627a88-2d53-4310-9ec9-a8ec36988573")
+		(property "Reference" "SW19"
+			(at 85.852 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "Diode"
-			(at 31.75 44.4499 90)
+		(property "Value" "Key Switch"
+			(at 88.646 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 43.18 0)
+			(at 80.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9406,8 +9634,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 29.21 43.18 0)
+		(property "Datasheet" "~"
+			(at 80.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9415,26 +9643,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 29.21 43.18 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 80.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9443,15 +9653,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ea11464-a30a-4d1d-8937-3f3e1ca67b72")
+			(uuid "496646e9-8914-4e8d-8b86-99daa133facb")
 		)
 		(pin "2"
-			(uuid "05f5b241-21d8-4a95-a720-9b070d22f01b")
+			(uuid "d6890689-328b-403d-8903-ae5275d6f008")
 		)
 		(instances
-			(project ""
+			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D1")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -9459,23 +9669,23 @@
 	)
 	(symbol
 		(lib_id "Logic_LevelTranslator:SN74LV1T34DBV")
-		(at 140.97 180.34 0)
+		(at 139.7 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "abda0f18-c466-4a5f-968b-25d370727c95")
-		(property "Reference" "LevelShifter"
-			(at 149.606 186.944 0)
+		(property "Reference" "U3"
+			(at 148.336 181.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SN74LV1T34DBV"
-			(at 151.638 189.484 0)
+		(property "Value" "Level Shifter"
+			(at 150.368 184.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9483,7 +9693,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 157.48 186.69 0)
+			(at 156.21 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9492,7 +9702,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf"
-			(at 130.81 185.42 0)
+			(at 129.54 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9501,7 +9711,7 @@
 			)
 		)
 		(property "Description" "Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-23-5"
-			(at 140.97 180.34 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,95 +9737,7 @@
 		(instances
 			(project ""
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "LevelShifter")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 64.77 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acb56f6f-84d0-4673-9b13-13385535a89e")
-		(property "Reference" "D18"
-			(at 67.31 99.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 67.31 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 64.77 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 64.77 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 64.77 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d805d17b-d0ba-46e5-86d2-28e146156d6f")
-		)
-		(pin "2"
-			(uuid "97927054-23e8-40b5-81d8-196c9d2d25a2")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D18")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -9623,7 +9745,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 166.37 140.97 0)
+		(at 163.83 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9631,8 +9753,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adf6a378-fe33-4ac4-bdf9-c35740808cd5")
-		(property "Reference" "SW1"
-			(at 166.37 133.35 0)
+		(property "Reference" "Sw25"
+			(at 163.83 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9640,7 +9762,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 166.37 135.89 0)
+			(at 163.83 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9648,7 +9770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 135.89 0)
+			(at 163.83 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9657,7 +9779,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 135.89 0)
+			(at 163.83 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9666,7 +9788,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 166.37 140.97 0)
+			(at 163.83 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9683,48 +9805,42 @@
 		(instances
 			(project ""
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "SW1")
+					(reference "Sw25")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 26.67 55.88 0)
+		(lib_id "Diode:1N4148W")
+		(at 29.21 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aee9bbb3-3154-469c-a8ea-0d0e479f6daf")
-		(property "Reference" "S6"
-			(at 32.004 53.34 0)
+		(fields_autoplaced yes)
+		(uuid "b262da3c-ee6a-48f2-8622-55fc4bfd3f19")
+		(property "Reference" "D6"
+			(at 31.75 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 35.306 55.626 0)
+		(property "Value" "Diode"
+			(at 31.75 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 26.67 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 55.88 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 33.655 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9732,8 +9848,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 26.67 55.88 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 29.21 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9741,16 +9857,43 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "44e095d9-49d5-469f-b41a-7e89869a5c1a")
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 29.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 29.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 29.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "a87d012e-f9b7-4d81-a466-86a1102c0c69")
+			(uuid "8656f86b-1391-4add-a9c1-deeb190a0669")
+		)
+		(pin "2"
+			(uuid "0e5e5dd5-018f-4096-8ac4-35644a17e037")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S6")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -9898,10 +10041,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b2bb75ad-9a5f-4c6c-86e8-9b7a8a520aa8")
 		(property "Reference" "LED1"
-			(at 166.37 43.1098 90)
+			(at 164.846 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9909,7 +10051,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 166.37 45.6498 90)
+			(at 167.64 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9961,73 +10103,6 @@
 			(project ""
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
 					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 44.45 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b30ec386-3faf-4ee5-a258-51370f51e6b2")
-		(property "Reference" "S2"
-			(at 49.784 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Keyswitch"
-			(at 53.086 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 44.45 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a1308aa7-5d35-4462-bf13-6fa4d9334ed4")
-		)
-		(pin "1"
-			(uuid "b4a6e3e9-5187-4501-ac02-eaa536799fda")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -10107,10 +10182,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b6babacd-ef34-4e46-b4eb-a723e39f0e46")
 		(property "Reference" "LED3"
-			(at 220.98 43.1098 90)
+			(at 218.694 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10118,7 +10192,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 220.98 45.6498 90)
+			(at 221.996 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10176,24 +10250,24 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 97.79 113.03 0)
+		(lib_id "Switch:SW_Push_45deg")
+		(at 44.45 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b8e24b8b-017d-4f2c-a47b-32ef09399cc3")
-		(property "Reference" "S23"
-			(at 103.124 110.49 0)
+		(uuid "b6c3c7ef-1358-4354-b4b1-edec31cfc3cf")
+		(property "Reference" "SW17"
+			(at 50.292 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 106.426 112.776 0)
+		(property "Value" "Key Switch"
+			(at 52.832 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10201,7 +10275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 113.03 0)
+			(at 44.45 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10210,7 +10284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 113.03 0)
+			(at 44.45 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10219,7 +10293,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 97.79 113.03 0)
+			(at 44.45 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,83 +10301,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "358b0798-0576-4690-85e3-1dc28f56232f")
-		)
 		(pin "1"
-			(uuid "6a509deb-a01e-4864-b826-c091e4bee62e")
+			(uuid "567e4cfe-8ea5-49ac-828f-6a5a1461b973")
+		)
+		(pin "2"
+			(uuid "64734dc9-bc7f-45fc-8316-f81389bf9acc")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 26.67 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8e7db9b-ab3f-4181-a789-7af9011fe3d7")
-		(property "Reference" "S11"
-			(at 32.004 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Keyswitch"
-			(at 35.306 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 26.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5bac6c17-2626-41fb-9e99-5e510e07e354")
-		)
-		(pin "1"
-			(uuid "f1486a10-4b31-4e92-907c-a519cfee5568")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S11")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -10311,7 +10318,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 176.53 153.67 270)
+		(at 173.99 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10320,7 +10327,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba2c050e-22ac-46d1-84fb-9a87b3764e72")
 		(property "Reference" "BT1"
-			(at 178.3715 146.05 90)
+			(at 175.8315 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10328,7 +10335,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 178.3715 148.59 90)
+			(at 175.8315 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,7 +10343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 178.054 153.67 90)
+			(at 175.514 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10345,7 +10352,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 178.054 153.67 90)
+			(at 175.514 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10354,7 +10361,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 176.53 153.67 0)
+			(at 173.99 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10378,84 +10385,17 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 80.01 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bae492fc-cb79-43e4-bac7-40b5007418dd")
-		(property "Reference" "S14"
-			(at 85.344 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Keyswitch"
-			(at 88.646 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 80.01 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "88430730-8261-4895-99b4-6d17e61372df")
-		)
-		(pin "1"
-			(uuid "f85e5312-930f-46e9-b9e9-08e4af732bdc")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 29.21 100.33 90)
+		(lib_id "Diode:1N4148W")
+		(at 29.21 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bb8cc24e-77b3-4b15-b2c3-4d4e92b5393e")
-		(property "Reference" "D16"
-			(at 31.75 99.0599 90)
+		(uuid "bc7e92ec-90e8-4762-8eef-d0141894645b")
+		(property "Reference" "D1"
+			(at 31.75 41.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10464,7 +10404,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 31.75 101.5999 90)
+			(at 31.75 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10472,8 +10412,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 29.21 100.33 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 33.655 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10481,8 +10421,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 29.21 100.33 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 29.21 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10490,8 +10430,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 29.21 100.33 0)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 29.21 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10500,7 +10440,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 29.21 100.33 0)
+			(at 29.21 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10509,7 +10449,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 29.21 100.33 0)
+			(at 29.21 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10518,32 +10458,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e52b277-3d6e-4821-a6cf-097ddeff5ab6")
+			(uuid "ebc9d737-1ce8-4e41-bd38-e56bcd2394fe")
 		)
 		(pin "2"
-			(uuid "0ffe5966-9df0-41eb-bdc9-8fc5f2e8eaa5")
+			(uuid "cb78dad8-949c-4901-ab45-f832a37f3575")
 		)
 		(instances
-			(project "ergo_keyboard"
+			(project ""
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D16")
+					(reference "D1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 100.33 62.23 90)
+		(lib_id "Diode:1N4148W")
+		(at 82.55 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "be9c6763-90e2-4b76-8a7f-07d173176d5a")
-		(property "Reference" "D10"
-			(at 102.87 60.9599 90)
+		(uuid "bebad75c-735e-4df9-ab5b-84fd04d2f23a")
+		(property "Reference" "D19"
+			(at 85.09 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10552,7 +10492,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 102.87 63.4999 90)
+			(at 85.09 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,8 +10500,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.33 62.23 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 86.995 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10569,8 +10509,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 100.33 62.23 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 82.55 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10578,8 +10518,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 100.33 62.23 0)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 82.55 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10588,7 +10528,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 100.33 62.23 0)
+			(at 82.55 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10597,7 +10537,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 100.33 62.23 0)
+			(at 82.55 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10606,15 +10546,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e576368-a704-4fa2-9dd0-254d8b451023")
+			(uuid "b2ec3f1c-4b5e-412e-96a4-5e72e647d4c3")
 		)
 		(pin "2"
-			(uuid "49eee83f-d116-46ca-8f31-0d6893711fb7")
+			(uuid "dcf4ec72-74af-4a77-9f98-94d0e3c38cbb")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D10")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -10629,7 +10569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c19110a0-7d65-4bbb-90fb-03c9bc26050d")
-		(property "Reference" "ShiftRegister"
+		(property "Reference" "U2"
 			(at 41.91 177.038 0)
 			(effects
 				(font
@@ -10638,7 +10578,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC595"
+		(property "Value" "Shift Register"
 			(at 41.91 179.578 0)
 			(effects
 				(font
@@ -10725,74 +10665,7 @@
 		(instances
 			(project ""
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "ShiftRegister")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 97.79 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c367f5a3-8312-4ee9-975f-247ae41bc56e")
-		(property "Reference" "S5"
-			(at 103.124 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Keyswitch"
-			(at 106.426 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 97.79 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4b1a3a54-ddf6-4da4-a852-03f76bdb3b44")
-		)
-		(pin "1"
-			(uuid "c454830b-279c-433b-ad80-4140bddc33f9")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -10806,10 +10679,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c4d33ef5-3549-4080-9e06-2f7a005e29e0")
 		(property "Reference" "LED14"
-			(at 247.65 87.2646 90)
+			(at 245.872 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10817,7 +10689,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 247.65 89.8046 90)
+			(at 248.412 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10875,6 +10747,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 46.99 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5b73724-02ad-42a9-9ad6-b02626b1a9be")
+		(property "Reference" "D12"
+			(at 49.53 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 49.53 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 51.435 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 46.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 46.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 46.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 46.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "427075bc-71ab-48a0-b873-e7e6fd268e33")
+		)
+		(pin "2"
+			(uuid "3eba5e21-654d-4f30-8da2-dc28b5afb6ca")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:SK6812MINI")
 		(at 181.61 114.3 90)
 		(unit 1)
@@ -10882,10 +10842,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c5ebeb8c-bff1-42d3-8c56-52508b7a84e1")
 		(property "Reference" "LED17"
-			(at 194.31 108.8546 90)
+			(at 192.786 110.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10893,7 +10852,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 194.31 111.3946 90)
+			(at 195.326 112.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10951,112 +10910,24 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 82.55 119.38 90)
+		(lib_id "Switch:SW_Push_45deg")
+		(at 44.45 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6808fff-262d-4f02-8698-1185e5dc4688")
-		(property "Reference" "D22"
-			(at 85.09 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 85.09 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 82.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 82.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52e30e3d-6f25-42f6-be97-62619a260dcb")
-		)
-		(pin "2"
-			(uuid "7236d747-bed7-4a98-a701-2523d00bab86")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 80.01 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd7b9de3-2ece-40fb-8498-f98aae8f27f8")
-		(property "Reference" "S9"
-			(at 85.344 53.34 0)
+		(uuid "c650e15b-f98c-472a-97d0-e451992bcfd7")
+		(property "Reference" "SW2"
+			(at 49.53 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 88.646 55.626 0)
+		(property "Value" "Key Switch"
+			(at 52.832 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11064,7 +10935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 55.88 0)
+			(at 44.45 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11073,7 +10944,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 55.88 0)
+			(at 44.45 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11082,7 +10953,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 80.01 55.88 0)
+			(at 44.45 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11090,33 +10961,234 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "c9b010c9-0019-4a66-83ef-822ae96ce9bb")
-		)
 		(pin "1"
-			(uuid "1d55ab33-2df8-49be-ad39-804ae2954fd5")
+			(uuid "ceb15da4-3f13-48f0-81ad-3341725fc505")
+		)
+		(pin "2"
+			(uuid "320688f3-62ef-4b38-b034-09fb6c454618")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S9")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 46.99 43.18 90)
+		(lib_id "Switch:SW_Push_45deg")
+		(at 26.67 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c650e15b-f98c-472a-97d0-e451992bcfd7")
+		(property "Reference" "SW1"
+			(at 31.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Key Switch"
+			(at 35.052 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 26.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ceb15da4-3f13-48f0-81ad-3341725fc505")
+		)
+		(pin "2"
+			(uuid "320688f3-62ef-4b38-b034-09fb6c454618")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 62.23 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c650e15b-f98c-472a-97d0-e451992bcfd7")
+		(property "Reference" "SW3"
+			(at 67.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Key Switch"
+			(at 70.612 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 62.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ceb15da4-3f13-48f0-81ad-3341725fc505")
+		)
+		(pin "2"
+			(uuid "320688f3-62ef-4b38-b034-09fb6c454618")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 80.01 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9ce2f08-5a4e-4a2b-8c29-11edec8a4d51")
+		(property "Reference" "SW22"
+			(at 85.598 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Key Switch"
+			(at 88.392 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23411049-7339-4525-b3fa-bfb2dc2d4466")
+		)
+		(pin "2"
+			(uuid "28722b79-f8b7-4fcf-b403-dd5cf3c7c4d4")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 64.77 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d1b24378-16cd-45bf-a447-6984679fce0a")
-		(property "Reference" "D2"
-			(at 49.53 41.9099 90)
+		(uuid "d1064396-baf3-440d-9bbb-7be321fcfaaf")
+		(property "Reference" "D18"
+			(at 67.31 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,7 +11197,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 49.53 44.4499 90)
+			(at 67.31 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11133,8 +11205,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 46.99 43.18 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 69.215 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,8 +11214,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 46.99 43.18 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 64.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11151,8 +11223,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 46.99 43.18 0)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 64.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11161,7 +11233,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 46.99 43.18 0)
+			(at 64.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11170,7 +11242,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 43.18 0)
+			(at 64.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11179,22 +11251,286 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc3f8132-7e14-4fdd-b7c3-c08ce1cb9f4a")
+			(uuid "32652b3d-6597-46eb-b078-cb302e0e13a9")
 		)
 		(pin "2"
-			(uuid "0bd6a05f-9983-4f7f-8772-f20e986d234e")
+			(uuid "5001bcda-d120-422c-94a7-0edd6cca514f")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D2")
+					(reference "D18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(lib_id "Diode:1N4148W")
+		(at 100.33 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1549eda-a16e-414d-b702-2e347c9d67bb")
+		(property "Reference" "D23"
+			(at 102.87 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 102.87 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 104.775 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 100.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 100.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 100.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71ceef02-1723-4c58-8f85-b1c3d63002e8")
+		)
+		(pin "2"
+			(uuid "0fce8b3f-dcac-4333-97e8-d2726e14c0be")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 29.21 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1b8ac1b-a3ad-49b7-86a2-46b8a98d96cb")
+		(property "Reference" "D24"
+			(at 31.75 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 31.75 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 33.655 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 29.21 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 29.21 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 29.21 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 29.21 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1337c07a-85df-454e-ba5e-f708eceaeea4")
+		)
+		(pin "2"
+			(uuid "a08845af-b62f-4d3a-b907-32de0a615024")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 100.33 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d63c330b-e57b-4d1d-8b38-e611c9d7b454")
+		(property "Reference" "D20"
+			(at 102.87 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 102.87 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 104.775 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b565b640-69a6-4421-8c2a-ffc0ea9eb2c6")
+		)
+		(pin "2"
+			(uuid "1dfd4d5d-a35c-4fe5-96b3-55e0c7098c1d")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
 		(at 82.55 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11202,7 +11538,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dcd96c5f-896b-460a-914e-b8d40530c959")
+		(uuid "db0dec29-db52-42e3-be81-0b3b1245f54b")
 		(property "Reference" "D9"
 			(at 85.09 60.9599 90)
 			(effects
@@ -11221,7 +11557,16 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 86.995 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
 			(at 82.55 62.23 0)
 			(effects
 				(font
@@ -11230,16 +11575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 82.55 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 82.55 62.23 0)
 			(effects
 				(font
@@ -11267,15 +11603,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "e1fe00a0-ba21-448a-b3fc-a2fc36b0571b")
+			(uuid "79839104-f6f1-4615-a36e-05a03f2e0c4f")
 		)
 		(pin "2"
-			(uuid "35ccf9f9-4f31-4970-b7cb-d6c9894b1a89")
+			(uuid "f45495f1-5a22-4f73-9586-841cbfa68693")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 97.79 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db1ac3c1-65ad-446c-acac-7e127ecfa939")
+		(property "Reference" "SW5"
+			(at 103.124 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Key Switch"
+			(at 106.426 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 97.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdc48cf8-eee3-43db-9ebf-0e404dd675a3")
+		)
+		(pin "2"
+			(uuid "e8e071fe-fa66-4d95-b93a-ce359dd4cab4")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -11289,10 +11692,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dd87897e-ae14-409b-9a9a-404f13921838")
 		(property "Reference" "LED15"
-			(at 274.32 86.2898 90)
+			(at 272.796 89.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11300,7 +11702,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 274.32 88.8298 90)
+			(at 275.59 91.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11358,112 +11760,24 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 64.77 62.23 90)
+		(lib_id "Switch:SW_Push_45deg")
+		(at 62.23 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "debd9469-c663-4a33-98cf-d715b5dd840f")
-		(property "Reference" "D8"
-			(at 67.31 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 67.31 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0f5d39d-ff0b-479d-a457-cc08b4d6fd9e")
-		)
-		(pin "2"
-			(uuid "dc6c0866-5579-4a20-8b67-a335a44c4455")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 97.79 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0784718-39d4-4666-9a0b-c23e33a7a5d9")
-		(property "Reference" "S20"
-			(at 103.124 91.44 0)
+		(uuid "e102f890-f3ed-4cee-9e07-758a562797fd")
+		(property "Reference" "SW21"
+			(at 67.818 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 106.426 93.726 0)
+		(property "Value" "Key Switch"
+			(at 70.612 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11471,7 +11785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 93.98 0)
+			(at 62.23 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11480,7 +11794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 93.98 0)
+			(at 62.23 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11489,7 +11803,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 97.79 93.98 0)
+			(at 62.23 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11497,16 +11811,83 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "9dacf247-b2ff-4c63-a620-aadc78ebc378")
-		)
 		(pin "1"
-			(uuid "95f02b41-73ec-460b-a6bc-b1976ff11d84")
+			(uuid "7cb69b56-d5be-4259-9deb-fea603e8b19f")
+		)
+		(pin "2"
+			(uuid "727806f4-8647-4b56-a0d4-70a36393f116")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S20")
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 26.67 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1ec7192-db3f-4c60-b2b3-f445aa9bd803")
+		(property "Reference" "SW16"
+			(at 32.512 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Key Switch"
+			(at 35.052 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 26.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "778977ad-6e3f-4b41-b638-98e45857c1c8")
+		)
+		(pin "2"
+			(uuid "2ed8bb2e-1aa7-40b4-8b97-09129ccaa4ef")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -11520,10 +11901,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e46ff03b-394b-4ff0-a0fb-9ea77189c7ba")
 		(property "Reference" "LED2"
-			(at 194.31 44.0846 90)
+			(at 192.786 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11531,7 +11911,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 194.31 46.6246 90)
+			(at 195.326 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11590,15 +11970,15 @@
 	)
 	(symbol
 		(lib_id "Seeeduino XIAO:SeeeduinoXIAO_BLE")
-		(at 95.25 161.29 0)
+		(at 91.44 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e6c25e81-f236-4b4b-bd61-86b043084fe1")
-		(property "Reference" "MCU"
-			(at 94.488 181.864 0)
+		(property "Reference" "U1"
+			(at 90.678 181.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11606,7 +11986,7 @@
 			)
 		)
 		(property "Value" "SeeeduinoXIAO_BLE"
-			(at 94.488 183.896 0)
+			(at 90.678 183.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11614,7 +11994,7 @@
 			)
 		)
 		(property "Footprint" "zaphod:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM"
-			(at 86.36 156.21 0)
+			(at 82.55 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11623,7 +12003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 156.21 0)
+			(at 82.55 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11632,7 +12012,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 161.29 0)
+			(at 91.44 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11690,7 +12070,74 @@
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "MCU")
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 97.79 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7fa8e22-0b69-4286-8742-a312e58eb220")
+		(property "Reference" "SW20"
+			(at 103.632 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Key Switch"
+			(at 106.426 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 97.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff5ce988-91b0-4b52-91d2-b8451f6c268e")
+		)
+		(pin "2"
+			(uuid "f48cdd7c-cf3d-4900-a4c1-7aef5feab69d")
+		)
+		(instances
+			(project "ergo_keyboard"
+				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -11704,10 +12151,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e93eef7d-61cb-4917-94e5-c0f40fb8a12d")
 		(property "Reference" "LED21"
-			(at 220.98 129.4698 90)
+			(at 221.996 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11715,7 +12161,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 220.98 132.0098 90)
+			(at 221.996 134.366 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11780,10 +12226,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f02d1695-6f29-4910-820c-6616a2b334ab")
 		(property "Reference" "LED6"
-			(at 166.37 64.6998 90)
+			(at 164.846 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11791,7 +12236,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 166.37 67.2398 90)
+			(at 167.64 69.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11980,249 +12425,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 62.23 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f70dbb98-8cdc-4992-bdb7-ff389b34d622")
-		(property "Reference" "S8"
-			(at 67.564 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Keyswitch"
-			(at 70.866 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 62.23 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "41f2a7b3-dfe1-45a9-b9e9-0e9ab1e195b8")
-		)
-		(pin "1"
-			(uuid "13047e54-7769-47a7-8f44-9e8d76129db9")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 29.21 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f965ca24-6d23-4f74-8d21-abf2c0d07336")
-		(property "Reference" "D11"
-			(at 31.75 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 31.75 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 29.21 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 29.21 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 29.21 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57ce2cef-30fb-48c5-ae1f-e95a748f3311")
-		)
-		(pin "2"
-			(uuid "a46c2286-db83-4bde-9abe-2b7de7bca30d")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 100.33 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f99fd501-2cbe-4d91-8017-2995e11cfdce")
-		(property "Reference" "D23"
-			(at 102.87 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 102.87 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 100.33 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 100.33 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 100.33 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68a594e6-4c12-44e2-872c-fbdc0da2b098")
-		)
-		(pin "2"
-			(uuid "032646f6-79c2-43ee-926b-2f43c9a98afa")
-		)
-		(instances
-			(project "ergo_keyboard"
-				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 146.05 35.56 0)
 		(unit 1)
@@ -12295,10 +12497,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fb1968c3-1027-49b0-8d6a-a89204fbd4f4")
 		(property "Reference" "LED13"
-			(at 220.98 86.2898 90)
+			(at 219.202 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12306,7 +12507,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 220.98 88.8298 90)
+			(at 221.996 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12364,41 +12565,35 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 62.23 36.83 0)
+		(lib_id "Diode:1N4148W")
+		(at 64.77 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fdfe8f08-5170-41ac-8c92-3be34c569e34")
-		(property "Reference" "S3"
-			(at 67.564 34.29 0)
+		(fields_autoplaced yes)
+		(uuid "feeb94c7-836b-4854-9f06-6bcceb5f2dae")
+		(property "Reference" "D8"
+			(at 67.31 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 70.866 36.576 0)
+		(property "Value" "Diode"
+			(at 67.31 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 62.23 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 36.83 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 69.215 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12406,8 +12601,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 62.23 36.83 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12415,16 +12610,43 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "1f7e39d6-53ed-45de-8e2a-adb4bbc9a79b")
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "f8f52aa7-d4b9-4242-bb6b-b1f1c04321b0")
+			(uuid "9ccea7fc-7da2-4ff5-9462-33a8d18ca9c5")
+		)
+		(pin "2"
+			(uuid "7c7d9e9f-e9f2-48dc-b148-2b579d95b1e9")
 		)
 		(instances
 			(project "ergo_keyboard"
 				(path "/677b0ddf-0269-4586-ab45-b32f17ba290b"
-					(reference "S3")
+					(reference "D8")
 					(unit 1)
 				)
 			)
