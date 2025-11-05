@@ -3156,6 +3156,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 153.67) (xy 111.76 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5c7838-1289-4c5b-92ea-d8646e1f0e31")
+	)
+	(wire
+		(pts
 			(xy 77.47 29.21) (xy 77.47 34.29)
 		)
 		(stroke
@@ -3906,7 +3916,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 153.67) (xy 118.11 153.67)
+			(xy 116.84 151.13) (xy 120.65 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4793,6 +4803,16 @@
 			(type default)
 		)
 		(uuid "f618907f-b331-40e9-9fa3-61c552ba95a3")
+	)
+	(wire
+		(pts
+			(xy 116.84 151.13) (xy 116.84 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71a9f31-39e9-4cb7-afc7-1b3a32a8eea2")
 	)
 	(wire
 		(pts
@@ -7657,7 +7677,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 153.67 0)
+		(at 120.65 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7665,7 +7685,7 @@
 		(dnp no)
 		(uuid "5632b1df-eaa9-41af-9929-5bb1d75fce8d")
 		(property "Reference" "#PWR06"
-			(at 118.11 160.02 0)
+			(at 120.65 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,7 +7694,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 157.48 0)
+			(at 120.65 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,7 +7702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 153.67 0)
+			(at 120.65 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7691,7 +7711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 153.67 0)
+			(at 120.65 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7700,7 +7720,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 153.67 0)
+			(at 120.65 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10984,7 +11004,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c650e15b-f98c-472a-97d0-e451992bcfd7")
+		(uuid "c650e15b-f98c-472a-97d0-e451992bcfd8")
 		(property "Reference" "SW1"
 			(at 31.75 35.56 0)
 			(effects
@@ -11029,10 +11049,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ceb15da4-3f13-48f0-81ad-3341725fc505")
+			(uuid "ceb15da4-3f13-48f0-81ad-3341725fc506")
 		)
 		(pin "2"
-			(uuid "320688f3-62ef-4b38-b034-09fb6c454618")
+			(uuid "320688f3-62ef-4b38-b034-09fb6c454619")
 		)
 		(instances
 			(project "ergo_keyboard"
@@ -11051,7 +11071,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c650e15b-f98c-472a-97d0-e451992bcfd7")
+		(uuid "c650e15b-f98c-472a-97d0-e451992bcfd9")
 		(property "Reference" "SW3"
 			(at 67.31 35.56 0)
 			(effects
@@ -11096,10 +11116,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ceb15da4-3f13-48f0-81ad-3341725fc505")
+			(uuid "ceb15da4-3f13-48f0-81ad-3341725fc507")
 		)
 		(pin "2"
-			(uuid "320688f3-62ef-4b38-b034-09fb6c454618")
+			(uuid "320688f3-62ef-4b38-b034-09fb6c45461a")
 		)
 		(instances
 			(project "ergo_keyboard"
