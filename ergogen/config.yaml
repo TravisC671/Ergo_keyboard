@@ -35,13 +35,13 @@ points:
             column_net: Col4
       rows:
         bottom:
-          row_net: RowA
+          row_net: Row0
         home:
-          row_net: RowB
+          row_net: Row1
         top:
-          row_net: RowC
+          row_net: Row2
         number:
-          row_net: RowD
+          row_net: Row3
     thumbfan:
       anchor:
         ref: matrix_index_bottom
@@ -49,22 +49,22 @@ points:
       columns:
         near:
           key:
-            column_net: Col4
+            column_net: Col2
         home:
           key:
             spread: 21.25
             splay: -14
             origin: [-11.75, -9]
-            column_net: Col5
+            column_net: Col3
         far:
           key:
             spread: 21.25
             splay: -15
             origin: [-9.5, -9]
-            column_net: Col5
+            column_net: Col4
       rows:
         thumb:
-          row_net: RowE
+          row_net: Row4
   # rotate: -20
   # mirror:
   #   ref: matrix_pinky_home
@@ -164,19 +164,34 @@ pcbs:
         adjust:
           shift: [0, 5]
       seeed_xiao_front:
-        what: infused-kim/nice_nano_pretty
+        what: seeed_xiao
         where:
           ref: matrix_inner_bottom
           shift: [20, 4]
         adjust:
           rotate: 0
         params:
-          P21: Col0
-          P20: Col1
-          P19: Col2
-          P18: Col3
-          P15: Col4
-          P5: RowA
-          P6: RowB
-          P7: RowC
-          P8: RowD
+          pogo_pins: true
+          P0: Row0
+          P1: Row1
+          P2: Row2
+          P3: Row3
+          P4: Row4
+          P10: SER
+          P9: RCLK
+          P8: SRCLK
+      shift_register:
+        what: rschenk/shift_register
+        where:
+          # ref.aggregate.parts: [matrix_inner_home, mirror_matrix_inner_home]
+          shift: [0, -25]
+          rotate: -90
+        params:
+          side: B
+          QA: Col0
+          QB: Col1
+          QC: Col2
+          QD: Col3
+          QE: Col4
+          SRCLR: VCC
+          OE: GND
