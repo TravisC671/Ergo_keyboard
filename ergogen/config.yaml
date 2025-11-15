@@ -6,169 +6,189 @@ units:
   hUp: hU + p
   mcuY: 5
 points:
-  zones:
-    matrix:
-      anchor:
-        rotate: 5
-        shift: [100, -100]
-      columns:
-        pinky:
-          key:
-            column_net: Col0
-          rows:
-            bottom:
-              key:
-                led_prev: LED3
-                led_next: LED4
-            home:
-              key:
-                led_prev: LED12
-                led_next: LED13
-            top:
-              key:
-                led_prev: LED13
-                led_next: LED14
-            number:
-              key:
-                led_prev: LED22
-                led_next: LEDEND
-        ring:
-          key:
-            splay: -5
-            origin: [-12, -19]
-            stagger: 12
-            column_net: Col1
-          rows:
-            bottom:
-              key:
-                led_prev: LED4
-                led_next: LED5
-            home:
-              key:
-                led_prev: LED11
-                led_next: LED12
-            top:
-              key:
-                led_prev: LED14
-                led_next: LED15
-            number:
-              key:
-                led_prev: LED21
-                led_next: LED22
-        middle:
-          key:
-            stagger: 5
-            column_net: Col2
-          rows:
-            bottom:
-              key:
-                led_prev: LED5
-                led_next: LED6
-            home:
-              key:
-                led_prev: LED10
-                led_next: LED11
-            top:
-              key:
-                led_prev: LED15
-                led_next: LED16
-            number:
-              key:
-                led_prev: LED20
-                led_next: LED21
-        index:
-          key:
-            stagger: -6
-            column_net: Col3
-          rows:
-            bottom:
-              key:
-                led_prev: LED6
-                led_next: LED7
-            home:
-              key:
-                led_prev: LED9
-                led_next: LED10
-            top:
-              key:
-                led_prev: LED16
-                led_next: LED17
-            number:
-              key:
-                led_prev: LED19
-                led_next: LED20
-        inner:
-          key:
-            stagger: -2
-            column_net: Col4
-          rows:
-            bottom:
-              key:
-                led_prev: LED7
-                led_next: LED8
-            home:
-              key:
-                led_prev: LED8
-                led_next: LED9
-            top:
-              key:
-                led_prev: LED17
-                led_next: LED18
-            number:
-              key:
-                led_prev: LED18
-                led_next: LED19
-      rows:
-        bottom:
-          row_net: Row0
-        home:
-          row_net: Row1
-        top:
-          row_net: Row2
-        number:
-          row_net: Row3
-    thumbfan:
-      anchor:
-        ref: matrix_index_bottom
-        shift: [0, -22]
-      columns:
-        near:
-          key:
-            column_net: Col2
-          rows:
-            thumb:
-              key:
-                led_prev: LED2
-                led_next: LED3
-        home:
-          key:
-            spread: 21.25
-            splay: -14
-            origin: [-11.75, -9]
-            column_net: Col3
-          rows:
-            thumb:
-              key:
-                led_prev: LED1
-                led_next: LED2
-        far:
-          key:
-            spread: 21.25
-            splay: -15
-            origin: [-9.5, -9]
-            column_net: Col4
-          rows:
-            thumb:
-              key:
-                led_prev: LED
-                led_next: LED1
-      rows:
-        thumb:
-          row_net: Row4
-  # rotate: -20
-  # mirror:
-  #   ref: matrix_pinky_home
-  #   distance: 260
+  zones.key_matrix:
+    anchor:
+      rotate: 5
+      shift: [100, -100]
+    key:
+      tags: [key]
+    columns:
+      pinky:
+        key:
+          column_net: Col0
+        rows:
+          bottom:
+            key:
+              led_prev: LED3
+              led_next: LED4
+          home:
+            key:
+              led_prev: LED12
+              led_next: LED13
+          top:
+            key:
+              led_prev: LED13
+              led_next: LED14
+          number:
+            key:
+              led_prev: LED22
+              led_next: LEDEND
+      ring:
+        key:
+          splay: -5
+          origin: [-12, -19]
+          stagger: 12
+          column_net: Col1
+        rows:
+          bottom:
+            key:
+              led_prev: LED4
+              led_next: LED5
+          home:
+            key:
+              led_prev: LED11
+              led_next: LED12
+          top:
+            key:
+              led_prev: LED14
+              led_next: LED15
+          number:
+            key:
+              led_prev: LED21
+              led_next: LED22
+      middle:
+        key:
+          stagger: 5
+          column_net: Col2
+        rows:
+          bottom:
+            key:
+              led_prev: LED5
+              led_next: LED6
+          home:
+            key:
+              led_prev: LED10
+              led_next: LED11
+          top:
+            key:
+              led_prev: LED15
+              led_next: LED16
+          number:
+            key:
+              led_prev: LED20
+              led_next: LED21
+      index:
+        key:
+          stagger: -6
+          column_net: Col3
+        rows:
+          bottom:
+            key:
+              led_prev: LED6
+              led_next: LED7
+          home:
+            key:
+              led_prev: LED9
+              led_next: LED10
+          top:
+            key:
+              led_prev: LED16
+              led_next: LED17
+          number:
+            key:
+              led_prev: LED19
+              led_next: LED20
+      inner:
+        key:
+          stagger: -2
+          column_net: Col4
+        rows:
+          bottom:
+            key:
+              led_prev: LED7
+              led_next: LED8
+          home:
+            key:
+              led_prev: LED8
+              led_next: LED9
+          top:
+            key:
+              led_prev: LED17
+              led_next: LED18
+          number:
+            key:
+              led_prev: LED18
+              led_next: LED19
+    rows:
+      bottom:
+        row_net: Row0
+      home:
+        row_net: Row1
+      top:
+        row_net: Row2
+      number:
+        row_net: Row3
+
+  zones.key_thumbfan:
+    anchor:
+      ref: key_matrix_index_bottom
+      shift: [0, -22]
+    key:
+      tags: [key]
+    columns:
+      near:
+        key:
+          column_net: Col2
+        rows.thumb.key:
+          led_prev: LED2
+          led_next: LED3
+      home:
+        key:
+          spread: 21.25
+          splay: -14
+          origin: [-11.75, -9]
+          column_net: Col3
+        rows.thumb.key:
+          led_prev: LED1
+          led_next: LED2
+      far:
+        key:
+          spread: 21.25
+          splay: -15
+          origin: [-9.5, -9]
+          column_net: Col4
+        rows.thumb.key:
+          led_prev: LED
+          led_next: LED1
+    rows:
+      thumb:
+        row_net: Row4
+
+  zones.mcu:
+    anchor:
+      ref: key_matrix_inner_bottom
+      shift: [21.5, 4]
+
+  zones.mcu_cover_mounting_hole_top_right:
+    anchor:
+      ref: mcu
+      shift: [8, 15]
+    key.tags: [mcu_cover_mounting_hole]
+  zones.mcu_cover_mounting_hole_top_left:
+    anchor:
+      ref: mcu
+      shift: [-8, 15]
+    key.tags: [mcu_cover_mounting_hole]
+  zones.mcu_cover_mounting_hole_bottom_right:
+    anchor:
+      ref: key_thumbfan_far_thumb
+      shift: [-3.466, hUp + 4]
+    key.tags: [mcu_cover_mounting_hole]
+  zones.mcu_cover_mounting_hole_bottom_left:
+    anchor:
+      ref: key_thumbfan_home_thumb
+      shift: [6.338, hUp + 4]
+    key.tags: [mcu_cover_mounting_hole]
 outlines:
   keys:
     - what: rectangle
@@ -179,53 +199,53 @@ outlines:
     - what: polygon
       fillet: 1
       points:
-        - ref: matrix_pinky_bottom
+        - ref: key_matrix_pinky_bottom
           shift: [-hUp, -hUp]
-        - ref: matrix_pinky_number
+        - ref: key_matrix_pinky_number
           shift: [-hUp, hUp]
-        - ref: matrix_pinky_number
+        - ref: key_matrix_pinky_number
           shift: [3, hUp]
-        - ref: matrix_ring_number
+        - ref: key_matrix_ring_number
           shift: [-hUp, hUp]
-        - ref: matrix_ring_number
+        - ref: key_matrix_ring_number
           shift: [hU - 5, hUp]
-        - ref: matrix_middle_number
+        - ref: key_matrix_middle_number
           shift: [-hUp, hUp]
-        - ref: matrix_middle_number
+        - ref: key_matrix_middle_number
           shift: [hUp, hUp]
-        - ref: matrix_index_number
+        - ref: key_matrix_index_number
           shift: [-hU + 5, hUp]
-        - ref: matrix_index_number
+        - ref: key_matrix_index_number
           shift: [hUp, hUp]
-        - ref: matrix_inner_number
+        - ref: key_matrix_inner_number
           shift: [-hU + 1.5, hUp]
-        - ref: matrix_inner_number
+        - ref: key_matrix_inner_number
           shift: [hUp, hUp]
-        - ref: matrix_inner_home
-          shift: [hU, 2mcuY]
-        - ref: matrix_inner_home
-          shift: [hU + 5, mcuY]
-        - ref: matrix_inner_home
-          shift: [25.6, mcuY]
-        - ref: matrix_inner_home
-          shift: [30.6, 5-mcuY]
-        - ref: thumbfan_far_thumb
-          shift: [0, hUp]
-        - ref: thumbfan_far_thumb
+        - ref: key_matrix_inner_home
+          shift: [hU, hUp]
+        - ref: key_matrix_inner_home
+          shift: [hU + 5, hUp-5]
+        - ref: key_matrix_inner_home
+          shift: [31.1, hUp-5]
+        - ref: key_matrix_inner_home
+          shift: [33.6, hUp-7.6]
+        - ref: key_thumbfan_far_thumb
+          shift: [3.3, hUp]
+        - ref: key_thumbfan_far_thumb
           shift: [hUp, hUp]
-        - ref: thumbfan_far_thumb
+        - ref: key_thumbfan_far_thumb
           shift: [hUp, -hUp]
-        - ref: thumbfan_far_thumb
+        - ref: key_thumbfan_far_thumb
           shift: [-hU, -hUp]
-        - ref: thumbfan_home_thumb
+        - ref: key_thumbfan_home_thumb
           shift: [-hU, -hUp]
-        - ref: thumbfan_near_thumb
+        - ref: key_thumbfan_near_thumb
           shift: [hU - p, -hUp]
-        - ref: thumbfan_near_thumb
+        - ref: key_thumbfan_near_thumb
           shift: [-hUp, -hUp]
-        - ref: thumbfan_near_thumb
+        - ref: key_thumbfan_near_thumb
           shift: [-hUp - 7, -hUp + 11.3]
-        - ref: matrix_pinky_bottom
+        - ref: key_matrix_pinky_bottom
           shift: [hUp, -hUp]
 
   view:
@@ -241,13 +261,13 @@ pcbs:
     footprints:
       gateron_hotswap:
         what: ceoloide/switch_gateron_ks27_ks33
-        where: true
+        where: key
         params:
           from: "{{column_net}}"
           to: "{{colrow}}"
       key_diodes:
         what: rschenk/better_diode
-        where: true
+        where: key
         params:
           from: "{{colrow}}"
           to: "{{row_net}}"
@@ -260,17 +280,16 @@ pcbs:
           shift: [0, -9]
       key_leds:
         what: ceoloide/led_sk6812mini-e
-        where: true
+        where: key
         params:
           P2: "{{key.led_next}}" # Dout
           P4: "{{key.led_prev}}" # Din
         adjust:
           shift: [-.6, 5.2]
-      seeed_xiao_front:
+      seeed_xiao:
         what: seeed_xiao
         where:
-          ref: matrix_inner_bottom
-          shift: [20, 4]
+          ref: mcu
         params:
           pogo_pins: true
           P0: Row0
@@ -285,8 +304,8 @@ pcbs:
       shift_register:
         what: rschenk/shift_register
         where:
-          # ref.aggregate.parts: [matrix_inner_home, mirror_matrix_inner_home]
-          shift: [0, -25]
+          ref: mcu
+          shift: [4.2, -15]
           rotate: -90
         params:
           side: B
@@ -299,8 +318,16 @@ pcbs:
           OE: GND
       level_shifter:
         what: SN74LV1T34DCKR
+        where:
+          ref: key_thumbfan_home_thumb
+          shift: [hUp+2, 0]
         params:
           input: LED_3v3
           gnd: GND
           output: LED
           vcc: VCC
+      mcu_mounting_holes:
+        what: rschenk/hole_m2
+        where: [mcu_cover_mounting_hole]
+        params:
+          plated: true

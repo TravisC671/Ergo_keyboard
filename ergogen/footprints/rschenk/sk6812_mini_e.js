@@ -86,10 +86,10 @@ module.exports = {
       (fp_line (start ${def_pos}3.8 1.999999) (end ${def_pos}3.8 -2.000001)
         (stroke (width 0.05) (type solid)) (layer "${p.side}.CrtYd"))
 
-      (pad "1" smd rect (at ${def_neg}2.6 -0.75 ${p.rot}) (size 1.6 0.82) (layers "${p.side}.Cu" "${p.side}.Paste" "${p.side}.Mask") ${p.VCC.str})
-      (pad "2" smd rect (at ${def_neg}2.6 0.75 ${p.rot}) (size 1.6 0.82) (layers "${p.side}.Cu" "${p.side}.Paste" "${p.side}.Mask") ${p.dout.str})
-      (pad "3" smd roundrect (at ${def_pos}2.6 0.75 ${p.rot}) (size 1.6 0.82) (layers "${p.side}.Cu" "${p.side}.Paste" "${p.side}.Mask") (roundrect_rratio 0.1) ${p.GND.str})
-      (pad "4" smd rect (at ${def_pos}2.6 -0.75 ${p.rot}) (size 1.6 0.82) (layers "${p.side}.Cu" "${p.side}.Paste" "${p.side}.Mask") ${p.din.str})
+      (pad "1" smd rect (at ${def_neg}5 -0.75 ${p.rot}) (size 1.6 0.82) (layers "${p.side}.Cu" "${p.side}.Paste" "${p.side}.Mask") ${p.VCC.str})
+      (pad "2" smd rect (at ${def_neg}5 0.75 ${p.rot}) (size 1.6 0.82) (layers "${p.side}.Cu" "${p.side}.Paste" "${p.side}.Mask") ${p.dout.str})
+      (pad "3" smd roundrect (at ${def_pos}5 0.75 ${p.rot}) (size 1.6 0.82) (layers "${p.side}.Cu" "${p.side}.Paste" "${p.side}.Mask") (roundrect_rratio 0.1) ${p.GND.str})
+      (pad "4" smd rect (at ${def_pos}5 -0.75 ${p.rot}) (size 1.6 0.82) (layers "${p.side}.Cu" "${p.side}.Paste" "${p.side}.Mask") ${p.din.str})
     )
   `
   }

@@ -3381,12 +3381,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 36 "LED4"))
-    (pad "1" smd rect (at 2.70 0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 37 "LED3"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 36 "LED4"))
+    (pad "1" smd rect (at 3.05 0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 37 "LED3"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -3455,12 +3455,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 38 "LED13"))
-    (pad "1" smd rect (at 2.70 0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 39 "LED12"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 38 "LED13"))
+    (pad "1" smd rect (at 3.05 0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 39 "LED12"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -3529,12 +3529,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 40 "LED14"))
-    (pad "1" smd rect (at 2.70 0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 38 "LED13"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 40 "LED14"))
+    (pad "1" smd rect (at 3.05 0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 38 "LED13"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -3603,12 +3603,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 41 "LEDEND"))
-    (pad "1" smd rect (at 2.70 0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 42 "LED22"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 41 "LEDEND"))
+    (pad "1" smd rect (at 3.05 0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 5) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 42 "LED22"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -3677,12 +3677,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 43 "LED5"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 36 "LED4"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 43 "LED5"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 36 "LED4"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -3751,12 +3751,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 39 "LED12"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 44 "LED11"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 39 "LED12"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 44 "LED11"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -3825,12 +3825,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 45 "LED15"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 40 "LED14"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 45 "LED15"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 40 "LED14"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -3899,12 +3899,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 42 "LED22"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 46 "LED21"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 42 "LED22"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 46 "LED21"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -3973,12 +3973,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 47 "LED6"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 43 "LED5"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 47 "LED6"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 43 "LED5"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -4047,12 +4047,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 44 "LED11"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 48 "LED10"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 44 "LED11"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 48 "LED10"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -4121,12 +4121,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 49 "LED16"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 45 "LED15"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 49 "LED16"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 45 "LED15"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -4195,12 +4195,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 46 "LED21"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 50 "LED20"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 46 "LED21"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 50 "LED20"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -4269,12 +4269,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 51 "LED7"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 47 "LED6"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 51 "LED7"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 47 "LED6"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -4343,12 +4343,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 48 "LED10"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 52 "LED9"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 48 "LED10"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 52 "LED9"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -4417,12 +4417,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 53 "LED17"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 49 "LED16"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 53 "LED17"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 49 "LED16"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -4491,12 +4491,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 50 "LED20"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 54 "LED19"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 50 "LED20"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 54 "LED19"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -4565,12 +4565,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 55 "LED8"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 51 "LED7"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 55 "LED8"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 51 "LED7"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -4639,12 +4639,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 52 "LED9"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 55 "LED8"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 52 "LED9"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 55 "LED8"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -4713,12 +4713,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 56 "LED18"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 53 "LED17"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 56 "LED18"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 53 "LED17"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -4787,12 +4787,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 54 "LED19"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 56 "LED18"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 54 "LED19"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 56 "LED18"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -4861,12 +4861,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 37 "LED3"))
-    (pad "1" smd rect (at 2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 57 "LED2"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 37 "LED3"))
+    (pad "1" smd rect (at 3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 0) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 57 "LED2"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -4935,12 +4935,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 -14) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 57 "LED2"))
-    (pad "1" smd rect (at 2.70 0.7 -14) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 -14) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 -14) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 58 "LED1"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 -14) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 57 "LED2"))
+    (pad "1" smd rect (at 3.05 0.7 -14) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 -14) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 -14) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 58 "LED1"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -5009,12 +5009,12 @@
     (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     
-    (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (fp_line (start -3.8 0) (end -3.8 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
-    (pad "2" smd rect (at 2.70 -0.7 -29) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 58 "LED1"))
-    (pad "1" smd rect (at 2.70 0.7 -29) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
-    (pad "3" smd rect (at -2.70 -0.7 -29) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
-    (pad "4" smd rect (at -2.70 0.7 -29) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 59 "LED"))
+    (fp_line (start -4.2 -1.6) (end -2.6 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -4.2 0) (end -4.2 -1.6) (layer "B.SilkS") (stroke (width 0.12) (type solid)))
+    (pad "2" smd rect (at 3.05 -0.7 -29) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 58 "LED1"))
+    (pad "1" smd rect (at 3.05 0.7 -29) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 35 "VCC"))
+    (pad "3" smd rect (at -3.05 -0.7 -29) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 3 "GND"))
+    (pad "4" smd rect (at -3.05 0.7 -29) (size 1.4 1) (layers "B.Cu" "B.Paste" "B.Mask") (net 59 "LED"))
     
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer "Dwgs.User") (stroke (width 0.12) (type solid)))
@@ -5057,7 +5057,7 @@
 
       
       (module xiao-ble (layer F.Cu) (tedit 5B307E4C)
-      (at 196.58345309999999 86.3632727 0)
+      (at 198.08345309999999 86.3632727 0)
 
       
       (fp_text reference "MCU1" (at -19.3989 -11.28268) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -5159,7 +5159,7 @@
         (property "LCSC Part Number" "C10092")
         (attr smd)
 
-        (at 0 25 -90)
+        (at 202.28345309999997 101.3632727 -90)
 
         
         (fp_text reference "19.051" (at 0 -5.9) (layer "Dwgs.User") hide (effects (font (size 1 1) (thickness 0.15))))
@@ -5212,36 +5212,136 @@
         (pad "16" smd roundrect (at -2.475 -4.445 -90) (size 1.95 0.6) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25) (net 35 "VCC"))
       )
       
-(footprint SOT65P210X110-5N (layer F.Cu) (tedit 69126D87)
+(footprint SOT65P210X110-5N (layer B.Cu) (tedit 69126D87)
   (descr "")
   (attr smd)
-	(at 0 0 0)
+	(at 191.8443831 116.2613432 -14)
 
   
-  (fp_text reference "_1" (at 0 -3.2) hide
+  (fp_text reference "_1" (at 0 -3.2 -14) hide
       (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value SOT65P210X110-5N (at 4.7024 1.9064 0) (layer F.Fab)
+  (fp_text value SOT65P210X110-5N (at 4.7024 1.9064 0) (layer B.Fab)
     (effects (font (size 0.64 0.64) (thickness 0.15)))
   )
-  (pad 1 smd roundrect (roundrect_rratio 0.125) (at -0.96 -0.65) (size 1.19 0.4) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd roundrect (roundrect_rratio 0.125) (at -0.96 0.0) (size 1.19 0.4) (layers F.Cu F.Mask F.Paste) (net 60 "LED_3v3") (solder_mask_margin 0.102))
-  (pad 3 smd roundrect (roundrect_rratio 0.125) (at -0.96 0.65) (size 1.19 0.4) (layers F.Cu F.Mask F.Paste) (net 3 "GND") (solder_mask_margin 0.102))
-  (pad 4 smd roundrect (roundrect_rratio 0.125) (at 0.96 0.65) (size 1.19 0.4) (layers F.Cu F.Mask F.Paste) (net 59 "LED") (solder_mask_margin 0.102))
-  (pad 5 smd roundrect (roundrect_rratio 0.125) (at 0.96 -0.65) (size 1.19 0.4) (layers F.Cu F.Mask F.Paste) (net 35 "VCC") (solder_mask_margin 0.102))
-  (fp_line (start -0.625 1.0) (end -0.625 -1.0) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.625 -1.0) (end 0.625 -1.0) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.625 -1.0) (end 0.625 1.0) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.625 1.0) (end -0.625 1.0) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.625 -1.17) (end 0.625 -1.17) (layer F.SilkS) (width 0.127))
-  (fp_line (start 0.625 1.17) (end -0.625 1.17) (layer F.SilkS) (width 0.127))
-  (fp_line (start -1.81 1.33) (end -1.81 -1.33) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.81 -1.33) (end 1.81 -1.33) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.81 -1.33) (end 1.81 1.33) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.81 1.33) (end -1.81 1.33) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center -2.1 -0.65) (end -2.0 -0.65) (layer F.Fab) (width 0.2))
-  (fp_circle (center -2.1 -0.65) (end -2.0 -0.65) (layer F.SilkS) (width 0.2))
+  (pad 1 smd roundrect (roundrect_rratio 0.125) (at 0.96 -0.65 -14) (size 1.19 0.4) (layers B.Cu B.Mask B.Paste) (solder_mask_margin 0.102))
+  (pad 2 smd roundrect (roundrect_rratio 0.125) (at 0.96 0.0 -14) (size 1.19 0.4) (layers B.Cu B.Mask B.Paste) (net 60 "LED_3v3") (solder_mask_margin 0.102))
+  (pad 3 smd roundrect (roundrect_rratio 0.125) (at 0.96 0.65 -14) (size 1.19 0.4) (layers B.Cu B.Mask B.Paste) (net 3 "GND") (solder_mask_margin 0.102))
+  (pad 4 smd roundrect (roundrect_rratio 0.125) (at -0.96 0.65 -14) (size 1.19 0.4) (layers B.Cu B.Mask B.Paste) (net 59 "LED") (solder_mask_margin 0.102))
+  (pad 5 smd roundrect (roundrect_rratio 0.125) (at -0.96 -0.65 -14) (size 1.19 0.4) (layers B.Cu B.Mask B.Paste) (net 35 "VCC") (solder_mask_margin 0.102))
+  (fp_line (start 0.625 1.0) (end 0.625 -1.0) (layer B.Fab) (width 0.127))
+  (fp_line (start 0.625 -1.0) (end -0.625 -1.0) (layer B.Fab) (width 0.127))
+  (fp_line (start -0.625 -1.0) (end -0.625 1.0) (layer B.Fab) (width 0.127))
+  (fp_line (start -0.625 1.0) (end 0.625 1.0) (layer B.Fab) (width 0.127))
+  (fp_line (start 0.625 -1.17) (end -0.625 -1.17) (layer B.SilkS) (width -0.127))
+  (fp_line (start -0.625 1.17) (end 0.625 1.17) (layer B.SilkS) (width 0.127))
+  (fp_line (start 1.81 1.33) (end 1.81 -1.33) (layer B.CrtYd) (width 0.05))
+  (fp_line (start 1.81 -1.33) (end -1.81 -1.33) (layer B.CrtYd) (width 0.05))
+  (fp_line (start -1.81 -1.33) (end -1.81 1.33) (layer B.CrtYd) (width 0.05))
+  (fp_line (start -1.81 1.33) (end 1.81 1.33) (layer B.CrtYd) (width 0.05))
+  (fp_circle (center 2.1 -0.65) (end 2.0 -0.65) (layer B.Fab) (width 0.2))
+  (fp_circle (center 2.1 -0.65) (end 2.0 -0.65) (layer B.SilkS) (width 0.2))
 )
+
+
+    (module MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB)
+        (descr "Mounting Hole 2.2mm,  M2")
+        (tags "mounting hole 2.2mm  m2")
+        (attr virtual)
+
+        (at 206.08345309999999 71.3632727 0)
+
+        
+        (fp_text reference "PAD1" (at 0 -3.2) (layer F.SilkS) hide
+            (effects (font (size 1 1) (thickness 0.15)))
+        )
+        (fp_text value "" (at 0 3.2) (layer F.Fab) hide
+            (effects (font (size 1 1) (thickness 0.15)))
+        )
+
+        (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+        (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+        
+            (pad "" thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
+        
+    )
+
+    
+
+
+    (module MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB)
+        (descr "Mounting Hole 2.2mm,  M2")
+        (tags "mounting hole 2.2mm  m2")
+        (attr virtual)
+
+        (at 190.08345309999999 71.3632727 0)
+
+        
+        (fp_text reference "PAD2" (at 0 -3.2) (layer F.SilkS) hide
+            (effects (font (size 1 1) (thickness 0.15)))
+        )
+        (fp_text value "" (at 0 3.2) (layer F.Fab) hide
+            (effects (font (size 1 1) (thickness 0.15)))
+        )
+
+        (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+        (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+        
+            (pad "" thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
+        
+    )
+
+    
+
+
+    (module MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB)
+        (descr "Mounting Hole 2.2mm,  M2")
+        (tags "mounting hole 2.2mm  m2")
+        (attr virtual)
+
+        (at 206.08319459999998 108.2729695 -29)
+
+        
+        (fp_text reference "PAD3" (at 0 -3.2) (layer F.SilkS) hide
+            (effects (font (size 1 1) (thickness 0.15)))
+        )
+        (fp_text value "" (at 0 3.2) (layer F.Fab) hide
+            (effects (font (size 1 1) (thickness 0.15)))
+        )
+
+        (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+        (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+        
+            (pad "" thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
+        
+    )
+
+    
+
+
+    (module MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB)
+        (descr "Mounting Hole 2.2mm,  M2")
+        (tags "mounting hole 2.2mm  m2")
+        (attr virtual)
+
+        (at 190.0834529 101.8832447 -14)
+
+        
+        (fp_text reference "PAD4" (at 0 -3.2) (layer F.SilkS) hide
+            (effects (font (size 1 1) (thickness 0.15)))
+        )
+        (fp_text value "" (at 0 3.2) (layer F.Fab) hide
+            (effects (font (size 1 1) (thickness 0.15)))
+        )
+
+        (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+        (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+        
+            (pad "" thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
+        
+    )
+
+    
   (gr_line (start 110.27655954296524 108.66230143862353) (end 92.33759865412384 110.2317571606115) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 91.25424825412382 109.32271816061166) (end 84.80036553817192 35.554500751328646) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 85.70940453817194 34.47115035132865) (end 96.83325261295239 33.4979397230103) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
@@ -5253,13 +5353,13 @@
 (gr_line (start 153.52984237499996 21.838272699999997) (end 166.59829119 21.838272699999997) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 167.40790159 22.251305100000025) (end 168.25900460999998 23.425240299999984) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 169.06861500999997 23.838272699999997) (end 185.1084531 23.838272699999997) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 186.1084531 24.838272699999997) (end 186.1084531 60.94905909999997) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 186.4013463 61.656165900000005) (end 190.81555989999995 66.07037949999996) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 191.5226667 66.3632727) (end 201.76923949999997 66.3632727) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 202.47634629999993 66.65616589999996) (end 206.89048050593718 71.07030010593718) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 207.18337370593727 71.7775985058397) (end 207.1755008988789 112.86262448132038) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 207.6906912988828 113.73743578114258) (end 214.63152099541375 117.58480048400614) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 215.0213310954138 118.94422978400621) (end 206.7553271159938 133.85649579541382) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 186.1084531 24.838272699999997) (end 186.1084531 61.42405910000001) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 186.4013463 62.13116590000001) (end 190.81555989999998 66.5453795) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 191.52266669999997 66.83827269999999) (end 207.25770778846152 66.83827269999999) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 207.9785408884615 67.14516399999997) (end 209.9032099624647 69.14681983696332) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 210.1823732624647 69.84259923695936) (end 210.06321106829327 114.46082719389233) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 210.57839786828845 115.33811759390794) (end 214.63152100047338 117.58480047487848) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 215.0213311004734 118.94422977487847) (end 206.7553271159938 133.85649579541382) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 205.3958978159938 134.24630589541383) (end 189.72467134025038 125.55960326337974) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 189.48066404025033 125.46364876337975) (end 169.1209778704195 120.41234987042861) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 169.10974537041946 120.40949387042862) (end 167.23240300932946 119.9205545) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
@@ -5277,12 +5377,12 @@
 (gr_arc (start 167.40790159 22.251305099999996) (mid 167.05273169 21.947495599999996) (end 166.59829119 21.838272699999997) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 168.25900460999998 23.425240300000006) (mid 168.61417450999997 23.729049800000006) (end 169.06861500999997 23.838272700000005) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 186.1084531 24.838272699999997) (mid 185.81555989999998 24.1311659) (end 185.1084531 23.838272699999997) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 186.1084531 60.94905909999997) (mid 186.1845736 61.33174249999997) (end 186.4013463 61.65616589999997) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 190.8155599 66.07037950000002) (mid 191.1399833 66.28715230000002) (end 191.5226667 66.36327270000001) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 202.47634629999996 66.65616589999999) (mid 202.15192289999996 66.43939309999999) (end 201.76923949999997 66.3632727) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 207.1833737059372 71.77759850593722) (mid 207.10728990593722 71.39481200593723) (end 206.8904805059372 71.07030010593722) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 207.17550089887897 112.86262448114951) (mid 207.31382309887897 113.3702718811495) (end 207.69069129887896 113.7374357811495) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 215.02133109541379 118.94422978400617) (mid 215.10797309541377 118.18378278400617) (end 214.63152099541378 117.58480048400617) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 186.1084531 61.42405910000001) (mid 186.1845736 61.806742500000006) (end 186.4013463 62.131165900000006) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 190.81555989999998 66.54537949999998) (mid 191.13998329999998 66.76215229999998) (end 191.52266669999997 66.83827269999998) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 207.9785408884615 67.145164) (mid 207.6494291884615 66.9181888) (end 207.25770778846152 66.83827269999999) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 210.1823732624647 69.84259923696332) (mid 210.1104612624647 69.46755883696333) (end 209.9032099624647 69.14681983696333) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 210.06321106829327 114.46082719389933) (mid 210.20090136829324 114.96988519389933) (end 210.57839786829325 115.33811759389933) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 215.0213311004734 118.94422977487848) (mid 215.10797310047337 118.18378277487848) (end 214.63152100047338 117.58480047487848) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 205.3958978159938 134.24630589541383) (mid 206.1563448159938 134.3329478954138) (end 206.75532711599382 133.85649579541382) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 189.72467134025035 125.55960326337974) (mid 189.60582614025034 125.50359416337974) (end 189.48066404025036 125.46364876337974) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 169.1097453704195 120.40949387042862) (mid 169.11535747041947 120.41093817042862) (end 169.12097787041947 120.41234987042863) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
