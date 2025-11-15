@@ -20,22 +20,18 @@ points:
               key:
                 led_prev: LED3
                 led_next: LED4
-                led_rotation: 180
             home:
               key:
                 led_prev: LED12
                 led_next: LED13
-                led_rotation: 180
             top:
               key:
                 led_prev: LED13
                 led_next: LED14
-                led_rotation: 0
             number:
               key:
                 led_prev: LED22
                 led_next: LEDEND
-                led_rotation: 180
         ring:
           key:
             splay: -5
@@ -47,22 +43,18 @@ points:
               key:
                 led_prev: LED4
                 led_next: LED5
-                led_rotation: 0
             home:
               key:
                 led_prev: LED11
                 led_next: LED12
-                led_rotation: 180
             top:
               key:
                 led_prev: LED14
                 led_next: LED15
-                led_rotation: 0
             number:
               key:
                 led_prev: LED21
                 led_next: LED22
-                led_rotation: 180
         middle:
           key:
             stagger: 5
@@ -72,22 +64,18 @@ points:
               key:
                 led_prev: LED5
                 led_next: LED6
-                led_rotation: 0
             home:
               key:
                 led_prev: LED10
                 led_next: LED11
-                led_rotation: 180
             top:
               key:
                 led_prev: LED15
                 led_next: LED16
-                led_rotation: 0
             number:
               key:
                 led_prev: LED20
                 led_next: LED21
-                led_rotation: 180
         index:
           key:
             stagger: -6
@@ -97,22 +85,18 @@ points:
               key:
                 led_prev: LED6
                 led_next: LED7
-                led_rotation: 0
             home:
               key:
                 led_prev: LED9
                 led_next: LED10
-                led_rotation: 180
             top:
               key:
                 led_prev: LED16
                 led_next: LED17
-                led_rotation: 0
             number:
               key:
                 led_prev: LED19
                 led_next: LED20
-                led_rotation: 180
         inner:
           key:
             stagger: -2
@@ -122,26 +106,21 @@ points:
               key:
                 led_prev: LED7
                 led_next: LED8
-                led_rotation: 180
             home:
               key:
                 led_prev: LED8
                 led_next: LED9
-                led_rotation: 0
             top:
               key:
                 led_prev: LED17
                 led_next: LED18
-                led_rotation: 180
             number:
               key:
                 led_prev: LED18
                 led_next: LED19
-                led_rotation: 0
       rows:
         bottom:
           row_net: Row0
-          led_rotation: 0
         home:
           row_net: Row1
         top:
@@ -161,7 +140,6 @@ points:
               key:
                 led_prev: LED2
                 led_next: LED3
-                led_rotation: 180
         home:
           key:
             spread: 21.25
@@ -173,7 +151,6 @@ points:
               key:
                 led_prev: LED1
                 led_next: LED2
-                led_rotation: 180
         far:
           key:
             spread: 21.25
@@ -185,7 +162,6 @@ points:
               key:
                 led_prev: LED
                 led_next: LED1
-                led_rotation: 180
       rows:
         thumb:
           row_net: Row4
@@ -289,7 +265,6 @@ pcbs:
           P2: "{{key.led_next}}" # Dout
           P4: "{{key.led_prev}}" # Din
         adjust:
-          rotate: "{{key.led_rotation}}"
           shift: [-.6, 5.2]
       seeed_xiao_front:
         what: seeed_xiao
