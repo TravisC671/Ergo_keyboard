@@ -4,11 +4,13 @@ units:
   p: 0
   hU: .5U
   hUp: hU + p
+  # padding for the case edge
+  ep: .5
   mcuY: 5
 points:
   zones.key_matrix:
     anchor:
-      rotate: 2
+      rotate: 2.5
       shift: [100, -100]
     columns:
       pinky:
@@ -31,7 +33,7 @@ points:
           number:
             key:
               led_prev: LED22
-              led_next: LEDEND
+              led_next: LED_BACKLIGHT_1
       ring:
         key:
           splay: -2.5
@@ -199,6 +201,79 @@ points:
       ref: key_thumbfan_home_thumb
       shift: [6.338, hUp + 4]
     key.tags: [mcu_cover_mounting_hole]
+
+  zones.backlight_led_1:
+    anchor:
+      ref: key_matrix_pinky_top
+      shift: [hUp, 7.5]
+    key:
+      led_prev: LED_BACKLIGHT_1
+      led_next: LED_BACKLIGHT_2
+      tags: [backlight_led]
+
+  zones.backlight_led_2:
+    anchor:
+      ref: key_matrix_ring_bottom
+      shift: [-hUp, 2]
+    key:
+      led_prev: LED_BACKLIGHT_2
+      led_next: LED_BACKLIGHT_3
+      tags: [backlight_led]
+
+  zones.backlight_led_3:
+    anchor:
+      ref: key_matrix_middle_bottom
+      shift: [hUp, 0]
+    key:
+      led_prev: LED_BACKLIGHT_3
+      led_next: LED_BACKLIGHT_4
+      tags: [backlight_led]
+
+  zones.backlight_led_4:
+    anchor:
+      ref: key_thumbfan_near_thumb
+      shift: [hUp, hUp]
+    key:
+      led_prev: LED_BACKLIGHT_4
+      led_next: LED_BACKLIGHT_5
+      tags: [backlight_led]
+
+  zones.backlight_led_5:
+    anchor:
+      ref: key_thumbfan_home_thumb
+      shift: [hUp, 5]
+    key:
+      led_prev: LED_BACKLIGHT_5
+      led_next: LED_BACKLIGHT_6
+      tags: [backlight_led]
+
+  zones.backlight_led_6:
+    anchor:
+      ref: key_matrix_inner_bottom
+      shift: [8, 7]
+    key:
+      led_prev: LED_BACKLIGHT_6
+      led_next: LED_BACKLIGHT_7
+      tags: [backlight_led_rot]
+
+  zones.backlight_led_7:
+    anchor:
+      ref: key_matrix_index_top
+      shift: [hUp, 0]
+    key:
+      led_prev: LED_BACKLIGHT_7
+      led_next: LED_BACKLIGHT_8
+      tags: [backlight_led]
+
+  zones.backlight_led_8:
+    anchor:
+      ref: key_matrix_middle_top
+      shift: [hUp, 2]
+    key:
+      led_prev: LED_BACKLIGHT_8
+      led_next: LED_END
+      tags: [backlight_led_rot]
+
 outlines:
   keys:
     - what: rectangle
@@ -207,56 +282,55 @@ outlines:
       size: [U, U]
   pcb_outline:
     - what: polygon
-      fillet: 1
+      # fillet: 1
       points:
         - ref: key_matrix_pinky_bottom
-          shift: [-hUp, -hUp]
+          shift: [-hUp - ep, -hUp - ep]
         - ref: key_matrix_pinky_number
-          shift: [-hUp, hUp]
+          shift: [-hUp - ep, hUp + ep]
         - ref: key_matrix_pinky_number
-          shift: [6, hUp]
+          shift: [6 - ep, hUp + ep]
         - ref: key_matrix_ring_number
-          shift: [-hUp, hUp]
+          shift: [-hUp - ep, hUp + ep]
         - ref: key_matrix_ring_number
-          shift: [hU - 5, hUp]
+          shift: [hU - 5 - ep, hUp + ep]
         - ref: key_matrix_middle_number
-          shift: [-hUp, hUp]
+          shift: [-hUp - ep, hUp + ep]
         - ref: key_matrix_middle_number
-          shift: [hUp, hUp]
+          shift: [hUp + ep, hUp + ep]
         - ref: key_matrix_index_number
-          shift: [-hU + 5, hUp]
+          shift: [-hU + 5 - ep, hUp + ep]
         - ref: key_matrix_index_number
-          shift: [hUp, hUp]
+          shift: [hUp + ep, hUp + ep]
         - ref: key_matrix_inner_number
-          shift: [-hU + 1.5, hUp]
+          shift: [-hU + 1.5 + ep, hUp + ep]
         - ref: key_matrix_inner_number
-          shift: [hUp, hUp]
+          shift: [hUp + ep, hUp + ep]
         - ref: key_matrix_inner_top
-          shift: [hU, 0]
+          shift: [hU + ep, 0]
         - ref: key_matrix_inner_top
-          shift: [hU + 5, -5]
+          shift: [hU + 5 + ep, -5]
         - ref: key_matrix_inner_top
           shift: [31.1, -5]
         - ref: key_matrix_inner_top
           shift: [33.6, -7.6]
         - ref: key_thumbfan_far_thumb
-          shift: [3.3, hUp]
+          shift: [3.3 - ep, hUp + ep]
         - ref: key_thumbfan_far_thumb
-          shift: [hUp, hUp]
+          shift: [hUp + ep, hUp + ep]
         - ref: key_thumbfan_far_thumb
-          shift: [hUp, -hUp]
-        - ref: key_thumbfan_far_thumb
-          shift: [-hU, -hUp]
-        - ref: key_thumbfan_home_thumb
-          shift: [-hU, -hUp]
+          shift: [hUp + ep, -hUp - ep]
+        - ref.aggregate.parts: [key_thumbfan_far_thumb, key_thumbfan_home_thumb]
+          shift: [ep, -8.5]
+        - ref.aggregate.parts:
+            [key_thumbfan_home_thumb, key_thumbfan_near_thumb]
+          shift: [-ep, -8.60]
         - ref: key_thumbfan_near_thumb
-          shift: [hU - p, -hUp]
+          shift: [-hUp - ep, -hUp - ep]
         - ref: key_thumbfan_near_thumb
-          shift: [-hUp, -hUp]
-        - ref: key_thumbfan_near_thumb
-          shift: [-hUp - 7, -hUp + 16.3]
+          shift: [-hUp - 7 - ep, -hUp + 16.1 - ep]
         - ref: key_matrix_pinky_bottom
-          shift: [hUp, -hUp]
+          shift: [hUp, -hUp - ep]
 
   view:
     - name: pcb_outline
@@ -324,15 +398,24 @@ pcbs:
           P4: "{{key.led_prev}}" # Din
         adjust:
           shift: [-.6, 5.2]
-      reverse_key_leds:
-        what: ceoloide/led_sk6812mini-e
-        where: reverse
+      backlight_leds:
+        what: rschenk/ws2812b
+        where: backlight_led
         params:
-          P2: "{{key.led_next}}" # Dout
-          P4: "{{key.led_prev}}" # Din
+          side: B
+          VCC: "{{VCC}}"
+          din: "{{led_prev}}"
+          dout: "{{led_next}}"
+      backlight_led_rotated:
+        what: rschenk/ws2812b
+        where: backlight_led_rot
         adjust:
-          shift: [-.6, 5.2]
-          rotate: -180
+          rotate: 90
+        params:
+          side: B
+          VCC: "{{VCC}}"
+          din: "{{led_prev}}"
+          dout: "{{led_next}}"
       seeed_xiao:
         what: seeed_xiao
         where:
@@ -383,7 +466,7 @@ pcbs:
       power_sw:
         what: slider
         where.ref: mcu
-        adjust.shift: [0, 17.5]
+        adjust.shift: [0, 17.3]
         params:
           side: B
           from: "BAT+" #! Change these

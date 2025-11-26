@@ -77,7 +77,7 @@ module.exports = {
       (fp_line (start -8.89 6.075) (end -8.89 6.605) (layer "F.SilkS") (width 0.12))
       (fp_line (start -8.89 -1.545) (end -8.89 -1.015) (layer "F.SilkS") (width 0.12))
       (fp_line (start -8.89 -4.085) (end -8.89 -3.555) (layer "F.SilkS") (width 0.12))
-      (fp_line (start 8.89 -6.61) (end 8.89 -6.08) (layer "F.SilkS") (width 0.12))
+      (fp_line (start 8.89 -6.61) (end 8.89 -6.15 ) (layer "F.SilkS") (width 0.12))
       (fp_line (start 8.89 8.61) (end 8.89 10.5) (layer "F.SilkS") (width 0.12))
       (fp_line (start 8.89 10.5) (end -8.89 10.5) (layer "F.SilkS") (width 0.12))
       (fp_line (start -8.89 0.995) (end -8.89 1.525) (layer "F.SilkS") (width 0.12))
@@ -112,21 +112,21 @@ module.exports = {
         (fp_text user "${p.P7.name}" (at ${def_pos}6.5 7.62 ${p.rot}) (layer B.SilkS) (effects (font (size 0.6 0.6) (thickness 0.15)) (justify ${is_up ? 'left' : 'right'} mirror)))
 
         ${''/* and now the actual pins */}
-        (pad 1 thru_hole oval (at ${def_neg}7.62 -7.62 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.SilkS *.Mask) ${p.P0.str})
-        (pad 2 thru_hole oval (at ${def_neg}7.62 -5.08 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.SilkS *.Mask) ${p.P1.str})
-        (pad 3 thru_hole oval (at ${def_neg}7.62 -2.54 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.SilkS *.Mask) ${p.P2.str})
-        (pad 4 thru_hole oval (at ${def_neg}7.62 0 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.SilkS *.Mask) ${p.P3.str})
-        (pad 5 thru_hole oval (at ${def_neg}7.62 2.54 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.SilkS *.Mask) ${p.P4.str})
-        (pad 6 thru_hole oval (at ${def_neg}7.62 5.08 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.SilkS *.Mask) ${p.P5.str})
-        (pad 7 thru_hole oval (at ${def_neg}7.62 7.62 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.SilkS *.Mask) ${p.P6.str})
+        (pad 1 thru_hole oval (at ${def_neg}7.62 -7.62 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.P0.str})
+        (pad 2 thru_hole oval (at ${def_neg}7.62 -5.08 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.P1.str})
+        (pad 3 thru_hole oval (at ${def_neg}7.62 -2.54 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.P2.str})
+        (pad 4 thru_hole oval (at ${def_neg}7.62 0 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.P3.str})
+        (pad 5 thru_hole oval (at ${def_neg}7.62 2.54 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.P4.str})
+        (pad 6 thru_hole oval (at ${def_neg}7.62 5.08 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.P5.str})
+        (pad 7 thru_hole oval (at ${def_neg}7.62 7.62 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.P6.str})
 
-        (pad 8 thru_hole oval (at ${def_pos}7.62 7.62 ${p.rot + 180}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.SilkS *.Mask) ${p.P7.str})
-        (pad 9 thru_hole oval (at ${def_pos}7.62 5.08 ${p.rot + 180}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.SilkS *.Mask) ${p.P8.str})
-        (pad 10 thru_hole oval (at ${def_pos}7.62 2.54 ${p.rot + 180}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.SilkS *.Mask) ${p.P9.str})
-        (pad 11 thru_hole oval (at ${def_pos}7.62 0 ${p.rot + 180}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.SilkS *.Mask) ${p.P10.str})
-        (pad 12 thru_hole oval (at ${def_pos}7.62 -2.54 ${p.rot + 180}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.SilkS *.Mask) ${p.VCC.str})
-        (pad 13 thru_hole rect (at ${def_pos}7.62 -5.08 ${p.rot + 180}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.SilkS *.Mask) ${p.GND.str})
-        (pad 14 thru_hole oval (at ${def_pos}7.62 -7.62 ${p.rot + 180}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.SilkS *.Mask) ${p.VUSB.str})
+        (pad 8 thru_hole oval (at ${def_pos}7.62 7.62 ${p.rot + 180}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.P7.str})
+        (pad 9 thru_hole oval (at ${def_pos}7.62 5.08 ${p.rot + 180}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.P8.str})
+        (pad 10 thru_hole oval (at ${def_pos}7.62 2.54 ${p.rot + 180}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.P9.str})
+        (pad 11 thru_hole oval (at ${def_pos}7.62 0 ${p.rot + 180}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.P10.str})
+        (pad 12 thru_hole oval (at ${def_pos}7.62 -2.54 ${p.rot + 180}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.VCC.str})
+        (pad 13 thru_hole rect (at ${def_pos}7.62 -5.08 ${p.rot + 180}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.GND.str})
+        (pad 14 thru_hole oval (at ${def_pos}7.62 -7.62 ${p.rot + 180}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.VUSB.str})
       `
     }
 
@@ -148,12 +148,12 @@ module.exports = {
         (fp_arc (start 1.276 -8.578) (end 1.524 -8.1402) (angle 148.9828) (layer "Edge.Cuts") (width 0.12))
 
         ${''/* backside pins for battery, reset, etc */}
-        (pad 15 thru_hole circle (at ${def_neg}1.27 -8.572 90) (size 1.397 1.397) (drill 1.016) (layers *.Cu *.SilkS *.Mask))
-        (pad 16 thru_hole circle (at ${def_pos}1.27 -8.572 90) (size 1.397 1.397) (drill 1.016) (layers *.Cu *.SilkS *.Mask))
-        (pad 17 thru_hole circle (at ${def_neg}1.27 -6.032 90) (size 1.397 1.397) (drill 1.016) (layers *.Cu *.SilkS *.Mask))
-        (pad 18 thru_hole circle (at ${def_pos}1.27 -6.032 90) (size 1.397 1.397) (drill 1.016) (layers *.Cu *.SilkS *.Mask))
-        (pad 19 thru_hole circle (at ${def_neg}4.445 -0.317 180) (size 1.397 1.397) (drill 1.016) (layers *.Cu *.SilkS *.Mask))
-        (pad 20 thru_hole circle (at ${def_neg}4.445 -2.222 180) (size 1.397 1.397) (drill 1.016) (layers *.Cu *.SilkS *.Mask))
+        (pad 15 thru_hole circle (at ${def_neg}1.27 -8.572 90) (size 1.397 1.397) (drill 1.016) (layers *.Cu *.Mask))
+        (pad 16 thru_hole circle (at ${def_pos}1.27 -8.572 90) (size 1.397 1.397) (drill 1.016) (layers *.Cu *.Mask))
+        (pad 17 thru_hole circle (at ${def_neg}1.27 -6.032 90) (size 1.397 1.397) (drill 1.016) (layers *.Cu *.Mask))
+        (pad 18 thru_hole circle (at ${def_pos}1.27 -6.032 90) (size 1.397 1.397) (drill 1.016) (layers *.Cu *.Mask))
+        (pad 19 thru_hole circle (at ${def_neg}4.445 -0.317 180) (size 1.397 1.397) (drill 1.016) (layers *.Cu *.Mask))
+        (pad 20 thru_hole circle (at ${def_neg}4.445 -2.222 180) (size 1.397 1.397) (drill 1.016) (layers *.Cu *.Mask))
       ` : ``
     }
     function maybe_pogo_pins(pogo_pins, def_neg, def_pos) {
