@@ -178,8 +178,9 @@ points:
     anchor:
       ref: mcu
       shift: [4, -15]
-    columns.main.key.column_net: Col0
-    rows.main.key.row_net: Row4
+    key:
+      from: Col0
+      to: Row4
 
   zones.mcu_cover_mounting_hole_top_right:
     anchor:
@@ -282,7 +283,7 @@ outlines:
       size: [U, U]
   pcb_outline:
     - what: polygon
-      # fillet: 1
+      fillet: 1
       points:
         - ref: key_matrix_pinky_bottom
           shift: [-hUp - ep, -hUp - ep]
@@ -403,7 +404,7 @@ pcbs:
         where: backlight_led
         params:
           side: B
-          VCC: "{{VCC}}"
+          VCC: 5v
           din: "{{led_prev}}"
           dout: "{{led_next}}"
       backlight_led_rotated:
@@ -413,7 +414,7 @@ pcbs:
           rotate: 90
         params:
           side: B
-          VCC: "{{VCC}}"
+          VCC: 5v
           din: "{{led_prev}}"
           dout: "{{led_next}}"
       seeed_xiao:
@@ -428,9 +429,11 @@ pcbs:
           P3: Row3
           P4: Row4
           P5: LED_3v3
-          P10: SER
-          P9: RCLK
+          P10: MOSI
+          P9: MISO
           P8: SRCLK
+          BATP: "BAT+"
+          VUSB: 5v
       shift_register:
         what: rschenk/shift_register
         where:
@@ -444,6 +447,9 @@ pcbs:
           QC: Col2
           QD: Col3
           QE: Col4
+          SER: MOSI
+          SRCLK: SRCLK
+          RCLK: MISO
           SRCLR: VCC
           OE: GND
       level_shifter:
@@ -457,7 +463,7 @@ pcbs:
           input: LED_3v3
           gnd: GND
           output: LED
-          vcc: VCC
+          vcc: 5v
       mcu_mounting_holes:
         what: rschenk/hole_m2
         where: [mcu_cover_mounting_hole]
@@ -469,8 +475,33 @@ pcbs:
         adjust.shift: [0, 17.3]
         params:
           side: B
-          from: "BAT+" #! Change these
+          from: "BAT+"
           to: BAT_POS
+      prgm_button:
+        what: mini_push_btn
+        where:
+          ref: key_prgm
+          shift: [0, 0]
+          rotate: -90
+        params:
+          name: Prgm
+          flip_name: true
+          from: "{{from}}"
+          to: Prgm_diode
+      prgm_diode:
+        what: rschenk/better_diode
+        where: key_prgm
+        params:
+          from: Prgm_diode
+          to: "{{to}}"
+          through_hole: false
+          front: true
+          back: false
+          via_from: false
+          via_to: false
+        adjust:
+          shift: [4, 0]
+          rotate: -90
       reset_button:
         what: mini_push_btn
         where:
@@ -478,7 +509,8 @@ pcbs:
           shift: [-4, -15]
           rotate: -90
         params:
-          from: RST #! Change These
+          name: Reset
+          from: RST
           to: GND
       battery:
         what: jstph
@@ -487,14 +519,6 @@ pcbs:
           rotate: 180
         adjust.shift: [10, 20]
         params:
-          pos: BAT_POS #! Change These
+          side: B
+          pos: BAT_POS
           neg: GND
-      prgm_button:
-        what: mini_push_btn
-        where:
-          ref: key_prgm_main_main
-          shift: [0, 0]
-          rotate: -90
-        params:
-          from: "{{column_net}}"
-          to: "{{colrow}}"

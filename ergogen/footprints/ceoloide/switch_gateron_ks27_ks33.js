@@ -104,7 +104,7 @@
 
 module.exports = {
   params: {
-    designator: "S",
+    designator: "SW",
     side: "B",
     reversible: false,
     solder: false,
@@ -144,10 +144,9 @@ module.exports = {
     (layer "${p.side}.Cu")
     ${p.at}
     (property "Reference" "${p.ref}"
-      (at 0 8.8 ${p.r})
-      (layer "${p.side}.SilkS")
-      ${p.ref_hide}
-      (effects (font (size 1 1) (thickness 0.15)))
+      (at -8.5 -8 ${p.r})
+      (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (attr exclude_from_pos_files exclude_from_bom${
       p.allow_soldermask_bridges ? " allow_soldermask_bridges" : ""
