@@ -15,10 +15,14 @@
 
 module.exports = {
   params: {
-    designator: 'MCU',
+    designator: 'U',
     orientation: 'up',
     smd_cutouts: false,
     pogo_pins: false,
+    model_filename: "",
+    model_xyz_offset: [0, 0, 0],
+    model_xyz_rotation: [0, 0, 0],
+    model_xyz_scale: [1, 1, 1],
     P0: {type: 'net', value: 'P0'},
     P1: {type: 'net', value: 'P1'},
     P2: {type: 'net', value: 'P2'},
@@ -46,6 +50,13 @@ module.exports = {
     }
     if (p.smd_cutouts && p.pogo_pins) { throw "!! error - seeed_xiao: pogo_pins and smd_cutouts cannot be used at the same time" }
 
+    const model = `
+    (model ${p.model_filename}
+      (offset (xyz ${p.model_xyz_offset[0]} ${p.model_xyz_offset[1]} ${p.model_xyz_offset[2]}))
+      (scale (xyz ${p.model_xyz_scale[0]} ${p.model_xyz_scale[1]} ${p.model_xyz_scale[2]}))
+      (rotate (xyz ${p.model_xyz_rotation[0]} ${p.model_xyz_rotation[1]} ${p.model_xyz_rotation[2]}))
+    )`;
+
     const standard = `
       (module xiao-ble (layer F.Cu) (tedit 5B307E4C)
       ${p.at /* parametric position */}
@@ -61,6 +72,8 @@ module.exports = {
       (fp_line (start 3.81 -12.02) (end -3.81 -12.02) (layer Dwgs.User) (width 0.15))
       (fp_line (start 3.81 -6.94) (end 3.81 -12.02) (layer Dwgs.User) (width 0.15))
       (fp_line (start -3.81 -6.94) (end 3.81 -6.94) (layer Dwgs.User) (width 0.15))
+
+      ${p.model_filename != "" ? model : ""}
 
       ${''/* component outline */}
       (fp_line (start 8.89 3.545) (end 8.89 4.075) (layer "F.SilkS") (width 0.12))

@@ -6754,7 +6754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1878f9f1-43e8-44e3-85ef-1a43af8807cb")
-		(property "Reference" "LED20"
+		(property "Reference" "LED17"
 			(at 257.556 92.456 0)
 			(effects
 				(font
@@ -6814,7 +6814,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED20")
+					(reference "LED17")
 					(unit 1)
 				)
 			)
@@ -7294,8 +7294,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20b6fd49-15f1-43e5-901c-b98770d5ea7b")
-		(property "Reference" "LED5"
-			(at 256.794 27.686 0)
+		(property "Reference" "LED20"
+			(at 257.302 27.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,7 +7354,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED5")
+					(reference "LED20")
 					(unit 1)
 				)
 			)
@@ -7894,7 +7894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3dc0e699-c9b3-4f0f-b1fa-5c2ad8cbddbd")
-		(property "Reference" "LED9"
+		(property "Reference" "LED15"
 			(at 230.124 49.276 0)
 			(effects
 				(font
@@ -7954,7 +7954,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED9")
+					(reference "LED15")
 					(unit 1)
 				)
 			)
@@ -8627,8 +8627,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b282046-02a6-4d24-8483-b26e5ab36304")
-		(property "Reference" "LED4"
-			(at 230.124 27.686 0)
+		(property "Reference" "LED16"
+			(at 230.886 27.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8687,7 +8687,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED4")
+					(reference "LED16")
 					(unit 1)
 				)
 			)
@@ -8702,7 +8702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c20f612-0fc8-4181-9c53-bec901e3b842")
-		(property "Reference" "LED10"
+		(property "Reference" "LED19"
 			(at 257.556 49.276 0)
 			(effects
 				(font
@@ -8762,7 +8762,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED10")
+					(reference "LED19")
 					(unit 1)
 				)
 			)
@@ -9175,7 +9175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6eceeaee-dea7-48a9-89c5-3b97f0cd58db")
-		(property "Reference" "Sw27"
+		(property "Reference" "Sw25"
 			(at 147.32 142.24 0)
 			(effects
 				(font
@@ -9227,7 +9227,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "Sw27")
+					(reference "Sw25")
 					(unit 1)
 				)
 			)
@@ -9471,7 +9471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7780647c-abcd-46af-aabf-ca707d663f20")
-		(property "Reference" "LED19"
+		(property "Reference" "LED13"
 			(at 230.886 92.456 0)
 			(effects
 				(font
@@ -9531,7 +9531,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED19")
+					(reference "LED13")
 					(unit 1)
 				)
 			)
@@ -9678,8 +9678,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d0541ec-9364-4a92-a81f-18a30b06a151")
-		(property "Reference" "LED12"
-			(at 177.546 70.866 0)
+		(property "Reference" "LED6"
+			(at 177.038 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,7 +9738,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED12")
+					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -9973,7 +9973,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89f91741-3d5b-4289-8734-0dbfff130289")
-		(property "Reference" "LED2"
+		(property "Reference" "LED8"
 			(at 176.784 27.7562 0)
 			(effects
 				(font
@@ -10033,7 +10033,7 @@
 		(instances
 			(project ""
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED2")
+					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -10115,7 +10115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c2b5e5b-ad20-4869-a2bc-02344fc731b9")
-		(property "Reference" "LED18"
+		(property "Reference" "LED9"
 			(at 204.216 92.456 0)
 			(effects
 				(font
@@ -10175,7 +10175,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED18")
+					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -10190,8 +10190,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cbad34a-badf-4d66-8920-4959aa15aa80")
-		(property "Reference" "LED8"
-			(at 203.454 49.276 0)
+		(property "Reference" "LED11"
+			(at 203.962 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10250,7 +10250,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED8")
+					(reference "LED11")
 					(unit 1)
 				)
 			)
@@ -10265,7 +10265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f0b5e24-95d6-420c-819c-14958a5607f0")
-		(property "Reference" "LED11"
+		(property "Reference" "LED2"
 			(at 149.606 70.866 0)
 			(effects
 				(font
@@ -10325,7 +10325,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED11")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -10495,7 +10495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97f09cb1-69e4-473e-8b3d-22eea9053af1")
-		(property "Reference" "LED16"
+		(property "Reference" "LED1"
 			(at 149.606 92.71 0)
 			(effects
 				(font
@@ -10555,7 +10555,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED16")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -11403,7 +11403,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2bb75ad-9a5f-4c6c-86e8-9b7a8a520aa8")
-		(property "Reference" "LED1"
+		(property "Reference" "LED4"
 			(at 148.844 27.686 0)
 			(effects
 				(font
@@ -11463,7 +11463,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED1")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -11478,8 +11478,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6babacd-ef34-4e46-b4eb-a723e39f0e46")
-		(property "Reference" "LED3"
-			(at 203.708 27.686 0)
+		(property "Reference" "LED12"
+			(at 204.216 27.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11538,7 +11538,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED3")
+					(reference "LED12")
 					(unit 1)
 				)
 			)
@@ -12034,7 +12034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5ebeb8c-bff1-42d3-8c56-52508b7a84e1")
-		(property "Reference" "LED17"
+		(property "Reference" "LED5"
 			(at 177.546 92.456 0)
 			(effects
 				(font
@@ -12094,7 +12094,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED17")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -13229,7 +13229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd87897e-ae14-409b-9a9a-404f13921838")
-		(property "Reference" "LED15"
+		(property "Reference" "LED18"
 			(at 257.556 70.866 0)
 			(effects
 				(font
@@ -13289,7 +13289,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED15")
+					(reference "LED18")
 					(unit 1)
 				)
 			)
@@ -13371,7 +13371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e04e6263-4214-46be-8c99-f1f88b4679e1")
-		(property "Reference" "BT2"
+		(property "Reference" "JST1"
 			(at 146.6215 157.48 90)
 			(effects
 				(font
@@ -13423,7 +13423,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "BT2")
+					(reference "JST1")
 					(unit 1)
 				)
 			)
@@ -13714,7 +13714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f02d1695-6f29-4910-820c-6616a2b334ab")
-		(property "Reference" "LED6"
+		(property "Reference" "LED3"
 			(at 149.098 49.276 0)
 			(effects
 				(font
@@ -13774,7 +13774,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED6")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -13789,7 +13789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb1968c3-1027-49b0-8d6a-a89204fbd4f4")
-		(property "Reference" "LED13"
+		(property "Reference" "LED10"
 			(at 204.216 70.866 0)
 			(effects
 				(font
@@ -13849,7 +13849,7 @@
 		(instances
 			(project "left"
 				(path "/354a5e63-d0f6-4612-b9d9-61a572cb8576"
-					(reference "LED13")
+					(reference "LED10")
 					(unit 1)
 				)
 			)

@@ -126,13 +126,13 @@ points:
               led_next: LED19
     rows:
       bottom:
-        row_net: Row0
-      home:
-        row_net: Row1
-      top:
-        row_net: Row2
-      number:
         row_net: Row3
+      home:
+        row_net: Row2
+      top:
+        row_net: Row1
+      number:
+        row_net: Row0
 
   zones.key_thumbfan:
     anchor:
@@ -250,28 +250,19 @@ points:
 
   zones.backlight_led_6:
     anchor:
-      ref: key_matrix_inner_bottom
-      shift: [8, 7]
-    key:
-      led_prev: LED_BACKLIGHT_6
-      led_next: LED_BACKLIGHT_7
-      tags: [backlight_led_rot]
-
-  zones.backlight_led_7:
-    anchor:
       ref: key_matrix_index_top
       shift: [hUp, 0]
     key:
-      led_prev: LED_BACKLIGHT_7
-      led_next: LED_BACKLIGHT_8
+      led_prev: LED_BACKLIGHT_6
+      led_next: LED_BACKLIGHT_7
       tags: [backlight_led]
 
-  zones.backlight_led_8:
+  zones.backlight_led_7:
     anchor:
       ref: key_matrix_middle_top
       shift: [hUp, 2]
     key:
-      led_prev: LED_BACKLIGHT_8
+      led_prev: LED_BACKLIGHT_7
       led_next: LED_END
       tags: [backlight_led_rot]
 
@@ -332,7 +323,17 @@ outlines:
           shift: [-hUp - 7 - ep, -hUp + 16.1 - ep]
         - ref: key_matrix_pinky_bottom
           shift: [hUp, -hUp - ep]
-
+  mcu_cover:
+    - what: polygon
+      points:
+        - ref: key_matrix_inner_top
+          shift: [hU + ep, 0]
+        - ref: key_matrix_inner_top
+          shift: [hU + 5 + ep, -5]
+        - ref: key_matrix_inner_top
+          shift: [31.1, -5]
+        - ref: key_matrix_inner_top
+          shift: [33.6, -7.6]
   view:
     - name: pcb_outline
     - operation: stack
@@ -350,6 +351,15 @@ pcbs:
         params:
           from: "{{column_net}}"
           to: "{{colrow}}"
+          switch_3dmodel_filename: ../../ergogen/models/KS-33_lp_2.0.stp
+          switch_3dmodel_xyz_rotation: [0, 180, 180]
+          switch_3dmodel_xyz_offset: [-60, 0, 2.5]
+          hotswap_3dmodel_filename: ../../ergogen/models/low_profile_hotswap.stp
+          hotswap_3dmodel_xyz_rotation: [0, 180, 180]
+          hotswap_3dmodel_xyz_offset: [-114.5, -6.35, 5.4]
+          keycap_3dmodel_filename: ../../ergogen/models/keycap.stp
+          keycap_3dmodel_xyz_offset: [0, 0, -8]
+          keycap_3dmodel_xyz_rotation: [90, 0, 0]
       main_key_diodes:
         what: rschenk/better_diode
         where: main
@@ -394,11 +404,14 @@ pcbs:
       key_leds:
         what: ceoloide/led_sk6812mini-e
         where: key
+        adjust:
+          shift: [-.6, 5.2]
         params:
           P2: "{{key.led_next}}" # Dout
           P4: "{{key.led_prev}}" # Din
-        adjust:
-          shift: [-.6, 5.2]
+          led_3dmodel_filename: ../../ergogen/models/SK6812-E.stp
+          led_3dmodel_xyz_rotation: [90, 0, 0]
+          led_3dmodel_xyz_offset: [0, 0, .2]
       backlight_leds:
         what: rschenk/ws2812b
         where: backlight_led
@@ -407,6 +420,7 @@ pcbs:
           VCC: 5v
           din: "{{led_prev}}"
           dout: "{{led_next}}"
+          led_3dmodel_filename: ../../ergogen/models/ws2812b.stp
       backlight_led_rotated:
         what: rschenk/ws2812b
         where: backlight_led_rot
@@ -417,12 +431,16 @@ pcbs:
           VCC: 5v
           din: "{{led_prev}}"
           dout: "{{led_next}}"
+          led_3dmodel_filename: ../../ergogen/models/ws2812b.stp
       seeed_xiao:
         what: seeed_xiao
         where:
           ref: mcu
         params:
           pogo_pins: true
+          model_filename: ../../ergogen/models/XIAO-nRF52840.stp
+          model_xyz_rotation: [90, 180, 90]
+          model_xyz_offset: [6.1, -1.8, 0]
           P0: Row0
           P1: Row1
           P2: Row2

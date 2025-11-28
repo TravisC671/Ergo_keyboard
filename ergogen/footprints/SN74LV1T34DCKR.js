@@ -1,6 +1,6 @@
 module.exports = {
   params: {
-    designator: "_",
+    designator: "U",
     input: undefined,
     gnd: undefined,
     output: undefined,

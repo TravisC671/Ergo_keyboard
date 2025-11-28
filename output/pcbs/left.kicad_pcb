@@ -11,7 +11,7 @@
   (paper "A3")
   (title_block
     (title "left")
-    (date "2025-11-27")
+    (date "2025-11-28")
     (rev "v1.0.0")
     (company "Unknown")
   )
@@ -111,10 +111,10 @@
 (net 27 "near_thumb")
 (net 28 "home_thumb")
 (net 29 "far_thumb")
-(net 30 "Row0")
-(net 31 "Row1")
-(net 32 "Row2")
-(net 33 "Row3")
+(net 30 "Row3")
+(net 31 "Row2")
+(net 32 "Row1")
+(net 33 "Row0")
 (net 34 "Row4")
 (net 35 "VCC")
 (net 36 "LED4")
@@ -148,22 +148,21 @@
 (net 64 "LED_BACKLIGHT_5")
 (net 65 "LED_BACKLIGHT_6")
 (net 66 "LED_BACKLIGHT_7")
-(net 67 "LED_BACKLIGHT_8")
-(net 68 "LED_END")
-(net 69 "LED_3v3")
-(net 70 "P6")
-(net 71 "MOSI")
-(net 72 "MISO")
-(net 73 "SRCLK")
-(net 74 "P7")
-(net 75 "RST")
-(net 76 "BAT+")
-(net 77 "QF")
-(net 78 "QG")
-(net 79 "QH")
-(net 80 "QH'")
-(net 81 "BAT_POS")
-(net 82 "Prgm_diode")
+(net 67 "LED_END")
+(net 68 "LED_3v3")
+(net 69 "P6")
+(net 70 "MOSI")
+(net 71 "MISO")
+(net 72 "SRCLK")
+(net 73 "P7")
+(net 74 "RST")
+(net 75 "BAT+")
+(net 76 "QF")
+(net 77 "QG")
+(net 78 "QH")
+(net 79 "QH'")
+(net 80 "BAT_POS")
+(net 81 "Prgm_diode")
 
   
   (footprint "ceoloide:switch_gateron_ks27_ks33"
@@ -267,6 +266,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -371,6 +388,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -475,6 +510,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -579,6 +632,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -683,6 +754,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -787,6 +876,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -891,6 +998,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -995,6 +1120,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -1099,6 +1242,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -1203,6 +1364,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -1307,6 +1486,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -1411,6 +1608,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -1515,6 +1730,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -1619,6 +1852,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -1723,6 +1974,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -1827,6 +2096,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -1931,6 +2218,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -2035,6 +2340,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -2139,6 +2462,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -2243,6 +2584,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -2347,6 +2706,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -2451,6 +2828,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -2555,6 +2950,24 @@
     (fp_circle (center -4.4 4.7) (end -2.85 4.7) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     (fp_circle (center 2.6 5.75) (end 4.15 5.75) (stroke (width 0.001) (type solid)) (fill none) (layer "B.Fab"))
     
+    (model ../../ergogen/models/low_profile_hotswap.stp
+      (offset (xyz -114.5 -6.35 5.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+	  
+    (model ../../ergogen/models/KS-33_lp_2.0.stp
+      (offset (xyz -60 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 180))
+    )
+    
+    (model ../../ergogen/models/keycap.stp
+      (offset (xyz 0 0 -8))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+	  
   )
     
 
@@ -2581,7 +2994,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 30 "Row0"))
+        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 30 "Row3"))
         (pad 2 smd rect (at 1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 8 "ring_bottom"))
         
 
@@ -2615,7 +3028,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "Row1"))
+        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "Row2"))
         (pad 2 smd rect (at 1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 9 "ring_home"))
         
 
@@ -2649,7 +3062,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 32 "Row2"))
+        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 32 "Row1"))
         (pad 2 smd rect (at 1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 10 "ring_top"))
         
 
@@ -2683,7 +3096,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "Row3"))
+        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "Row0"))
         (pad 2 smd rect (at 1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 11 "ring_number"))
         
 
@@ -2717,7 +3130,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 30 "Row0"))
+        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 30 "Row3"))
         (pad 2 smd rect (at 1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 13 "middle_bottom"))
         
 
@@ -2751,7 +3164,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "Row1"))
+        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "Row2"))
         (pad 2 smd rect (at 1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 14 "middle_home"))
         
 
@@ -2785,7 +3198,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 32 "Row2"))
+        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 32 "Row1"))
         (pad 2 smd rect (at 1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 15 "middle_top"))
         
 
@@ -2819,7 +3232,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "Row3"))
+        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "Row0"))
         (pad 2 smd rect (at 1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 16 "middle_number"))
         
 
@@ -2853,7 +3266,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 30 "Row0"))
+        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 30 "Row3"))
         (pad 2 smd rect (at 1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 18 "index_bottom"))
         
 
@@ -2887,7 +3300,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "Row1"))
+        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "Row2"))
         (pad 2 smd rect (at 1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 19 "index_home"))
         
 
@@ -2921,7 +3334,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 32 "Row2"))
+        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 32 "Row1"))
         (pad 2 smd rect (at 1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 20 "index_top"))
         
 
@@ -2955,7 +3368,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "Row3"))
+        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "Row0"))
         (pad 2 smd rect (at 1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 21 "index_number"))
         
 
@@ -2989,7 +3402,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 30 "Row0"))
+        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 30 "Row3"))
         (pad 2 smd rect (at 1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 23 "inner_bottom"))
         
 
@@ -3023,7 +3436,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "Row1"))
+        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "Row2"))
         (pad 2 smd rect (at 1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 24 "inner_home"))
         
 
@@ -3057,7 +3470,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 32 "Row2"))
+        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 32 "Row1"))
         (pad 2 smd rect (at 1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 25 "inner_top"))
         
 
@@ -3091,7 +3504,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "Row3"))
+        (pad 1 smd rect (at -1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "Row0"))
         (pad 2 smd rect (at 1.65 0 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 26 "inner_number"))
         
 
@@ -3227,7 +3640,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 -87.5) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 30 "Row0"))
+        (pad 1 smd rect (at -1.65 0 -87.5) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 30 "Row3"))
         (pad 2 smd rect (at 1.65 0 -87.5) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 2 "pinky_bottom"))
         
 
@@ -3261,7 +3674,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 -87.5) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "Row1"))
+        (pad 1 smd rect (at -1.65 0 -87.5) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "Row2"))
         (pad 2 smd rect (at 1.65 0 -87.5) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 4 "pinky_home"))
         
 
@@ -3295,7 +3708,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 -87.5) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 32 "Row2"))
+        (pad 1 smd rect (at -1.65 0 -87.5) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 32 "Row1"))
         (pad 2 smd rect (at 1.65 0 -87.5) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 5 "pinky_top"))
         
 
@@ -3329,7 +3742,7 @@
 
       
       
-        (pad 1 smd rect (at -1.65 0 -87.5) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "Row3"))
+        (pad 1 smd rect (at -1.65 0 -87.5) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "Row0"))
         (pad 2 smd rect (at 1.65 0 -87.5) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 6 "pinky_number"))
         
 
@@ -3410,6 +3823,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -3484,6 +3903,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -3558,6 +3983,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -3632,6 +4063,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -3706,6 +4143,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -3780,6 +4223,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -3854,6 +4303,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -3928,6 +4383,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -4002,6 +4463,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -4076,6 +4543,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -4150,6 +4623,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -4224,6 +4703,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -4298,6 +4783,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -4372,6 +4863,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -4446,6 +4943,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -4520,6 +5023,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -4594,6 +5103,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -4668,6 +5183,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -4742,6 +5263,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -4816,6 +5343,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -4890,6 +5423,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -4964,6 +5503,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -5038,6 +5583,12 @@
       (layer "B.CrtYd")
     )
     
+    (model ../../ergogen/models/SK6812-E.stp
+      (offset (xyz 0 0 0.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
+      
     (fp_rect (start -1.8 -1.55) (end 1.8 1.55) (layer "Edge.Cuts") (stroke (width 0.12) (type solid)) (fill none))
   )
     
@@ -5088,6 +5639,13 @@
     (fp_line (start 2.5 -2.5) (end -2.5 -2.5) (layer Dwgs.User) (width 0.2))
     (fp_line (start -2.5 2.5) (end 2.5 2.5) (layer Dwgs.User) (width 0.2))
 
+    
+    (model ../../ergogen/models/ws2812b.stp
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+      
     (pad 1 smd rect (at 2.4 -1.65 2.5) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 60 "5v"))
     (pad 2 smd rect (at 2.4 1.65 2.5) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 61 "LED_BACKLIGHT_2"))
     (pad 3 smd rect (at -2.4 1.65 2.5) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
@@ -5142,6 +5700,13 @@
     (fp_line (start 2.5 -2.5) (end -2.5 -2.5) (layer Dwgs.User) (width 0.2))
     (fp_line (start -2.5 2.5) (end 2.5 2.5) (layer Dwgs.User) (width 0.2))
 
+    
+    (model ../../ergogen/models/ws2812b.stp
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+      
     (pad 1 smd rect (at 2.4 -1.65 0) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 60 "5v"))
     (pad 2 smd rect (at 2.4 1.65 0) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 62 "LED_BACKLIGHT_3"))
     (pad 3 smd rect (at -2.4 1.65 0) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
@@ -5196,6 +5761,13 @@
     (fp_line (start 2.5 -2.5) (end -2.5 -2.5) (layer Dwgs.User) (width 0.2))
     (fp_line (start -2.5 2.5) (end 2.5 2.5) (layer Dwgs.User) (width 0.2))
 
+    
+    (model ../../ergogen/models/ws2812b.stp
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+      
     (pad 1 smd rect (at 2.4 -1.65 0) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 60 "5v"))
     (pad 2 smd rect (at 2.4 1.65 0) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 63 "LED_BACKLIGHT_4"))
     (pad 3 smd rect (at -2.4 1.65 0) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
@@ -5250,6 +5822,13 @@
     (fp_line (start 2.5 -2.5) (end -2.5 -2.5) (layer Dwgs.User) (width 0.2))
     (fp_line (start -2.5 2.5) (end 2.5 2.5) (layer Dwgs.User) (width 0.2))
 
+    
+    (model ../../ergogen/models/ws2812b.stp
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+      
     (pad 1 smd rect (at 2.4 -1.65 0) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 60 "5v"))
     (pad 2 smd rect (at 2.4 1.65 0) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 64 "LED_BACKLIGHT_5"))
     (pad 3 smd rect (at -2.4 1.65 0) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
@@ -5304,6 +5883,13 @@
     (fp_line (start 2.5 -2.5) (end -2.5 -2.5) (layer Dwgs.User) (width 0.2))
     (fp_line (start -2.5 2.5) (end 2.5 2.5) (layer Dwgs.User) (width 0.2))
 
+    
+    (model ../../ergogen/models/ws2812b.stp
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+      
     (pad 1 smd rect (at 2.4 -1.65 -14) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 60 "5v"))
     (pad 2 smd rect (at 2.4 1.65 -14) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 65 "LED_BACKLIGHT_6"))
     (pad 3 smd rect (at -2.4 1.65 -14) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
@@ -5358,10 +5944,17 @@
     (fp_line (start 2.5 -2.5) (end -2.5 -2.5) (layer Dwgs.User) (width 0.2))
     (fp_line (start -2.5 2.5) (end 2.5 2.5) (layer Dwgs.User) (width 0.2))
 
+    
+    (model ../../ergogen/models/ws2812b.stp
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+      
     (pad 1 smd rect (at 2.4 -1.65 0) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 60 "5v"))
-    (pad 2 smd rect (at 2.4 1.65 0) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 67 "LED_BACKLIGHT_8"))
+    (pad 2 smd rect (at 2.4 1.65 0) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 66 "LED_BACKLIGHT_7"))
     (pad 3 smd rect (at -2.4 1.65 0) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-    (pad 4 smd rect (at -2.4 -1.65 0) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 66 "LED_BACKLIGHT_7"))
+    (pad 4 smd rect (at -2.4 -1.65 0) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 65 "LED_BACKLIGHT_6"))
   )
 
 
@@ -5369,7 +5962,7 @@
 
   (module WS2812B (layer B.Cu) (tedit 53BEE615)
 
-    (at 184.5167702 88.68324299999999 90)
+    (at 148.0417702 47.683242899999996 90)
 
     (fp_text reference "LED30" (at 0 -3.7 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
@@ -5412,64 +6005,17 @@
     (fp_line (start 2.5 -2.5) (end -2.5 -2.5) (layer Dwgs.User) (width 0.2))
     (fp_line (start -2.5 2.5) (end 2.5 2.5) (layer Dwgs.User) (width 0.2))
 
-    (pad 1 smd rect (at 2.4 -1.65 90) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 60 "5v"))
-    (pad 2 smd rect (at 2.4 1.65 90) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 66 "LED_BACKLIGHT_7"))
-    (pad 3 smd rect (at -2.4 1.65 90) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-    (pad 4 smd rect (at -2.4 -1.65 90) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 65 "LED_BACKLIGHT_6"))
-  )
-
-
-
-
-  (module WS2812B (layer B.Cu) (tedit 53BEE615)
-
-    (at 148.0417702 47.683242899999996 90)
-
-    (fp_text reference "LED31" (at 0 -3.7 90) (layer B.SilkS)
-      (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
+    
+    (model ../../ergogen/models/ws2812b.stp
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
-    (fp_text value VAL** (at 0 4.8) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-
-    (fp_line (start 1 1) (end 1 -1) (layer B.SilkS) (width 0.2))
-    (fp_line (start 1 -1) (end -1 -1) (layer B.SilkS) (width 0.2))
-    (fp_line (start -1 -1) (end -1 0.5) (layer B.SilkS) (width 0.2))
-    (fp_line (start -1 0.5) (end -0.5 1) (layer B.SilkS) (width 0.2))
-    (fp_line (start -0.5 1) (end 1 1) (layer B.SilkS) (width 0.2))
-    (fp_line (start 1 2.5) (end -1 2.5) (layer B.SilkS) (width 0.2))
-    (fp_line (start -2.5 0.5) (end -2.5 -0.5) (layer B.SilkS) (width 0.2))
-    (fp_line (start 1 -2.5) (end -1 -2.5) (layer B.SilkS) (width 0.2))
-    (fp_line (start 2.5 0.5) (end 2.5 -0.5) (layer B.SilkS) (width 0.2))
-    (fp_line (start -2.5 -2.1) (end -2.5 -2.5) (layer Dwgs.User) (width 0.2))
-    (fp_line (start -2.5 1.2) (end -2.5 -1.2) (layer Dwgs.User) (width 0.2))
-    (fp_line (start -2.5 2.5) (end -2.5 2.1) (layer Dwgs.User) (width 0.2))
-    (fp_line (start 2.5 -2.1) (end 2.5 -2.5) (layer Dwgs.User) (width 0.2))
-    (fp_line (start 2.5 1.2) (end 2.5 -1.2) (layer Dwgs.User) (width 0.2))
-    (fp_line (start 2.5 2.5) (end 2.5 2.1) (layer Dwgs.User) (width 0.2))
-    (fp_line (start 2.7 2.1) (end 2.7 1.2) (layer Dwgs.User) (width 0.2))
-    (fp_line (start 2.7 1.2) (end 1.8 1.2) (layer Dwgs.User) (width 0.2))
-    (fp_line (start 1.8 1.2) (end 1.8 2.1) (layer Dwgs.User) (width 0.2))
-    (fp_line (start 1.8 2.1) (end 2.7 2.1) (layer Dwgs.User) (width 0.2))
-    (fp_line (start 2.7 -2.1) (end 2.7 -1.2) (layer Dwgs.User) (width 0.2))
-    (fp_line (start 2.7 -1.2) (end 1.8 -1.2) (layer Dwgs.User) (width 0.2))
-    (fp_line (start 1.8 -1.2) (end 1.8 -2.1) (layer Dwgs.User) (width 0.2))
-    (fp_line (start 1.8 -2.1) (end 2.7 -2.1) (layer Dwgs.User) (width 0.2))
-    (fp_line (start -2.7 2.1) (end -1.8 2.1) (layer Dwgs.User) (width 0.2))
-    (fp_line (start -1.8 2.1) (end -1.8 1.2) (layer Dwgs.User) (width 0.2))
-    (fp_line (start -1.8 1.2) (end -2.7 1.2) (layer Dwgs.User) (width 0.2))
-    (fp_line (start -2.7 1.2) (end -2.7 2.1) (layer Dwgs.User) (width 0.2))
-    (fp_line (start -2.7 -1.2) (end -1.8 -1.2) (layer Dwgs.User) (width 0.2))
-    (fp_line (start -1.8 -1.2) (end -1.8 -2.1) (layer Dwgs.User) (width 0.2))
-    (fp_line (start -1.8 -2.1) (end -2.7 -2.1) (layer Dwgs.User) (width 0.2))
-    (fp_line (start -2.7 -2.1) (end -2.7 -1.2) (layer Dwgs.User) (width 0.2))
-    (fp_line (start 2.5 -2.5) (end -2.5 -2.5) (layer Dwgs.User) (width 0.2))
-    (fp_line (start -2.5 2.5) (end 2.5 2.5) (layer Dwgs.User) (width 0.2))
-
+      
     (pad 1 smd rect (at 2.4 -1.65 90) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 60 "5v"))
-    (pad 2 smd rect (at 2.4 1.65 90) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 68 "LED_END"))
+    (pad 2 smd rect (at 2.4 1.65 90) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 67 "LED_END"))
     (pad 3 smd rect (at -2.4 1.65 90) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-    (pad 4 smd rect (at -2.4 -1.65 90) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 67 "LED_BACKLIGHT_8"))
+    (pad 4 smd rect (at -2.4 -1.65 90) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask) (net 66 "LED_BACKLIGHT_7"))
   )
 
 
@@ -5479,7 +6025,7 @@
       (at 198.0167702 82.15824299999998 0)
 
       
-      (fp_text reference "MCU1" (at -19.3989 -11.28268) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+      (fp_text reference "19.051" (at -19.3989 -11.28268) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
 
       
       (fp_text user "SEEED XIAO BLE\nSEEED XIAO RP2040\nFACE UP" (at 3 -4.5 -90 unlocked) (layer F.SilkS) (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left)))
@@ -5489,6 +6035,13 @@
       (fp_line (start 3.81 -12.02) (end -3.81 -12.02) (layer Dwgs.User) (width 0.15))
       (fp_line (start 3.81 -6.94) (end 3.81 -12.02) (layer Dwgs.User) (width 0.15))
       (fp_line (start -3.81 -6.94) (end 3.81 -6.94) (layer Dwgs.User) (width 0.15))
+
+      
+    (model ../../ergogen/models/XIAO-nRF52840.stp
+      (offset (xyz 6.1 -1.8 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 90))
+    )
 
       
       (fp_line (start 8.89 3.545) (end 8.89 4.075) (layer "F.SilkS") (width 0.12))
@@ -5539,18 +6092,18 @@
         (fp_text user "P7" (at 6.5 7.62 0) (layer B.SilkS) (effects (font (size 0.6 0.6) (thickness 0.15)) (justify left mirror)))
 
         
-        (pad 1 thru_hole oval (at -7.62 -7.62 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 30 "Row0"))
-        (pad 2 thru_hole oval (at -7.62 -5.08 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 31 "Row1"))
-        (pad 3 thru_hole oval (at -7.62 -2.54 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 32 "Row2"))
-        (pad 4 thru_hole oval (at -7.62 0 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 33 "Row3"))
+        (pad 1 thru_hole oval (at -7.62 -7.62 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 33 "Row0"))
+        (pad 2 thru_hole oval (at -7.62 -5.08 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 32 "Row1"))
+        (pad 3 thru_hole oval (at -7.62 -2.54 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 31 "Row2"))
+        (pad 4 thru_hole oval (at -7.62 0 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 30 "Row3"))
         (pad 5 thru_hole oval (at -7.62 2.54 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 34 "Row4"))
-        (pad 6 thru_hole oval (at -7.62 5.08 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 69 "LED_3v3"))
-        (pad 7 thru_hole oval (at -7.62 7.62 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 70 "P6"))
+        (pad 6 thru_hole oval (at -7.62 5.08 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 68 "LED_3v3"))
+        (pad 7 thru_hole oval (at -7.62 7.62 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 69 "P6"))
 
-        (pad 8 thru_hole oval (at 7.62 7.62 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 74 "P7"))
-        (pad 9 thru_hole oval (at 7.62 5.08 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 73 "SRCLK"))
-        (pad 10 thru_hole oval (at 7.62 2.54 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 72 "MISO"))
-        (pad 11 thru_hole oval (at 7.62 0 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 71 "MOSI"))
+        (pad 8 thru_hole oval (at 7.62 7.62 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 73 "P7"))
+        (pad 9 thru_hole oval (at 7.62 5.08 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 72 "SRCLK"))
+        (pad 10 thru_hole oval (at 7.62 2.54 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 71 "MISO"))
+        (pad 11 thru_hole oval (at 7.62 0 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 70 "MOSI"))
         (pad 12 thru_hole oval (at 7.62 -2.54 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 35 "VCC"))
         (pad 13 thru_hole rect (at 7.62 -5.08 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 3 "GND"))
         (pad 14 thru_hole oval (at 7.62 -7.62 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 60 "5v"))
@@ -5560,10 +6113,10 @@
         
         (fp_circle (center -1.27 -8.572) (end -1.27 -7.8735) (layer "Dwgs.User") (width 0.12))
         (fp_circle (center 1.27 -8.572) (end 1.27 -7.8735) (layer "Dwgs.User") (width 0.12))
-        (pad 17 thru_hole circle (at -1.27 -6.032 90) (size 2 2) (drill 0.7) (layers *.Cu *.SilkS *.Mask) (net 75 "RST"))
+        (pad 17 thru_hole circle (at -1.27 -6.032 90) (size 2 2) (drill 0.7) (layers *.Cu *.SilkS *.Mask) (net 74 "RST"))
         (fp_circle (center 1.27 -6.032) (end 1.27 -5.3335) (layer "Dwgs.User") (width 0.12))
  
-        (pad 19 thru_hole circle (at -4.445 -0.317 180) (size 2 2) (drill 0.7) (layers *.Cu *.SilkS *.Mask) (net 76 "BAT+"))
+        (pad 19 thru_hole circle (at -4.445 -0.317 180) (size 2 2) (drill 0.7) (layers *.Cu *.SilkS *.Mask) (net 75 "BAT+"))
         (fp_circle (center -4.445 -2.222) (end -4.445 -1.5235) (layer "Dwgs.User") (width 0.12))
 
         
@@ -5581,7 +6134,7 @@
         (at 201.6167702 105.65824299999998 -90)
 
         
-        (fp_text reference "19.051" (at 0 -5.9) (layer "Dwgs.User") hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text reference "19.052" (at 0 -5.9) (layer "Dwgs.User") hide (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "74HC595" (at 0 5.9 -90) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15)) ))
 
         
@@ -5617,16 +6170,16 @@
         (pad "2" smd roundrect (at -2.475 -3.175 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 12 "Col2"))
         (pad "3" smd roundrect (at -2.475 -1.905 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 17 "Col3"))
         (pad "4" smd roundrect (at -2.475 -0.635 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 22 "Col4"))
-        (pad "5" smd roundrect (at -2.475 0.635 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 77 "QF"))
-        (pad "6" smd roundrect (at -2.475 1.905 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 78 "QG"))
-        (pad "7" smd roundrect (at -2.475 3.175 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 79 "QH"))
+        (pad "5" smd roundrect (at -2.475 0.635 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 76 "QF"))
+        (pad "6" smd roundrect (at -2.475 1.905 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 77 "QG"))
+        (pad "7" smd roundrect (at -2.475 3.175 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 78 "QH"))
         (pad "8" smd roundrect (at -2.475 4.445 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 3 "GND"))
-        (pad "9" smd roundrect (at 2.475 4.445 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 80 "QH'"))
+        (pad "9" smd roundrect (at 2.475 4.445 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 79 "QH'"))
         (pad "10" smd roundrect (at 2.475 3.175 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 35 "VCC"))
-        (pad "11" smd roundrect (at 2.475 1.905 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 73 "SRCLK"))
-        (pad "12" smd roundrect (at 2.475 0.635 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 72 "MISO"))
+        (pad "11" smd roundrect (at 2.475 1.905 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 72 "SRCLK"))
+        (pad "12" smd roundrect (at 2.475 0.635 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 71 "MISO"))
         (pad "13" smd roundrect (at 2.475 -0.635 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 3 "GND"))
-        (pad "14" smd roundrect (at 2.475 -1.905 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 71 "MOSI"))
+        (pad "14" smd roundrect (at 2.475 -1.905 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 70 "MOSI"))
         (pad "15" smd roundrect (at 2.475 -3.175 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 1 "Col0"))
         (pad "16" smd roundrect (at 2.475 -4.445 -90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (net 35 "VCC"))
       )
@@ -5637,14 +6190,14 @@
 	(at 194.0167702 103.65824299999998 -90)
 
   
-  (fp_text reference "_1" (at 0 -3.2 -90) hide
+  (fp_text reference "19.053" (at 0 -3.2 -90) hide
       (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value SOT65P210X110-5N (at 4.7024 1.9064 0) (layer F.Fab)
     (effects (font (size 0.64 0.64) (thickness 0.15)))
   )
   (pad 1 smd roundrect (roundrect_rratio 0.125) (at -0.96 -0.65 -90) (size 1.19 0.4) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd roundrect (roundrect_rratio 0.125) (at -0.96 0.0 -90) (size 1.19 0.4) (layers F.Cu F.Mask F.Paste) (net 69 "LED_3v3") (solder_mask_margin 0.102))
+  (pad 2 smd roundrect (roundrect_rratio 0.125) (at -0.96 0.0 -90) (size 1.19 0.4) (layers F.Cu F.Mask F.Paste) (net 68 "LED_3v3") (solder_mask_margin 0.102))
   (pad 3 smd roundrect (roundrect_rratio 0.125) (at -0.96 0.65 -90) (size 1.19 0.4) (layers F.Cu F.Mask F.Paste) (net 3 "GND") (solder_mask_margin 0.102))
   (pad 4 smd roundrect (roundrect_rratio 0.125) (at 0.96 0.65 -90) (size 1.19 0.4) (layers F.Cu F.Mask F.Paste) (net 59 "LED") (solder_mask_margin 0.102))
   (pad 5 smd roundrect (roundrect_rratio 0.125) (at 0.96 -0.65 -90) (size 1.19 0.4) (layers F.Cu F.Mask F.Paste) (net 60 "5v") (solder_mask_margin 0.102))
@@ -5789,8 +6342,8 @@
             (pad "" np_thru_hole circle (at -1.5 0) (size 1 1) (drill 0.9) (layers *.Cu *.Mask))
 
             
-            (pad 1 smd rect (at -2.25 2.075 0) (size 0.9 1.25) (layers B.Cu B.Paste B.Mask) (net 76 "BAT+"))
-            (pad 2 smd rect (at 0.75 2.075 0) (size 0.9 1.25) (layers B.Cu B.Paste B.Mask) (net 81 "BAT_POS"))
+            (pad 1 smd rect (at -2.25 2.075 0) (size 0.9 1.25) (layers B.Cu B.Paste B.Mask) (net 75 "BAT+"))
+            (pad 2 smd rect (at 0.75 2.075 0) (size 0.9 1.25) (layers B.Cu B.Paste B.Mask) (net 80 "BAT_POS"))
             (pad 3 smd rect (at 2.25 2.075 0) (size 0.9 1.25) (layers B.Cu B.Paste B.Mask))
             
             
@@ -5842,7 +6395,7 @@
   (pad "1" smd rect (at -2.2606 -1.1) (size 1.397 0.7112) (layers "F.Cu" "F.Paste" "F.Mask") )
   (pad "3" smd rect (at -2.2606 1.1) (size 1.397 0.7112) (layers "F.Cu" "F.Paste" "F.Mask") )
   (pad "4" smd rect (at 2.2606 1.1) (size 1.397 0.7112) (layers "F.Cu" "F.Paste" "F.Mask") (net 1 "Col0"))
-  (pad "2" smd rect (at 2.2606 -1.1) (size 1.397 0.7112) (layers "F.Cu" "F.Paste" "F.Mask") (net 82 "Prgm_diode"))
+  (pad "2" smd rect (at 2.2606 -1.1) (size 1.397 0.7112) (layers "F.Cu" "F.Paste" "F.Mask") (net 81 "Prgm_diode"))
 )
 
 
@@ -5870,7 +6423,7 @@
       
       
         (pad 1 smd rect (at -1.65 0 -90) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 34 "Row4"))
-        (pad 2 smd rect (at 1.65 0 -90) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 82 "Prgm_diode"))
+        (pad 2 smd rect (at 1.65 0 -90) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 81 "Prgm_diode"))
         
 
       
@@ -5919,7 +6472,7 @@
   (fp_arc (start 0.3048 -1.6002) (mid 0 -1.2954) (end -0.3048 -1.6002) (layer "F.Fab") (width 0.0254))
   (pad "1" smd rect (at -2.2606 -1.1) (size 1.397 0.7112) (layers "F.Cu" "F.Paste" "F.Mask") )
   (pad "3" smd rect (at -2.2606 1.1) (size 1.397 0.7112) (layers "F.Cu" "F.Paste" "F.Mask") )
-  (pad "4" smd rect (at 2.2606 1.1) (size 1.397 0.7112) (layers "F.Cu" "F.Paste" "F.Mask") (net 75 "RST"))
+  (pad "4" smd rect (at 2.2606 1.1) (size 1.397 0.7112) (layers "F.Cu" "F.Paste" "F.Mask") (net 74 "RST"))
   (pad "2" smd rect (at 2.2606 -1.1) (size 1.397 0.7112) (layers "F.Cu" "F.Paste" "F.Mask") (net 3 "GND"))
 )
 
@@ -5948,7 +6501,7 @@
         (fp_line (start -1 1.5) (end -1 2.0) (layer B.SilkS) (width 0.15))
         (fp_line (start -1.25 1.75) (end -0.75 1.75) (layer B.SilkS) (width 0.15))
 
-        (pad 1 thru_hole rect (at -1 0 180) (size 1.2 1.7) (drill 0.75) (layers *.Cu *.Mask) (net 81 "BAT_POS"))
+        (pad 1 thru_hole rect (at -1 0 180) (size 1.2 1.7) (drill 0.75) (layers *.Cu *.Mask) (net 80 "BAT_POS"))
         (pad 2 thru_hole oval (at 1 0 180) (size 1.2 1.7) (drill 0.75) (layers *.Cu *.Mask) (net 3 "GND"))
             
     )

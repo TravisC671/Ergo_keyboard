@@ -2,6 +2,10 @@ module.exports = {
   params: {
       designator: 'LED',
       side: 'F',
+      led_3dmodel_filename: "",
+      led_3dmodel_xyz_offset: [0, 0, 0],
+      led_3dmodel_xyz_rotation: [0, 0, 0],
+      led_3dmodel_xyz_scale: [1, 1, 1],
       VCC: {type: 'net', value: 'VCC'},
       GND: {type: 'net', value: 'GND'},
       din: undefined,
@@ -9,6 +13,13 @@ module.exports = {
   },
   body: p => {
     const {def_pos, def_neg} = p.side == 'F' ? {def_pos: '', def_neg: '-'} : {def_pos: '-', def_neg: ''}
+
+    const led_3dmodel = `
+    (model ${p.led_3dmodel_filename}
+      (offset (xyz ${p.led_3dmodel_xyz_offset[0]} ${p.led_3dmodel_xyz_offset[1]} ${p.led_3dmodel_xyz_offset[2]}))
+      (scale (xyz ${p.led_3dmodel_xyz_scale[0]} ${p.led_3dmodel_xyz_scale[1]} ${p.led_3dmodel_xyz_scale[2]}))
+      (rotate (xyz ${p.led_3dmodel_xyz_rotation[0]} ${p.led_3dmodel_xyz_rotation[1]} ${p.led_3dmodel_xyz_rotation[2]}))
+    )`;
 
     return `
 
@@ -57,6 +68,8 @@ module.exports = {
     (fp_line (start ${def_neg}2.5 -2.5) (end ${def_pos}2.5 -2.5) (layer Dwgs.User) (width 0.2))
     (fp_line (start ${def_pos}2.5 2.5) (end ${def_neg}2.5 2.5) (layer Dwgs.User) (width 0.2))
 
+    ${p.led_3dmodel_filename != "" ? led_3dmodel : ""}
+      
     (pad 1 smd rect (at ${def_neg}2.4 -1.65 ${p.rot}) (size 1.8 1.4) (layers ${p.side}.Cu ${p.side}.Paste ${p.side}.Mask) ${p.VCC.str})
     (pad 2 smd rect (at ${def_neg}2.4 1.65 ${p.rot}) (size 1.8 1.4) (layers ${p.side}.Cu ${p.side}.Paste ${p.side}.Mask) ${p.dout.str})
     (pad 3 smd rect (at ${def_pos}2.4 1.65 ${p.rot}) (size 1.8 1.4) (layers ${p.side}.Cu ${p.side}.Paste ${p.side}.Mask) ${p.GND.str})
